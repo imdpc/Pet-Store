@@ -1,0 +1,21 @@
+.heading-title-div {
+  padding: 0 70px;
+}
+.heading-title-pet-shop {
+  font-size: 45px;
+  font-weight: 800;
+}
+.shop-nowbtn {
+  background-color: green;
+  color: white;
+  height: 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.arrow-icon-in-btn {
+  width: 15px;
+  height: 35px;
+  justify-content: center;
+}
