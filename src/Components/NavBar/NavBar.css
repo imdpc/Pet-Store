@@ -1,0 +1,30 @@
+.pet-shop-nav {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  padding : 10px 70px;
+
+ justify-content:space-between;
+}
+.pet-shop-nav-content {
+  text-decoration: none;
+  color: #000; 
+  display: flex;
+  gap: 45px;
+
+}
+.search-icon-navbar{
+  width: 25px;
+  height: 25px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    
+}
