@@ -1,0 +1,25 @@
+.flex-target-sale-container {
+  display: flex;
+  column-gap: 8rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf3eb;
+}
+
+.sales-targets {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin-top: 51px;
+  border-right: 10px solid rgb(255, 184, 184);
+}
+.down-arrow-image-target-section {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 120px;
+  margin-left: 38px;
+}

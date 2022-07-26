@@ -1,0 +1,17 @@
+.flex-featured-in-icons {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.featured-in-header-text {
+  margin-left: 5rem;
+  font-weight: normal;
+  /* font-style: italic; */
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex-featured-in-icons img {
+  height: 100px;
+  width: 205px;
+}
