@@ -1,0 +1,38 @@
+.pet-shop-footer {
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 10px 0 0 85px;
+}
+.call-img-in-footer {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+}
+.email-img-in-footer {
+  height: 15px;
+  width: 15px;
+  margin-top: 10px;
+}
+.apple-logo-in-btn {
+  height: 25px;
+  width: 18px;
+  color: white;
+  padding-top: 5px;
+}
+.apple-store-btn {
+  /* color: white; */
+  border-radius: 5px;
+  font-size: 10px;
+  display: flex;
+  margin-top: 5px;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-btn-group {
+  display: flex;
+  gap: 10px;
+}
+.footer-first-column {
+  padding: 10px 0 0 0;
+}

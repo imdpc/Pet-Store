@@ -1,11 +1,11 @@
 .review-heading {
   color: gray;
-  font-size: 14px;
-  padding: 20px 0 5px 85px;
+  font-size: 12px;
+  padding: 20px 0 0 85px;
 }
 .review-desc {
   padding: 0 0 0 85px;
-  gap: 10rem;
+  gap: 20rem;
 }
 .review-img {
   height: 40px;
@@ -15,9 +15,10 @@
   margin: 13px 0 10px 0;
 }
 .customer-count-review {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   padding-bottom: 20px;
+  font-family: 'Beau Rivage';
 }
 .star-review {
   font-size: 100%;
@@ -33,4 +34,11 @@
 }
 .customer-review-text {
   font-weight: 500;
+  font-family: 'Beau Rivage';
+  font-size: 18px;
+}
+.para-after-review-heading {
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: gray;
 }
