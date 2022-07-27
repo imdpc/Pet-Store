@@ -1,0 +1,35 @@
+.uk-image {
+  height: 520px;
+  width: 500px;
+  padding: 15px 0 15px 85px;
+}
+.heading-title-ukstore {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 45px;
+}
+.descreption-ukstore {
+  line-height: 30.6px;
+  padding: 30px 0 0 0;
+}
+.uk-store-btn {
+  background-color: #124944;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+.check-mark-svg {
+  height: 20px;
+  width: 20px;
+}
+.uk-store-key-points {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.uk-store-key-points {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
