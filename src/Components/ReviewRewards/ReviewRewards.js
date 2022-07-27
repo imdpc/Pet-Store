@@ -4,9 +4,10 @@ import './ReviewRewards.css'
 const ReviewRewards = () => {
   return (
     <>
-      <div style={{ display: 'flex' }}>
+      <p className="review-heading">REVIEW & REWARDS</p>
+
+      <div style={{ display: 'flex', gap: '180px' }}>
         <div className="review-desc">
-          <p className="review-heading">REVIEW & REWARDS</p>
           <p className="customer-count-review">
             Over <span style={{ color: '#124944' }}>80000</span> customers{' '}
             <br />
@@ -29,7 +30,20 @@ const ReviewRewards = () => {
             <span style={{ color: 'gray' }}>(8000 reviews)</span>
           </p>
         </div>
-        <div></div>
+        <div className="customer-review">
+          <p className="customer-review-text">
+            Absoloutly love these products! My skins has never <br />
+            felt better. I have used many other brands but <br />
+            these products are superior!!!
+          </p>
+          <br />
+          <p>
+            <span className="star-review">
+              &#11088;&#11088;&#11088;&#11088;&#11088;{'  '}
+            </span>{' '}
+            <p>Emma, USA</p>
+          </p>
+        </div>
       </div>
     </>
   )

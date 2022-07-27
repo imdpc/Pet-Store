@@ -1,10 +1,11 @@
 .review-heading {
   color: gray;
   font-size: 14px;
-  padding: 10px 0 5px 0;
+  padding: 20px 0 5px 85px;
 }
 .review-desc {
   padding: 0 0 0 85px;
+  gap: 10rem;
 }
 .review-img {
   height: 40px;
@@ -22,4 +23,14 @@
   font-size: 100%;
   color: yellow;
   border: none;
+}
+.customer-review {
+  border-radius: 5px;
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px rgb(222, 222, 222);
+}
+.customer-review-text {
+  font-weight: 500;
 }
