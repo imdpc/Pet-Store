@@ -1,20 +1,20 @@
-import React from 'react'
-import './PetShopFooter.css'
+import React from "react";
+import "./PetShopFooter.css";
 
 const PetShopFooter = () => {
   return (
     <>
       <div className="pet-shop-footer">
         <div className="footer-first-column">
-          <h2 style={{ fontFamily: 'Beau Rivage', fontSize: '30px' }}>Wagg</h2>
+          <h2 style={{ fontFamily: "Beau Rivage", fontSize: "30px" }}>Wagg</h2>
           <br />
           <p>Our exports are avilable 24/7:</p>
           <div
             style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '10px',
-              rowGap: '10px',
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+              rowGap: "10px",
             }}
           >
             <p>
@@ -27,7 +27,7 @@ const PetShopFooter = () => {
 
             <p>1-800-672-4399</p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <p>
               <img
                 className="email-img-in-footer"
@@ -65,7 +65,7 @@ const PetShopFooter = () => {
         <div></div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default PetShopFooter
+export default PetShopFooter;

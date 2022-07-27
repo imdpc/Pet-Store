@@ -18,23 +18,24 @@
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 20px;
-  font-family: 'Beau Rivage';
+  font-family: "Beau Rivage";
 }
 .star-review {
-  font-size: 100%;
+  font-size: 13px;
   color: yellow;
   border: none;
 }
 .customer-review {
   border-radius: 5px;
-  height: 150px;
+  height: 180px;
   width: 400px;
   padding: 10px;
+
   box-shadow: 0 0 5px 5px rgb(222, 222, 222);
 }
 .customer-review-text {
   font-weight: 500;
-  font-family: 'Beau Rivage';
+  font-family: "Beau Rivage";
   font-size: 18px;
 }
 .para-after-review-heading {
