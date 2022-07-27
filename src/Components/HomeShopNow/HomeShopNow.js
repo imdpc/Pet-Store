@@ -5,26 +5,37 @@ const HomeShopNow = () => {
   return (
     <>
       <div>
-        <div className="heading-title-div">
-          <p>Nutritionally Complete</p>
-          <p className="heading-title-pet-shop">
-            Real Pet Food <br></br>Freash From <br></br>The Fridge
-          </p>
-          <br />
-          <div style={{ display: 'flex' }}>
+        <div className="main-div-for-pet-shop">
+          <div className="heading-title-div">
+            <p>Nutritionally Complete</p>
+            <p className="heading-title-pet-shop">
+              Real Pet Food <br></br>Freash From <br></br>The Fridge.
+            </p>
+
             <button className="shop-nowbtn">
               Shop Now{' '}
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
-                <path
-                  style="fill:#fff"
-                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                  data-name="Right"
-                />
-              </svg>
+              {/* <img
+                  src="https://i.pinimg.com/736x/dd/d1/c2/ddd1c2476bcb099d675bf282f0a40192.jpg"
+                  alt=""
+                  className="arrow-icon-in-btn"
+                /> */}
             </button>
+            <br />
+          </div>
+          <div>
+            <img
+              className="pet-food-image"
+              src="https://www.pngkey.com/png/detail/112-1121805_food-bag-dr-garys-best-breed-dog-food.png"
+              alt=""
+            />
+
+            <img
+              className="pet-food-promo-image"
+              src="https://img.pikbest.com/templates/20210416/bg/d85056f8e9de0.jpg!c1024wm0"
+              alt=""
+            />
           </div>
         </div>
-        <div></div>
       </div>
     </>
   )
