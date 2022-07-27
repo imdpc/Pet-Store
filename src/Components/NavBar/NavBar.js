@@ -1,13 +1,13 @@
-import React from 'react'
-import './NavBar.css'
+import React from "react";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <>
-    {/* nav bar for pet shop */}
+      {/* nav bar for pet shop */}
       <div className="pet-shop-nav">
-        <div >
-          <h2 style={{fontFamily:"Acumin Pro"}}>wagg</h2>
+        <div>
+          <h2 style={{ fontFamily: "Acumin Pro" }}>wagg</h2>
         </div>
         <div>
           <ul className="pet-shop-nav-content">
@@ -37,7 +37,7 @@ const NavBar = () => {
         </ul>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;

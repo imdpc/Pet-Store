@@ -8,12 +8,12 @@
 
 .sales-targets {
   display: flex;
-  gap: 5rem;
+  gap: 4rem;
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-  margin-top: 51px;
+  padding: 3em;
+  margin-top: 118px;
   border-right: 10px solid rgb(255, 184, 184);
 }
 .down-arrow-image-target-section {

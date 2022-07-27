@@ -3,9 +3,9 @@ import "./FeaturedIn.css";
 const FeaturedIn = () => {
   return (
     <>
-      <div>
+      <div className="main-flex-container-contain-featured-in-icons">
         <div className="featured-in-header-text">
-          <p>Featured In</p>
+          <p style={{ fontFamily: "Acumin Pro" }}>Featured In</p>
         </div>
         <div className="flex-featured-in-icons">
           <div>

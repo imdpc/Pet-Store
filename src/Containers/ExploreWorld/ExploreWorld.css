@@ -1,0 +1,12 @@
+.main-heading-in-world-explore {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Beau Rivage";
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-containing-info-and-learn-more {
+}

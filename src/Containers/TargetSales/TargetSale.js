@@ -14,15 +14,15 @@ const TargetSale = () => {
       <div className="sales-targets">
         <section>
           <h1>200k+</h1>
-          <p>Nuetritional Complete</p>
+          <p style={{ fontFamily: "Acumin Pro" }}>Nuetritional Complete</p>
         </section>
         <section>
           <h1>$5M</h1>
-          <p>Products Sale</p>
+          <p style={{ fontFamily: "Acumin Pro" }}>Products Sale</p>
         </section>
         <section>
           <h1>96%</h1>
-          <p>Client Satisfication</p>
+          <p style={{ fontFamily: "Acumin Pro" }}>Client Satisfication</p>
         </section>
       </div>
       <div className="down-arrow-image-target-section">
