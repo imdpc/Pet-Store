@@ -1,0 +1,28 @@
+.product-navbar-heading {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 200px;
+
+  padding: 20px 0 0 85px;
+}
+.product-navbar-all-content {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+.product-navbar-sub-content {
+  display: flex;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 0 0 10px; */
+}
+.product-navbar-sub-content:hover {
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #124944;
+  color: white;
+}
