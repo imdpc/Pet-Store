@@ -1,3 +1,6 @@
+.flex-main-container-shopping-products-and-navbar {
+  background-color: #fbf3eb;
+}
 .product-navbar-heading {
   display: flex;
   align-items: center;
@@ -25,4 +28,45 @@
   border-radius: 30px;
   background-color: #124944;
   color: white;
+}
+
+.product-info-card-for-selection {
+  height: 272px;
+  width: 250px;
+  display: block;
+  padding: 11px;
+}
+.shopping-product-cards-container {
+  border-radius: 13px;
+  display: block;
+  border: 10px solid white;
+  width: 270px;
+  height: 394px;
+}
+.image-for-like-the-product {
+  float: right;
+}
+
+.image-of-the-product-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 31px;
+}
+
+.product-name-for-selection p {
+  padding-left: 11px;
+
+  font-size: 25px;
+  font-weight: 600;
+}
+.sizes-for-all-dogs-selection p {
+  padding-left: 11px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 9px;
+}
+
+.bottom-section-about-products-details {
+  background-color: #fff;
 }
