@@ -41,7 +41,7 @@
   display: block;
   border: 10px solid white;
   width: 270px;
-  height: 394px;
+  height: auto;
 }
 .image-for-like-the-product {
   float: right;
@@ -69,4 +69,27 @@
 
 .bottom-section-about-products-details {
   background-color: #fff;
+}
+
+.star-review-for-product {
+  font-size: 100%;
+  color: yellow;
+  border: none;
+}
+.review-price-and-add-to-card-button {
+  padding-left: 11px;
+  padding-top: 22px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.image-for-add-to-cart {
+  border-radius: 66px;
+  float: right;
+}
+.all-cards {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 1rem 1rem 1rem 4.5rem;
+  column-gap: 1.5rem;
 }
