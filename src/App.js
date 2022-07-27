@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import ExploreWorld from "./Containers/ExploreWorld/ExploreWorld";
 import UkStore from "./Components/UkStore/UkStore";
 import ProductNav from "./Components/ProductNav/ProductNav";
+import ReviewRewards from "./Components/ReviewRewards/ReviewRewards";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <ExploreWorld />
       <UkStore />
       <ProductNav />
+      <ReviewRewards />
     </>
   );
 }
