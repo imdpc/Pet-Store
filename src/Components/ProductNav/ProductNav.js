@@ -7,7 +7,9 @@ const ProductNav = () => {
       <div className="flex-main-container-shopping-products-and-navbar">
         <div style={{ gap: "50px" }}>
           <div className="product-navbar-heading">
-            <h3 style={{ fontSize: "24px" }}>
+            <h3 style={{
+              fontSize: "40px", fontFamily: 'Beau Rivage'
+            }}>
               Our Best Selling <br />
               Products
             </h3>

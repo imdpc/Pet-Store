@@ -5,7 +5,7 @@ import ukimage from '../../Assets/pet-shop-img.png'
 const UkStore = () => {
   return (
     <>
-      <div style={{ display: 'flex', columnGap: '85px' }}>
+      <div style={{ display: 'flex', columnGap: '200px' }}>
         <div>
           <img src={ukimage} alt="" className="uk-image" />
         </div>
