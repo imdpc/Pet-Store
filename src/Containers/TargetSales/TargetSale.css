@@ -1,6 +1,6 @@
 .flex-target-sale-container {
   display: flex;
-  column-gap: 8rem;
+  /* column-gap: 8rem; */
   justify-content: center;
   align-items: center;
   background-color: #fbf3eb;
@@ -12,17 +12,20 @@
 .sales-targets {
   display: flex;
   gap: 4rem;
+  width: 831px;
   text-align: center;
   justify-content: center;
   align-items: center;
   padding: 3em;
   margin-top: 118px;
   border-right: 10px solid rgb(255, 184, 184);
+  background-color: white;
 }
 .down-arrow-image-target-section {
   justify-content: center;
   align-items: center;
   display: flex;
+  padding: 54px;
   margin-top: 120px;
   margin-left: 38px;
 }
