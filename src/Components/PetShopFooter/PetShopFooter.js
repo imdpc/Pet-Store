@@ -8,7 +8,7 @@ const PetShopFooter = () => {
     <>
       <div className="footer-img">
         {' '}
-        <img src={fimage} alt="" style={{ width: '950px', height: '450px' }} />
+        <img src={fimage} alt="" style={{ width: '1000px', height: '650px' }} />
       </div>
       <div className="pet-shop-footer">
         <div className="footer-first-column">
