@@ -10,7 +10,7 @@
 .pet-shop-nav-width-div {
   display: flex;
   justify-content: space-between;
-  width: 80em;
+  width: 75em;
   z-index: 1;
 }
 .pet-shop-nav-content {

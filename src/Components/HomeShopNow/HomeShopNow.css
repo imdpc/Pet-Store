@@ -5,9 +5,9 @@
   justify-content: center;
 }
 .sub-div-for-pet-shop {
-  width: 80em;
+  width: 75em;
   display: flex;
-  gap: 270px;
+  gap: 200px;
 }
 .heading-title-div {
   padding: 90px 0 0 0;
