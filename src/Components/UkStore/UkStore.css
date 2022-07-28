@@ -11,7 +11,7 @@
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
 }
 .descreption-ukstore {
   line-height: 30.6px;
@@ -20,10 +20,12 @@
 .uk-store-btn {
   background-color: #124944;
   color: white;
+  height: 55px;
+  width: 130px;
   border: none;
-  height: 40px;
-  width: 100px;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .check-mark-svg {
   height: 20px;
