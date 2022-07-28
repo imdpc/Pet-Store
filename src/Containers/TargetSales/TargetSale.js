@@ -13,15 +13,15 @@ const TargetSale = () => {
       </div>
       <div className="sales-targets">
         <section>
-          <h1>200k+</h1>
+          <h1 className="text-ratings-in-target-sale">200k+</h1>
           <p style={{ fontFamily: "Acumin Pro" }}>Nuetritional Complete</p>
         </section>
         <section>
-          <h1>$5M</h1>
+          <h1 className="text-ratings-in-target-sale">$5M</h1>
           <p style={{ fontFamily: "Acumin Pro" }}>Products Sale</p>
         </section>
         <section>
-          <h1>96%</h1>
+          <h1 className="text-ratings-in-target-sale">96%</h1>
           <p style={{ fontFamily: "Acumin Pro" }}>Client Satisfication</p>
         </section>
       </div>

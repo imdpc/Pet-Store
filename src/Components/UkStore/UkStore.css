@@ -1,13 +1,17 @@
+.main-display-container-screen-uk-shop {
+  margin: 93px 0px;
+}
 .uk-image {
-  height: 520px;
-  width: 500px;
+  height: 568px;
+  width: 584px;
+
   padding: 15px 0 15px 85px;
 }
 .heading-title-ukstore {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
-  font-family: 'Beau Rivage';
+  font-family: "Beau Rivage";
 }
 .descreption-ukstore {
   line-height: 30.6px;

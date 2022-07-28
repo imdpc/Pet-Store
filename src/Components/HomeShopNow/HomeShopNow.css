@@ -42,11 +42,55 @@
   height: 320px;
   width: 250px;
 }
-
+.main-div-for-pet-shop {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbf3eb;
+}
 .pet-food-promo-image {
   width: 450px;
   height: 550px;
   padding: 0 86px 0 20px;
   margin: -120px 0 0 0;
   background: transparent;
+}
+
+/* Media Screen */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .nuetritionaly-complete-text-in-heading-shop-now {
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .main-div-for-pet-shop {
+    display: block;
+  }
+  .heading-title-pet-shop {
+    margin: 2px 0px;
+    /* margin: 0; */
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+  }
+  .shop-nowbtn {
+    /* display: flex; */
+
+    margin: 27px 63px;
+  }
+  .images-in-home-screen-components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pet-food-image {
+    width: 100%;
+  }
+  .pet-food-promo-image {
+    padding: 0px;
+  }
+  .contains-images-for-advertise {
+    margin: 1em;
+  }
 }

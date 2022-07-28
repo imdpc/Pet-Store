@@ -5,7 +5,10 @@
   align-items: center;
   background-color: #fbf3eb;
 }
-
+.text-ratings-in-target-sale {
+  font-size: 42px;
+  font-weight: 500;
+}
 .sales-targets {
   display: flex;
   gap: 4rem;
@@ -22,4 +25,25 @@
   display: flex;
   margin-top: 120px;
   margin-left: 38px;
+}
+
+/* Media Screen */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-target-sale-container {
+    display: block;
+  }
+  .image-of-pet-after-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sales-targets {
+    margin: 43px 0px;
+    column-gap: 0;
+    padding: 0px;
+  }
+  .down-arrow-image-target-section {
+    /* padding: 10px 0px; */
+  }
 }

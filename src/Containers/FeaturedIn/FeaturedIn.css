@@ -5,16 +5,20 @@
 }
 
 .featured-in-header-text {
-  margin-left: 5rem;
+  margin-left: 4rem;
   font-weight: normal;
   /* font-style: italic; */
-  font-size: 35px;
-  margin-top: 1rem;
+  font-size: 22px;
 }
 .flex-featured-in-icons img {
   height: 100px;
   width: 205px;
 }
 .main-flex-container-contain-featured-in-icons {
-  margin-top: 4rem;
+  margin: 4em 0 4em 0;
+}
+
+/* scrolling */
+
+@media (min-width: 320px) and (max-width: 425px) {
 }
