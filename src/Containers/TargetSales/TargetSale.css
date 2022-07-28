@@ -5,7 +5,10 @@
   align-items: center;
   background-color: #fbf3eb;
 }
-
+.text-ratings-in-target-sale {
+  font-size: 42px;
+  font-weight: 500;
+}
 .sales-targets {
   display: flex;
   gap: 4rem;
