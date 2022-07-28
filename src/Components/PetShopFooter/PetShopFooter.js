@@ -1,6 +1,7 @@
 import React from 'react'
 import './PetShopFooter.css'
 import fimage from '../../Assets/footer-image.png'
+import './PetShopFooter.css'
 
 const PetShopFooter = () => {
   return (
