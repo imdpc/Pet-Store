@@ -1,9 +1,14 @@
 import React from 'react'
 import './PetShopFooter.css'
+import fimage from '../../Assets/footer-image.png'
 
 const PetShopFooter = () => {
   return (
     <>
+      <div className="footer-img">
+        {' '}
+        <img src={fimage} alt="" style={{ width: '950px', height: '450px' }} />
+      </div>
       <div className="pet-shop-footer">
         <div className="footer-first-column">
           <h2 style={{ fontFamily: 'Beau Rivage', fontSize: '30px' }}>Wagg</h2>
@@ -60,9 +65,92 @@ const PetShopFooter = () => {
             </button>
           </div>
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <h2>Our Products</h2>
+          <br />
+          <ul className="footer-second-col">
+            <li>Dog Treats</li>
+            <li>Adult Dog</li>
+            <li>Diets Dog Foods</li>
+            <li>Puppy Food</li>
+            <li>Special Food</li>
+          </ul>
+        </div>
+        <div>
+          {' '}
+          <h2>Wagg World</h2>
+          <br />
+          <ul className="footer-third-col">
+            <li>About Wagg</li>
+            <li>The Team</li>
+            <li>Environment</li>
+            <li>News</li>
+            <li>Feeding Guide</li>
+          </ul>
+        </div>
+        <div>
+          {' '}
+          <h2>Resource</h2>
+          <br />
+          <ul className="footer-fourth-col">
+            <li>Download</li>
+            <li>Help</li>
+            <li>Guides</li>
+            <li>Partners Network</li>
+            <li>Developers</li>
+          </ul>
+        </div>
+        <div>
+          {' '}
+          <h2>News Letter</h2>
+          <div>
+            <div>
+              <input
+                type="email"
+                name=""
+                placeholder="Enter Email"
+                className="input-email-in-footer"
+              />
+            </div>
+            <div>
+              <img
+                className="icon-in-search"
+                src="https://cdn-icons-png.flaticon.com/512/121/121521.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="social-media-icons-in-footer">
+            <div className="social-media-rounded-div">
+              <img
+                className="footer-icon-img"
+                src="https://cdn-icons-png.flaticon.com/512/160/160154.png"
+                alt=""
+              />
+            </div>
+            <div className="social-media-rounded-div">
+              <img
+                className="footer-icon-img"
+                src="https://cdn-icons.flaticon.com/png/512/739/premium/739257.png?token=exp=1658987951~hmac=f98f358fc35ffab77b43eb363d417915"
+                alt=""
+              />
+            </div>
+            <div className="social-media-rounded-div">
+              <img
+                className="footer-icon-img"
+                src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png"
+                alt=""
+              />
+            </div>
+            <div className="social-media-rounded-div">
+              <img
+                className="footer-icon-img"
+                src="https://cdn-icons-png.flaticon.com/512/1077/1077046.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
