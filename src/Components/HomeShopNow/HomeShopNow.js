@@ -6,6 +6,7 @@ const HomeShopNow = () => {
     <>
       <div>
         <div className="main-div-for-pet-shop">
+        <div className="sub-div-for-pet-shop">
           <div className="heading-title-div">
             <p>Nutritionally Complete</p>
             <p className="heading-title-pet-shop">
