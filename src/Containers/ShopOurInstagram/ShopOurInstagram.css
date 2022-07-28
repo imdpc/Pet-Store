@@ -1,0 +1,32 @@
+.heading-section-shop-our-insta-and-waggpetfood {
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 67px;
+  align-items: center;
+}
+
+.heading-tag-for-shop-our-instgram {
+}
+.header-text-insta-shop {
+}
+
+.follow-us-text-insta-shop {
+}
+
+.waggpet-food-text-and-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.waggpet-food-text-and-image img {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  display: flex;
+  margin: 11px;
+}
+
+.card-for-insta-image {
+}
+.image-contain-arrow-right {
+}
