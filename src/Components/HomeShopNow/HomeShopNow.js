@@ -1,5 +1,5 @@
-import React from 'react'
-import './HomeShopNow.css'
+import React from "react";
+import "./HomeShopNow.css";
 
 const HomeShopNow = () => {
   return (
@@ -7,13 +7,15 @@ const HomeShopNow = () => {
       <div>
         <div className="main-div-for-pet-shop">
           <div className="heading-title-div">
-            <p>Nutritionally Complete</p>
+            <p className="nuetritionaly-complete-text-in-heading-shop-now">
+              Nutritionally Complete
+            </p>
             <p className="heading-title-pet-shop">
               Real Pet Food <br></br>Freash From <br></br>The Fridge.
             </p>
 
             <button className="shop-nowbtn">
-              Shop Now{' '}
+              Shop Now{" "}
               {/* <img
                   src="https://i.pinimg.com/736x/dd/d1/c2/ddd1c2476bcb099d675bf282f0a40192.jpg"
                   alt=""
@@ -22,23 +24,25 @@ const HomeShopNow = () => {
             </button>
             <br />
           </div>
-          <div>
-            <img
-              className="pet-food-image"
-              src="https://www.pngkey.com/png/detail/112-1121805_food-bag-dr-garys-best-breed-dog-food.png"
-              alt=""
-            />
+          <div className="images-in-home-screen-components">
+            <div className="contains-images-for-advertise">
+              <img
+                className="pet-food-image"
+                src="https://www.pngkey.com/png/detail/112-1121805_food-bag-dr-garys-best-breed-dog-food.png"
+                alt=""
+              />
 
-            <img
-              className="pet-food-promo-image"
-              src="https://img.pikbest.com/templates/20210416/bg/d85056f8e9de0.jpg!c1024wm0"
-              alt=""
-            />
+              <img
+                className="pet-food-promo-image"
+                src="https://img.pikbest.com/templates/20210416/bg/d85056f8e9de0.jpg!c1024wm0"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default HomeShopNow
+export default HomeShopNow;

@@ -18,3 +18,8 @@
 .main-flex-container-contain-featured-in-icons {
   margin-top: 4rem;
 }
+
+/* scrolling */
+
+@media (min-width: 320px) and (max-width: 425px) {
+}

@@ -23,3 +23,24 @@
   margin-top: 120px;
   margin-left: 38px;
 }
+
+/* Media Screen */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-target-sale-container {
+    display: block;
+  }
+  .image-of-pet-after-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sales-targets {
+    margin: 43px 0px;
+    column-gap: 0;
+    padding: 0px;
+  }
+  .down-arrow-image-target-section {
+    /* padding: 10px 0px; */
+  }
+}
