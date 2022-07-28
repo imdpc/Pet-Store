@@ -34,7 +34,7 @@ const HomeShopNow = () => {
 
               <img
                 className="pet-food-promo-image"
-                src="https://img.pikbest.com/templates/20210416/bg/d85056f8e9de0.jpg!c1024wm0"
+                src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
                 alt=""
               />
             </div>

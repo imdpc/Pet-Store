@@ -42,11 +42,7 @@
   height: 320px;
   width: 250px;
 }
-.main-div-for-pet-shop {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fbf3eb;
-}
+
 .pet-food-promo-image {
   width: 450px;
   height: 550px;
