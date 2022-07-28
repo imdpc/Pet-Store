@@ -10,15 +10,22 @@
 .review-img {
   height: 40px;
   width: 40px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 50%;
   margin: 13px 0 10px 0;
+}
+.review-img-top {
+  height: 60px;
+  width: 60px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  margin: -50px 0 0 15px;
 }
 .customer-count-review {
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 20px;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
 }
 .star-review {
   font-size: 13px;
@@ -27,16 +34,61 @@
 }
 .customer-review {
   border-radius: 5px;
-  height: 180px;
-  width: 400px;
+  height: 220px;
+  width: 480px;
   padding: 10px;
-
-  box-shadow: 0 0 5px 5px rgb(222, 222, 222);
+  z-index: 10;
+  box-shadow: 0 10px 17px 10px rgb(227 224 224);
+}
+.greater-than-sign-review-card {
+  height: 40px;
+  width: 30px;
+}
+.less-than-sign-review-card-div {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: -126px 0px 0px -68px;
+  background-color: #124944f1;
+}
+.greater-than-sign-review-card-div {
+  /* border: 1px solid; */
+  height: 45px;
+  width: 45px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: -60px 0 0 405px;
+  background-color: #124944f1;
+}
+.less-than-sign-review-card {
+  height: 40px;
+  width: 30px;
+}
+.background-card {
+  height: 40px;
+  display: flex;
+  width: 420px;
+  border-radius: 5px;
+  margin: -15px 0 0 30px;
+  z-index: -1;
+  box-shadow: 0px 10px 20px 10px rgb(230 229 229);
+}
+.review-cards {
+  display: block;
+  justify-content: center;
 }
 .customer-review-text {
-  font-weight: 500;
-  font-family: "Beau Rivage";
-  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Beau Rivage';
+  font-size: 17px;
+  /* align-items: center; */
+  padding: 18px 0 0 40px;
+  line-height: 25px;
 }
 .para-after-review-heading {
   font-size: 14px;
