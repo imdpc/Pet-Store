@@ -1,6 +1,6 @@
 import React from "react";
 
-const Product = () => {
+const Product = (props) => {
   return (
     <>
       <div className="shopping-product-cards-container">
@@ -30,14 +30,14 @@ const Product = () => {
         </div>
         <div className="bottom-section-about-products-details">
           <div className="product-name-for-selection">
-            <p>Tasty Bones</p>
+            <p>{props.productDetail.name}</p>
           </div>
           <div className="sizes-for-all-dogs-selection">
-            <p>All Dog Size</p>
+            <p>{props.productDetail.food_type}</p>
           </div>
           <div className="review-price-and-add-to-card-button">
             <p>
-              <span>$60.00</span>
+              <span>${props.productDetail.price}</span>
               <span className="star-review-for-product">
                 &#11088;{" "}
               </span> 4.9 <span style={{ color: "gray" }}>(8000 reviews)</span>
