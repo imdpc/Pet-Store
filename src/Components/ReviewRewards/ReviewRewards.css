@@ -1,7 +1,7 @@
 .flex-div-for-review {
   display: flex;
   justify-content: center;
-  margin: 100px 0 0 0;
+  margin: 100px 0 100px 0;
 }
 
 .widith-div-review-rewards {
