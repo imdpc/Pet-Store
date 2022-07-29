@@ -102,6 +102,7 @@
   height: 1.3rem;
   width: 1.3rem;
   margin: -30px 0px 24px 194px;
+  cursor: pointer;
 }
 .footer-img {
   display: flex;

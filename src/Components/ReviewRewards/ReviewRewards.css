@@ -74,10 +74,12 @@
   justify-content: center;
   margin: -60px 0 0 405px;
   background-color: #124944f1;
+  cursor: pointer;
 }
 .less-than-sign-review-card {
   height: 40px;
   width: 30px;
+  cursor: pointer;
 }
 .background-card {
   height: 40px;
