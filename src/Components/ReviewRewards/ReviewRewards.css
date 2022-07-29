@@ -1,10 +1,20 @@
+.flex-div-for-review {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 0 0;
+}
+
+.widith-div-review-rewards {
+  width: 75em;
+}
+
 .review-heading {
   color: gray;
   font-size: 12px;
-  padding: 20px 0 0 85px;
+  /* padding: 20px 0 0 85px; */
 }
 .review-desc {
-  padding: 0 0 0 85px;
+  /* padding: 0 0 0 85px; */
   gap: 20rem;
 }
 .review-img {
