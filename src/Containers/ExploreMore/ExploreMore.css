@@ -1,6 +1,8 @@
 .main-container-for-explore-more {
   background-color: rgba(14, 145, 145, 0.144);
   padding: 20px 1px 75px 0px;
+  display: flex;
+  justify-content: center;
 }
 .explore-more-btn {
   background-color: #124944;
@@ -10,11 +12,14 @@
   width: 100px;
   cursor: pointer;
 }
+.wid-for-explore-more-compo {
+  width: 75em;
+}
 
 .heading-text-and-explore-button {
   display: flex;
   justify-content: space-between;
-  padding: 35px 85px;
+  padding: 35px 0;
 }
 /* 
 .heading-in-explore-more {
@@ -30,10 +35,10 @@
 
 .sweet-inspiration-text-heading {
   font-size: 40px;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
 }
 .cards-for-explore-more-and-read-more-about-us {
-  padding: 1rem 1rem 1rem 4.5rem;
+  padding: 1rem 1rem 1rem 0rem;
   display: flex;
   column-gap: 2rem;
 }

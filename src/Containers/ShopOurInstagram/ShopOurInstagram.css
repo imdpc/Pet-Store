@@ -1,22 +1,23 @@
 .heading-section-shop-our-insta-and-waggpetfood {
   display: flex;
   justify-content: space-between;
-  padding: 34px 67px;
+  padding: 34px 0;
   align-items: center;
 }
 
-.heading-tag-for-shop-our-instgram {
-}
 .header-text-insta-shop p {
   font-size: 40px;
   font-weight: 600;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
+}
+.wid-for-cards {
+  width: 75em;
 }
 
 .follow-us-text-insta-shop p {
   font-size: 14px;
   padding: 16px 0px;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
   /* font-size: 40px; */
   font-weight: 400;
   color: slategrey;
@@ -108,7 +109,9 @@
   align-items: center;
   padding: 0px 35px;
   margin: -4px 0;
+  gap: 10px;
 }
 .main-container-insta-cards {
-  margin: 41px 0;
+  display: flex;
+  justify-content: center;
 }
