@@ -1,16 +1,21 @@
 .flex-main-container-shopping-products-and-navbar {
   background-color: #fbf3eb;
+  display: flex;
+  justify-content: center;
+}
+.wid-product-nav {
+  width: 75em;
 }
 .product-navbar-heading {
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  gap: 200px;
-  padding: 100px 0 0 85px;
+  gap: 260px;
+  padding: 100px 0 0 0;
 }
 .product-navbar-all-content {
   display: flex;
-  gap: 45px;
+  /* gap: 60px; */
   justify-content: center;
 }
 .product-navbar-sub-content {
@@ -89,7 +94,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  padding: 3rem 1rem 6rem 4.5rem;
+  padding: 3rem 1rem 6rem 0;
   column-gap: 1.5rem;
 }
 .container-image-for-add-to-cart {
