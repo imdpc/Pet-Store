@@ -8,6 +8,8 @@ import UkStore from "./Components/UkStore/UkStore";
 import ProductNav from "./Components/ProductNav/ProductNav";
 import ReviewRewards from "./Components/ReviewRewards/ReviewRewards";
 import PetShopFooter from "./Components/PetShopFooter/PetShopFooter";
+import ShopOurInstagram from "./Containers/ShopOurInstagram/ShopOurInstagram";
+import ExploreMore from "./Containers/ExploreMore/ExploreMore";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <UkStore />
       <ProductNav />
       <ReviewRewards />
+      <ExploreMore />
+      <ShopOurInstagram />
       <PetShopFooter />
     </>
   );
