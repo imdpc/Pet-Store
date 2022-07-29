@@ -70,7 +70,7 @@ const ProductNav = () => {
                   <div className="container-image-for-add-to-cart">
                     <button className="image-for-add-to-cart" type="submit">
                       <img
-                        style={{ height: "29px", width: "25px" }}
+                        style={{ height: "24px", width: "18px" }}
                         src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
                         alt=""
                         srcset=""
@@ -123,7 +123,7 @@ const ProductNav = () => {
                   <div className="container-image-for-add-to-cart">
                     <button className="image-for-add-to-cart" type="submit">
                       <img
-                        style={{ height: "29px", width: "25px" }}
+                        style={{ height: "24px", width: "18px" }}
                         src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
                         alt=""
                         srcset=""
@@ -176,7 +176,7 @@ const ProductNav = () => {
                   <div className="container-image-for-add-to-cart">
                     <button className="image-for-add-to-cart" type="submit">
                       <img
-                        style={{ height: "29px", width: "25px" }}
+                        style={{ height: "24px", width: "18px" }}
                         src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
                         alt=""
                         srcset=""
@@ -229,7 +229,7 @@ const ProductNav = () => {
                   <div className="container-image-for-add-to-cart">
                     <button className="image-for-add-to-cart" type="submit">
                       <img
-                        style={{ height: "29px", width: "25px" }}
+                        style={{ height: "24px", width: "18px" }}
                         src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
                         alt=""
                         srcset=""
