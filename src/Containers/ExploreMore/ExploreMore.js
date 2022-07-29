@@ -32,6 +32,9 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
+            </div>
+
+            <div className="bottom-section-about-products-details">
               <div className="blog-text-and-image-for-save-the-product">
                 <p>BLOG</p>
                 <img
@@ -45,10 +48,8 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
-            </div>
-            <div className="bottom-section-about-products-details">
               <div className="pet-treats-text-for-selection">
-                <p>Pet trates our picks food of favorite recipes</p>
+                <p>Pet treates our picks food of favorite recipes</p>
               </div>
             </div>
           </div>
@@ -65,6 +66,9 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
+            </div>
+
+            <div className="bottom-section-about-products-details">
               <div className="blog-text-and-image-for-save-the-product">
                 <p>BLOG</p>
                 <img
@@ -78,10 +82,8 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
-            </div>
-            <div className="bottom-section-about-products-details">
               <div className="pet-treats-text-for-selection">
-                <p>Pet trates our picks food of favorite recipes</p>
+                <p>Pet treates our picks food of favorite recipes</p>
               </div>
             </div>
           </div>
@@ -98,6 +100,9 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
+            </div>
+
+            <div className="bottom-section-about-products-details">
               <div className="blog-text-and-image-for-save-the-product">
                 <p>BLOG</p>
                 <img
@@ -111,10 +116,8 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
-            </div>
-            <div className="bottom-section-about-products-details">
               <div className="pet-treats-text-for-selection">
-                <p>Pet trates our picks food of favorite recipes</p>
+                <p>Pet treates our picks food of favorite recipes</p>
               </div>
             </div>
           </div>
@@ -131,6 +134,9 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
+            </div>
+
+            <div className="bottom-section-about-products-details">
               <div className="blog-text-and-image-for-save-the-product">
                 <p>BLOG</p>
                 <img
@@ -144,10 +150,8 @@ const ExploreMore = () => {
                   srcset=""
                 />
               </div>
-            </div>
-            <div className="bottom-section-about-products-details">
               <div className="pet-treats-text-for-selection">
-                <p>Pet trates our picks food of favorite recipes</p>
+                <p>Pet treates our picks food of favorite recipes</p>
               </div>
             </div>
           </div>
