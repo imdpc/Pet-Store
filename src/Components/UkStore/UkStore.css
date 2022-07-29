@@ -1,11 +1,18 @@
 .main-display-container-screen-uk-shop {
   margin: 93px 0px;
+  display: flex;
+  justify-content: center;
+}
+.uk-store-sub-div-for-width {
+  width: 75em;
+  display: flex;
+  column-gap: 90px;
 }
 .uk-image {
   height: 568px;
   width: 584px;
 
-  padding: 15px 0 15px 85px;
+  /* padding: 15px 0 15px 85px; */
 }
 .heading-title-ukstore {
   font-weight: 700;

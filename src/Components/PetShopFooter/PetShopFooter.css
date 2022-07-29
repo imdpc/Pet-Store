@@ -5,6 +5,13 @@
   height: 380px;
   background-color: #b9dee6d7;
 }
+.main-div-for-flex-center {
+  display: flex;
+  justify-content: center;
+}
+.footer-div-for-widith {
+  width: 75em;
+}
 .call-img-in-footer {
   height: 15px;
   width: 15px;

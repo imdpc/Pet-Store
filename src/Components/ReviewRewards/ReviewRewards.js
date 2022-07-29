@@ -1,5 +1,8 @@
 import React from 'react'
 import './ReviewRewards.css'
+import greaterthan from '../../Assets/greater-than-symbol.png'
+import lessthan from '../../Assets/less-than-symbol.png'
+
 
 const ReviewRewards = () => {
   return (
@@ -48,7 +51,7 @@ const ReviewRewards = () => {
               <span className="greater-than-sign-review-card-div">
                 <img
                   className="greater-than-sign-review-card"
-                  src="https://cdn-user-icons.flaticon.com/51586/51586652/1659010939887.svg?token=exp=1659011849~hmac=480084624888fc0f2d778990892088a8"
+                  src={greaterthan}
                   alt=""
                 />
               </span>
@@ -62,8 +65,7 @@ const ReviewRewards = () => {
               <span className="less-than-sign-review-card-div">
                 <img
                   className="less-than-sign-review-card"
-                  src="https://cdn-user-icons.flaticon.com/51586/51586652/1659010610900.svg?token=exp=1659011512~hmac=0bae307283ee4c3ff0283c3e0b362aa9"
-                  alt=""
+                  src={lessthan} alt=""
                 />
               </span>
             </div>
