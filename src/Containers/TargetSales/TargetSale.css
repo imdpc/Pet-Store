@@ -5,6 +5,10 @@
   align-items: center;
   background-color: #fbf3eb;
 }
+.width-target-comonent {
+  width: 75em;
+  display: flex;
+}
 .text-ratings-in-target-sale {
   font-size: 42px;
   font-weight: 500;
@@ -22,7 +26,7 @@
   background-color: white;
 }
 .down-arrow-image-target-section {
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   display: flex;
   padding: 54px;

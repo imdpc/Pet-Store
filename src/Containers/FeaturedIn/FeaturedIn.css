@@ -3,9 +3,12 @@
   align-items: center;
   display: flex;
 }
+.featuredin-width-container {
+  width: 75em;
+}
 
 .featured-in-header-text {
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   font-weight: normal;
   /* font-style: italic; */
   font-size: 22px;
@@ -16,6 +19,8 @@
 }
 .main-flex-container-contain-featured-in-icons {
   margin: 4em 0 4em 0;
+  display: flex;
+  justify-content: center;
 }
 
 /* scrolling */
