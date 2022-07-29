@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   padding: 130px 50px 0 10px;
-  height: 380px;
+  height: 420px;
   background-color: #b9dee6d7;
 }
 .main-div-for-flex-center {
@@ -111,4 +111,33 @@
   .pet-shop-footer {
     width: 100%;
   }
+}
+
+.all-rights-reserved-section {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10rem;
+  align-items: center;
+}
+.privacy-services-terms-conditions {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 2rem;
+}
+.container-after-foot-section {
+  display: flex;
+  justify-content: center;
+  padding: 36px 0px;
+}
+.width-for-container-after-footer {
+  width: 75em;
+}
+.all-rights-reserved-section section p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.privacy-services-terms-conditions section p {
+  color: rgb(155, 155, 155);
+  /* font-size: 14px; */
+  font-weight: 500;
 }

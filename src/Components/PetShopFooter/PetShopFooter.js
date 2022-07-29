@@ -1,28 +1,34 @@
-import React from 'react'
-import './PetShopFooter.css'
-import fimage from '../../Assets/footer-image.png'
-import './PetShopFooter.css'
+import React from "react";
+import "./PetShopFooter.css";
+import fimage from "../../Assets/footer-image.png";
+import "./PetShopFooter.css";
 
 const PetShopFooter = () => {
   return (
     <>
-      <div className='main-div-for-flex-center'>
-        <div className='footer-div-for-widith'>
+      <div className="main-div-for-flex-center">
+        <div className="footer-div-for-widith">
           <div className="footer-img">
-            {' '}
-            <img src={fimage} alt="" style={{ width: '1000px', height: '500px' }} />
+            {" "}
+            <img
+              src={fimage}
+              alt=""
+              style={{ width: "1000px", height: "500px" }}
+            />
           </div>
           <div className="pet-shop-footer">
             <div className="footer-first-column">
-              <h2 style={{ fontFamily: 'Beau Rivage', fontSize: '30px' }}>Wagg</h2>
+              <h2 style={{ fontFamily: "Beau Rivage", fontSize: "30px" }}>
+                Wagg
+              </h2>
               <br />
               <p>Our exports are avilable 24/7:</p>
               <div
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px',
-                  rowGap: '10px',
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "10px",
+                  rowGap: "10px",
                 }}
               >
                 <p>
@@ -35,7 +41,9 @@ const PetShopFooter = () => {
 
                 <p>1-800-672-4399</p>
               </div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+              <div
+                style={{ display: "flex", alignItems: "center", gap: "10px" }}
+              >
                 <p>
                   <img
                     className="email-img-in-footer"
@@ -80,7 +88,7 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {' '}
+              {" "}
               <h2>Wagg World</h2>
               <br />
               <ul className="footer-third-col">
@@ -92,7 +100,7 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {' '}
+              {" "}
               <h2>Resource</h2>
               <br />
               <ul className="footer-fourth-col">
@@ -104,7 +112,7 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {' '}
+              {" "}
               <h2>News Letter</h2>
               <div>
                 <div>
@@ -157,8 +165,29 @@ const PetShopFooter = () => {
           </div>
         </div>
       </div>
-    </>
-  )
-}
 
-export default PetShopFooter
+      <div className="container-after-foot-section">
+        <div className="width-for-container-after-footer">
+          <div className="all-rights-reserved-section">
+            <section>
+              <p>All rights reserved &copy; Wagg Food Ltd 2022</p>
+            </section>
+            <div className="privacy-services-terms-conditions">
+              <section>
+                <p>Privacy</p>
+              </section>
+              <section>
+                <p>Services</p>
+              </section>
+              <section>
+                <p>Terms & Conditions</p>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default PetShopFooter;
