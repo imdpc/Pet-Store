@@ -5,7 +5,10 @@ import ukimage from "../../Assets/pet-shop-img.png";
 const UkStore = () => {
   return (
     <>
-      <div style={{ display: "flex", gap: "65px" }} className="main-display-container-screen-uk-shop">
+      <div
+        style={{ display: "flex", gap: "65px" }}
+        className="main-display-container-screen-uk-shop"
+      >
         <div className="uk-store-sub-div-for-width">
           <div>
             <img src={ukimage} alt="" className="uk-image" />
@@ -16,11 +19,11 @@ const UkStore = () => {
               Producer Of Dry Food
             </h2>
             <br />
-            <p>
-              Products include foods formulated for adult,working dogs <br />
-              and puppies,treats and rewards. The UK's third largest <br />
-              brand by value. Wagg Treats the 4th largest and fastest <br />
-              growing treat brand in the UK.{" "}
+            <p className="para-in-uk-store-after-heading-section">
+              Products include foods formulated for adult,working dogs and
+              puppies,treats and rewards. The UK's third largest brand by value.
+              Wagg Treats the 4th largest and fastest growing treat brand in the
+              UK.{" "}
             </p>
             <br />
             <div>
