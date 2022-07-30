@@ -121,6 +121,7 @@ const PetShopFooter = () => {
                     name=""
                     placeholder="Enter Email"
                     className="input-email-in-footer"
+                    maxLength={20}
                   />
                 </div>
                 <div>
