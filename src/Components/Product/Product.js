@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Product.css";
 const Product = (props) => {
   return (
     <>
@@ -22,7 +22,7 @@ const Product = (props) => {
                 height: "190px",
                 width: "146px",
               }}
-              src="https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp"
+              src={props.productDetail.url}
               alt=""
               srcset=""
             />
@@ -37,10 +37,11 @@ const Product = (props) => {
           </div>
           <div className="review-price-and-add-to-card-button">
             <p>
-              <span>${props.productDetail.price}</span>
-              <span className="star-review-for-product">
-                &#11088;{" "}
-              </span> 4.9 <span style={{ color: "gray" }}>(8000 reviews)</span>
+              <span className="price-tag-in-review">
+                ${props.productDetail.price}
+              </span>
+              <span className="star-review-for-product">&#11088; </span> 4.9{" "}
+              <span style={{ color: "gray" }}>(8000 reviews)</span>
             </p>
             <div className="container-image-for-add-to-cart">
               <button className="image-for-add-to-cart" type="submit">

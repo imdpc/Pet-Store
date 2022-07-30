@@ -4,6 +4,11 @@
   display: flex;
   justify-content: center;
 }
+/* .cards-for-explore-more-and-read-more-about-us {
+  padding: 1rem 1rem 1rem 0rem;
+  display: flex;
+  column-gap: 2rem;
+} */
 .explore-more-btn {
   background-color: #124944;
   color: white;

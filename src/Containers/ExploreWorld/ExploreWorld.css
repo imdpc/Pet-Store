@@ -14,91 +14,8 @@
 .exploreworld-wid-for-contain {
   width: 75em;
 }
-.card-containing-info-and-learn-more {
-  display: block;
-  padding: 1.5rem;
-  height: 100%;
-}
-.info-explorer-cards-1 {
-  height: 100%;
-  width: 100%;
-
-  /* border: 2px solid rgb(206, 183, 183); */
-  background-color: rgba(198, 243, 243, 0.616);
-  border-radius: 2px;
-}
-.info-explorer-cards-2 {
-  height: 100%;
-  width: 100%;
-
-  /* border: 2px solid rgb(206, 183, 183); */
-  background-color: rgba(12, 102, 102, 0.116);
-  border-radius: 2px;
-}
-.info-explorer-cards-3 {
-  height: 100%;
-  width: 100%;
-  /* border: 2px solid rgb(206, 183, 183); */
-  background-color: rgba(243, 211, 198, 0.603);
-  border-radius: 2px;
-}
-.info-explorer-cards-4 {
-  height: 356px;
-  width: 312px;
-  /* border: 2px solid rgb(206, 183, 183); */
-  background-color: rgb(198, 243, 243);
-  border-radius: 2px;
-}
-.containing-currency-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* padding-top: 1rem; */
-  background-color: white;
-  width: 70px;
-  height: 73px;
-  margin: auto;
-  border-radius: 6px;
-}
-.containing-header-after-currency-icon {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 20px;
-}
-
-.para-after-heading-part p {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 15px;
-  font-weight: 200;
-  color: grey;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.learn-more-link p {
-  text-align: center;
-  padding-top: 3rem;
-  font-weight: 500;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.containing-all-cards-in-explorer {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  column-gap: 5rem;
-  /* padding: 2rem 1rem 1rem 0; */
-  margin: 4rem 0 0 0;
-}
 
 @media (min-width: 320px) and (max-width: 425px) {
-  .containing-all-cards-in-explorer {
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
   .main-heading-in-world-explore {
     text-align: center;
     /* font-weight: bold; */
@@ -110,12 +27,5 @@
   }
   .main-container-for-flex-center-for-exploreworld {
     margin: 1em;
-  }
-
-  .card-containing-info-and-learn-more {
-    display: block;
-    padding: 1.5rem;
-    height: 100%;
-    margin: 1rem;
   }
 }
