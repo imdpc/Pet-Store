@@ -55,7 +55,7 @@
 .blog-text-and-image-for-save-the-product {
   display: flex;
   justify-content: space-between;
-  padding-top: 14px;
+  padding: 3px 8px;
 }
 .blog-text-and-image-for-save-the-product p {
   font-size: 13px;
@@ -65,45 +65,37 @@
   border-radius: 7px;
 }
 
-.explore-more-cards-container-1 {
-  border-radius: 6px;
-  display: block;
-  border: 12px solid white;
-  width: 270px;
-  height: auto;
-}
-.explore-more-cards-container-2 {
-  border-radius: 6px;
-  display: block;
-  border: 12px solid white;
-  width: 270px;
-  height: auto;
-}
-
-.explore-more-cards-container-3 {
-  border-radius: 6px;
-  display: block;
-  border: 12px solid white;
-  width: 270px;
-  height: auto;
-}
-
-.explore-more-cards-container-4 {
-  border-radius: 6px;
-  display: block;
-  border: 12px solid white;
-  width: 270px;
-  height: auto;
-}
-
-.explore-more-card-for-selection {
+/* .explore-more-card-for-selection {
+  border: 8px solid white;
   height: 272px;
-  width: 250px;
+  width: 274px;
   display: block;
   padding: 11px;
-}
+} */
 
 .pet-treats-text-for-selection {
-  padding: 12px 0;
+  padding: 12px 8px;
   font-size: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  /* .main-container-for-explore-more {
+    display: block;
+  }
+  .wid-for-explore-more-compo {
+  }
+  .cards-for-explore-more-and-read-more-about-us {
+  } */
+  .heading-text-and-explore-button {
+    display: block;
+    text-align: center;
+  }
+  .button-for-explore-more-in-heading {
+    display: flex;
+    justify-content: center;
+  }
+  .explore-more-btn {
+    height: 41px;
+    width: 115px;
+  }
 }
