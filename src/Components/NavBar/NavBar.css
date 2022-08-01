@@ -45,3 +45,27 @@ h2 {
   margin-inline-end: 0;
   font-weight: bold;
 }
+.pet-shop-nav-middle-content {
+  display: flex;
+  align-items: center;
+}
+.navbar-heading {
+  font-family: 'Acumin Pro';
+  font-size: '38px';
+}
+@media (min-width: 320px) and (max-width: 420px) {
+  .pet-shop-nav-middle-content {
+    display: none;
+  }
+  .pet-shop-nav {
+    gap: 25px;
+  }
+  .navbar-heading {
+    font-size: 14px;
+    margin: 10px 0 0 12px;
+  }
+  .contact-us-btn-in-nav {
+    height: 55px;
+    width: 80px;
+  }
+}

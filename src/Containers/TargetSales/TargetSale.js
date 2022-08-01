@@ -6,10 +6,11 @@ const TargetSale = () => {
       <div className="width-target-comonent">
         <div className="image-of-pet-after-nav">
           <img
-            style={{ height: '260px', width: '210px' }}
+
+            className="styling-for-img-after-nav"
             src="https://img.freepik.com/premium-photo/white-dog-west-highland-white-terrier-drinking-juice-summer-vacation_96727-2320.jpg?size=338&ext=jpg&ga=GA1.2.821292631.1658831461"
             alt=""
-            srcset=""
+
           />
         </div>
         <div className="sales-targets">

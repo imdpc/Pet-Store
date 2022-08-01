@@ -61,7 +61,7 @@
     font-weight: 500;
   }
   .main-div-for-pet-shop {
-    display: block;
+    display: flex;
   }
   .heading-title-pet-shop {
     margin: 2px 0px;
@@ -73,11 +73,14 @@
   .shop-nowbtn {
     /* display: flex; */
 
-    margin: 27px 63px;
+    margin: 27px 110px;
+    width: 100px;
+    height: 40px;
   }
+
   .images-in-home-screen-components {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
   }
   .pet-food-image {
@@ -85,8 +88,12 @@
   }
   .pet-food-promo-image {
     padding: 0px;
+    display: none;
   }
   .contains-images-for-advertise {
     margin: 1em;
+  }
+  .sub-div-for-pet-shop {
+    display: block;
   }
 }
