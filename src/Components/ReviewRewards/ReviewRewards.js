@@ -32,10 +32,10 @@ const ReviewRewards = () => {
     <>
       <div className="flex-div-for-review">
         <div className="widith-div-review-rewards">
-          <p className="review-heading">REVIEWS & REWARDS</p>
 
           <div className="div-for-flex-the-two-div">
             <div className="review-desc">
+              <p className="review-heading">REVIEWS & REWARDS</p>
               <p className="customer-count-review">
                 Over <span style={{ color: '#124944' }}>80000</span> customers{' '}
                 <br />

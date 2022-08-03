@@ -33,6 +33,34 @@ const ProductNav = () => {
       url: "https://waggfoods.com/assets/images/categories/_productImage1xWebp/243/wagg-puppy.webp",
       price: 89.0,
     },
+    {
+      _id: "4",
+      name: "Kennel Wagg",
+      food_type: "8 Weeks old",
+      url: "https://waggfoods.com/assets/images/categories/_productImage1xWebp/243/wagg-puppy.webp",
+      price: 89.0,
+    },
+    {
+      _id: "4",
+      name: "Kennel Wagg",
+      food_type: "8 Weeks old",
+      url: "https://waggfoods.com/assets/images/categories/_productImage1xWebp/243/wagg-puppy.webp",
+      price: 89.0,
+    },
+    {
+      _id: "4",
+      name: "Kennel Wagg",
+      food_type: "8 Weeks old",
+      url: "https://waggfoods.com/assets/images/categories/_productImage1xWebp/243/wagg-puppy.webp",
+      price: 89.0,
+    },
+    {
+      _id: "4",
+      name: "Kennel Wagg",
+      food_type: "8 Weeks old",
+      url: "https://waggfoods.com/assets/images/categories/_productImage1xWebp/243/wagg-puppy.webp",
+      price: 89.0,
+    },
   ];
 
   return (
@@ -40,30 +68,34 @@ const ProductNav = () => {
       <div className="flex-main-container-shopping-products-and-navbar">
         <div className="wid-product-nav">
           <div>
-            <div className="product-navbar-heading">
-              <h3
-                style={{
-                  fontSize: "40px",
-                  fontFamily: "Beau Rivage",
-                }}
-              >
-                Our Best Selling
-                <br />
-                Products
-              </h3>
-              <div className="product-navbar-all-content">
-                <p className="product-navbar-sub-content">All product</p>
-                <p className="product-navbar-sub-content">Dog Treats</p>
-                <p className="product-navbar-sub-content">Dog Food</p>
-                <p className="product-navbar-sub-content">Special Diets</p>
-                <p className="product-navbar-sub-content">Puppy Food</p>
+            <div>
+              <div className="product-navbar-heading">
+                <div className="chdbhcbdjhzcbxhbvh">
+                  <p
+                    style={{
+                      fontSize: "40px",
+                      fontFamily: "Beau Rivage",
+                    }}
+                  >
+                    Our Best Selling
+                    <br />
+                    Products
+                  </p></div>
+                <div className="product-navbar-all-content">
+                  <p className="product-navbar-sub-content">All product</p>
+                  <p className="product-navbar-sub-content">Dog Treats</p>
+                  <p className="product-navbar-sub-content">Dog Food</p>
+                  <p className="product-navbar-sub-content">Special Diets</p>
+                  <p className="product-navbar-sub-content">Puppy Food</p>
+
+                </div>
               </div>
             </div>
-          </div>
-          <div className="all-cards">
-            {product.map((val, index) => (
-              <Product productDetail={val} />
-            ))}
+            <div className="all-cards">
+              {product.map((val, index) => (
+                <Product productDetail={val} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -99,7 +99,7 @@
   font-family: 'Beau Rivage';
   font-size: 17px;
   /* align-items: center; */
-  padding: 18px 0 0 40px;
+  /* padding: 18px 0 0 40px; */
   line-height: 25px;
 }
 .para-after-review-heading {
@@ -114,6 +114,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
   .widith-div-review-rewards {
     width: 100%;
+    margin: 1rem;
   }
   .flex-div-for-review {
     display: block;
@@ -128,13 +129,27 @@
     width: 100%;
   }
   .greater-than-sign-review-card-div {
-    margin: -85px 0 0 294px;
+    margin: -31px 0 -49px 322px;
   }
   .less-than-sign-review-card-div {
-    margin: -101px 0px 0px -50px;
+    margin: -51px -24px;
   }
   .background-card {
     width: 80%;
     margin: -15px 0 0 35px;
+  }
+  .review-desc {
+    text-align: center;
+  }
+  .review-cards {
+    text-align: center;
+  }
+  .customer-review-text {
+    font-weight: 600;
+    font-family: 'Beau Rivage';
+    font-size: 17px;
+    /* align-items: center; */
+    padding: 1px 0;
+    line-height: 27px;
   }
 }

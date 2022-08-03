@@ -18,10 +18,7 @@ const Product = (props) => {
           </div>
           <div className="image-of-the-product-details">
             <img
-              style={{
-                height: "190px",
-                width: "146px",
-              }}
+              className="image-class-for-respo-height"
               src={props.productDetail.url}
               alt=""
               srcset=""
