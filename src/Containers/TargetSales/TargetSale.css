@@ -42,12 +42,15 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
   .flex-target-sale-container {
-    display: block;
+    /* display: block; */
     /* width: 100%; */
-    width: 0;
+    display: flex;
+    /* width: 0; */
+    justify-content: center;
+    align-items: center;
   }
   .image-of-pet-after-nav {
-    /* display: flex; */
+    display: flex;
 
     padding: 15px;
     justify-content: center;

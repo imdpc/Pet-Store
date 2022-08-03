@@ -34,7 +34,7 @@ const ReviewRewards = () => {
         <div className="widith-div-review-rewards">
           <p className="review-heading">REVIEWS & REWARDS</p>
 
-          <div style={{ display: 'flex', gap: '250px' }}>
+          <div className="div-for-flex-the-two-div">
             <div className="review-desc">
               <p className="customer-count-review">
                 Over <span style={{ color: '#124944' }}>80000</span> customers{' '}

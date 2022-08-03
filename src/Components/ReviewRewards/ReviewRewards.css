@@ -107,3 +107,34 @@
   line-height: 1.5rem;
   color: gray;
 }
+.div-for-flex-the-two-div {
+  display: flex;
+  gap: 250px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .widith-div-review-rewards {
+    width: 100%;
+  }
+  .flex-div-for-review {
+    display: block;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+  }
+  .div-for-flex-the-two-div {
+    display: block;
+  }
+  .customer-review {
+    margin: 51px 0 0 0;
+    width: 100%;
+  }
+  .greater-than-sign-review-card-div {
+    margin: -85px 0 0 294px;
+  }
+  .less-than-sign-review-card-div {
+    margin: -101px 0px 0px -50px;
+  }
+  .background-card {
+    width: 80%;
+    margin: -15px 0 0 35px;
+  }
+}

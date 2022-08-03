@@ -1,7 +1,10 @@
 .flex-featured-in-icons {
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   display: flex;
+  overflow-y: scroll;
+  width: 50em;
+  padding-left: 130px;
 }
 .featuredin-width-container {
   width: 75em;
@@ -26,4 +29,19 @@
 /* scrolling */
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .flex-featured-in-icons {
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    overflow-y: scroll;
+    width: 100%;
+    padding-left: 0;
+  }
+  .featuredin-width-container {
+    width: 100%;
+  }
+  .featured-in-header-text {
+    text-align: center;
+  }
 }
