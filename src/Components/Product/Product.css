@@ -55,7 +55,7 @@
   justify-content: end;
 }
 .image-for-add-to-cart {
-  border-radius: 66px;
+  border-radius: 50%;
   float: right;
 }
 .price-tag-in-review {
@@ -66,10 +66,25 @@
   height: 190px;
   width: 146px;
 }
+.cart-logo-incontainer-img {
+  height: 29px;
+  width: 25px;
+}
 
 @media (min-width: 320px) and (max-width: 425px) {
   .image-class-for-respo-height {
     height: 145px;
     width: 146px;
+  }
+  .image-for-add-to-cart {
+    border-radius: 50%;
+    float: right;
+  }
+  .price-tag-in-review {
+    font-size: 19px;
+  }
+  .cart-logo-incontainer-img {
+    height: 19px;
+    width: 15px;
   }
 }

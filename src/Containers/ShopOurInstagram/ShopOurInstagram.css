@@ -121,7 +121,11 @@
     width: 100%;
   }
   .contain-all-insta-images {
-    display: block;
+    display: flex;
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: left;
+    padding: 0 15px;
   }
   .heading-section-shop-our-insta-and-waggpetfood {
     display: block;

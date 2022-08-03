@@ -87,7 +87,7 @@
   align-items: center;
 }
 .image-for-add-to-cart {
-  border-radius: 66px;
+  border-radius: 50%;
   float: right;
 }
 .all-cards {
@@ -133,8 +133,8 @@
     height: 200px;
     display: block;
   }
-  .product-name-for-selection {
-    padding: 15px 0px;
+  .product-name-for-selection p {
+    /* padding: 15px 0px; */
     font-size: 18px;
     font-weight: 600;
   }
