@@ -3,6 +3,7 @@ import Product from "../Product/Product";
 import "./ProductNav.css";
 
 const ProductNav = () => {
+  // products for display 
   const product = [
     {
       _id: "1",
@@ -40,6 +41,7 @@ const ProductNav = () => {
       <div className="flex-main-container-shopping-products-and-navbar">
         <div className="wid-product-nav">
           <div>
+            {/* product nav heading  */}
             <div className="product-navbar-heading">
               <h3
                 style={{
@@ -51,6 +53,7 @@ const ProductNav = () => {
                 <br />
                 Products
               </h3>
+              {/* contents in product in the product nav */}
               <div className="product-navbar-all-content">
                 <p className="product-navbar-sub-content">All product</p>
                 <p className="product-navbar-sub-content">Dog Treats</p>
@@ -60,6 +63,7 @@ const ProductNav = () => {
               </div>
             </div>
           </div>
+          {/* product component  */}
           <div className="all-cards">
             {product.map((val, index) => (
               <Product productDetail={val} />
