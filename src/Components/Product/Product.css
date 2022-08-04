@@ -93,3 +93,19 @@
     width: 15px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  /* .all-cards {
+    display: block;
+  } */
+  /* .shopping-product-cards-container {
+    display: block;
+  } */
+  .product-navbar-heading {
+    font-size: 40px;
+    font-family: "Beau Rivage";
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+  }
+}

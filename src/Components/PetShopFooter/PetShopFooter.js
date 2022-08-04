@@ -6,6 +6,7 @@ import "./PetShopFooter.css";
 const PetShopFooter = () => {
   return (
     <>
+    {/* pet shop footer  */}
       <div className="main-div-for-flex-center">
         <div className="footer-div-for-widith">
           <div className="footer-img">
@@ -17,6 +18,7 @@ const PetShopFooter = () => {
             />
           </div>
           <div className="pet-shop-footer">
+            {/* pet shop footer first column */}
             <div className="footer-first-column">
               <h2 style={{ fontFamily: "Beau Rivage", fontSize: "30px" }}>
                 Wagg
@@ -27,6 +29,7 @@ const PetShopFooter = () => {
 
               >
                 <p>
+                  {/* phone icon in the first column  */}
                   <img
                     className="call-img-in-footer"
                     src="https://cdn-icons.flaticon.com/png/512/1634/premium/1634473.png?token=exp=1658924298~hmac=6a7647edc775862a17ae1cd5910a1aff"
@@ -39,7 +42,8 @@ const PetShopFooter = () => {
               <div className="email-section-div"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
-                <p>
+                <p> 
+                  {/* fax icon in first column */}
                   <img
                     className="email-img-in-footer"
                     src="https://cdn-icons-png.flaticon.com/512/7852/7852594.png"
@@ -48,6 +52,7 @@ const PetShopFooter = () => {
                 </p>
                 <p>waggfood.uk</p>
               </div>
+              {/* download button in first column  */}
               <div className="footer-btn-group">
                 <button type="submit" className="apple-store-btn">
                   <span>
@@ -72,6 +77,7 @@ const PetShopFooter = () => {
               </div>
             </div>
             <div>
+              {/* secound column in footer  */}
               <h2>Our Products</h2>
               <br />
               <ul className="footer-second-col">
@@ -84,6 +90,7 @@ const PetShopFooter = () => {
             </div>
             <div>
               {" "}
+              {/* third column  */}
               <h2>Wagg World</h2>
               <br />
               <ul className="footer-third-col">
@@ -95,7 +102,8 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {" "}
+              {" "} 
+              {/* fourth column  */}
               <h2>Resource</h2>
               <br />
               <ul className="footer-fourth-col">
@@ -107,7 +115,8 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {" "}
+              {" "} 
+              {/* fifth column  */}
               <h2>News Letter</h2>
               <div>
                 <div>
@@ -161,6 +170,7 @@ const PetShopFooter = () => {
           </div>
         </div>
       </div>
+      {/* footer rights section  */}
 
       <div className="container-after-foot-section">
         <div className="width-for-container-after-footer">

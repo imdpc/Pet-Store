@@ -3,6 +3,7 @@ import Product from "../Product/Product";
 import "./ProductNav.css";
 
 const ProductNav = () => {
+  // products for display 
   const product = [
     {
       _id: "1",

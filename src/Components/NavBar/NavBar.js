@@ -21,6 +21,7 @@ const NavBar = () => {
           </div>
           <ul className="pet-shop-nav-content">
             <li>
+              {/* img for the search icon in the navbar  */}
               <img
                 src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
                 alt=""
@@ -34,6 +35,7 @@ const NavBar = () => {
                 className="search-icon-navbar"
               />
             </li>
+            {/* button in the navbar  */}
             <button type="submit" className="contact-us-btn-in-nav">Contact Us</button>
           </ul>
         </div>

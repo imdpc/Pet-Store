@@ -22,6 +22,7 @@
   font-weight: 500;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .search-icon-navbar {
   width: 25px;
