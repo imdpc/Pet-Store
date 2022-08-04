@@ -6,10 +6,12 @@ import "./ExploreMoreCard.css";
 const ExploreMoreCard = (props) => {
   return (
     <>
+      {/* single component for re use in explore more section */}
       {/* <div className="cards-for-explore-more-and-read-more-about-us"> */}
       <div className="explore-more-cards-container">
         <div className="explore-more-card-for-selection">
           <div className="image-of-the-product-details">
+            {/* image of the product in the explore more section. */}
             <img
               style={{
                 height: "190px",
@@ -25,11 +27,13 @@ const ExploreMoreCard = (props) => {
         <div className="bottom-section-about-products-details-explore-more">
           <div className="blog-text-and-image-for-save-the-product">
             <p>BLOG</p>
+            {/* image for the save icon  */}
             <img
               className="image-for-save-the-product"
               style={{
                 height: "13px",
                 width: "13px",
+                cursor: "pointer"
               }}
               src={save}
               alt=""

@@ -4,16 +4,20 @@ import "./HomeShopNow.css";
 const HomeShopNow = () => {
   return (
     <>
+      {/* div for flex and justify-content center  */}
       <div className="main-div-for-pet-shop">
+        {/* div for  width */}
         <div className="sub-div-for-pet-shop">
           <div className="heading-title-div">
+
+            {/* heading  */}
             <p className="nuetritionaly-complete-text-in-heading-shop-now">
               Nutritionally Complete
             </p>
             <p className="heading-title-pet-shop">
               Real Pet Food <br></br>Freash From <br></br>The Fridge.
             </p>
-
+            {/* button for shop now  */}
             <button className="shop-nowbtn">
               Shop Now{" "}
               {/* <img
@@ -24,6 +28,7 @@ const HomeShopNow = () => {
             </button>
             <br />
           </div>
+          {/* images in shop nao section */}
           <div className="images-in-home-screen-components">
             <div className="contains-images-for-advertise">
               <img

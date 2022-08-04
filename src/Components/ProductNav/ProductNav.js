@@ -70,6 +70,7 @@ const ProductNav = () => {
         <div className="wid-product-nav">
           <div>
             <div>
+              {/* heading in navbar  */}
               <div className="product-navbar-heading">
                 <div className="chdbhcbdjhzcbxhbvh">
                   <p
@@ -83,6 +84,7 @@ const ProductNav = () => {
                     <br />
                     Products
                   </p></div>
+                {/* all nav bar conaints in product nav  */}
                 <div className="product-navbar-all-content">
                   <p className="product-navbar-sub-content">All product</p>
                   <p className="product-navbar-sub-content">Dog Treats</p>

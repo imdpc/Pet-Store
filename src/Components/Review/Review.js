@@ -6,6 +6,7 @@ import lessthan from '../../Assets/less-than-symbol.png'
 const Review = () => {
   const [activeTab, setActiveTab] = useState(0)
 
+  //  multiple review on click event handling
   const cards = [
     {
       title:
@@ -38,12 +39,13 @@ const Review = () => {
     <>
       <div className="review-cards">
         <div className="customer-review">
+          {/* avtar of customer  */}
           <img
             className="review-img-top"
             src={cards[activeTab].imgUrl}
             alt=""
           />
-
+          {/* review text  */}
           <div className="customer-review-text">
             {cards[activeTab].title}
             <br />

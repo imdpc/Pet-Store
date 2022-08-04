@@ -30,9 +30,11 @@ const ExploreWorld = () => {
     <>
       <div className="main-container-for-flex-center-for-exploreworld">
         <div className="exploreworld-wid-for-contain">
+          {/* heading Explore more section  */}
           <div className="main-heading-in-world-explore">
             Explore Wagg's World <br /> and discover fun
           </div>
+          {/* calling component  */}
           <div className="containing-all-cards-in-explorer">
             {cards.map((val, index) => (
               <ExploreWorldCard cardDetail={val} />

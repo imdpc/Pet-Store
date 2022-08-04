@@ -8,7 +8,9 @@ const Product = (props) => {
     <>
       <div className="shopping-product-cards-container">
         <div className="product-info-card-for-selection">
+          {/* like image for liking products */}
           <div className="image-for-like-the-product">
+
             <img
               style={{
                 height: "13px",
@@ -19,6 +21,7 @@ const Product = (props) => {
               srcset=""
             />
           </div>
+          {/* image of products */}
           <div className="image-of-the-product-details">
             <img
               className="image-class-for-respo-height"
@@ -28,13 +31,17 @@ const Product = (props) => {
             />
           </div>
         </div>
+        {/* bottom section of product  */}
         <div className="bottom-section-about-products-details">
+          {/* Product name in cards */}
           <div className="product-name-for-selection">
             <p>{props.productDetail.name}</p>
           </div>
+          {/* type fo food in the cards */}
           <div className="sizes-for-all-dogs-selection">
             <p>{props.productDetail.food_type}</p>
           </div>
+          {/* price and add to cart div */}
           <div className="review-price-and-add-to-card-button">
             <p>
               <span className="price-tag-in-review">
