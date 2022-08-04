@@ -54,6 +54,7 @@ h2 {
 .navbar-heading {
   font-family: 'Acumin Pro';
   font-size: '38px';
+  cursor: pointer;
 }
 @media (min-width: 320px) and (max-width: 420px) {
   .pet-shop-nav-middle-content {

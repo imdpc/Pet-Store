@@ -1,4 +1,6 @@
 import React from "react";
+import search from "../../Assets/loupe.png"
+import cart from "../../Assets/shopping-cart.png"
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -23,19 +25,19 @@ const NavBar = () => {
             <li>
               {/* img for the search icon in the navbar  */}
               <img
-                src="https://cdn-icons-png.flaticon.com/512/54/54481.png"
+                src={search}
                 alt=""
                 className="search-icon-navbar"
               />
             </li>
             <li>
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1288/1288704.png"
+                src={cart}
                 alt=""
                 className="search-icon-navbar"
               />
             </li>
-            {/* button in the navbar  */}
+            {/* button in the navbar   */}
             <button type="submit" className="contact-us-btn-in-nav">Contact Us</button>
           </ul>
         </div>

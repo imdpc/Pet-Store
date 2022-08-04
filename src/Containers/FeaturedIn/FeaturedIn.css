@@ -45,4 +45,7 @@
   .featured-in-header-text {
     text-align: center;
   }
+  .featured-in-header-text {
+    font-size: 32px;
+  }
 }

@@ -1,12 +1,13 @@
 import React from "react";
 import "./PetShopFooter.css";
 import fimage from "../../Assets/footer-image.png";
+import send from "../../Assets/send footer.png";
 import "./PetShopFooter.css";
 
 const PetShopFooter = () => {
   return (
     <>
-    {/* pet shop footer  */}
+      {/* pet shop footer  */}
       <div className="main-div-for-flex-center">
         <div className="footer-div-for-widith">
           <div className="footer-img">
@@ -42,7 +43,7 @@ const PetShopFooter = () => {
               <div className="email-section-div"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
-                <p> 
+                <p>
                   {/* fax icon in first column */}
                   <img
                     className="email-img-in-footer"
@@ -102,7 +103,7 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {" "} 
+              {" "}
               {/* fourth column  */}
               <h2>Resource</h2>
               <br />
@@ -115,7 +116,7 @@ const PetShopFooter = () => {
               </ul>
             </div>
             <div>
-              {" "} 
+              {" "}
               {/* fifth column  */}
               <h2>News Letter</h2>
               <div>
@@ -131,7 +132,7 @@ const PetShopFooter = () => {
                 <div>
                   <img
                     className="icon-in-search"
-                    src="https://cdn-icons-png.flaticon.com/512/121/121521.png"
+                    src={send}
                     alt=""
                   />
                 </div>

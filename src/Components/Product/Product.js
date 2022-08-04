@@ -1,4 +1,7 @@
 import React from "react";
+import heart from "../../Assets/heart.png"
+
+import cart from "../../Assets/plus.png"
 import "./Product.css";
 const Product = (props) => {
   return (
@@ -11,7 +14,7 @@ const Product = (props) => {
                 height: "13px",
                 width: "13px",
               }}
-              src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png"
+              src={heart}
               alt=""
               srcset=""
             />
@@ -44,7 +47,7 @@ const Product = (props) => {
               <button className="image-for-add-to-cart" type="submit">
                 <img className="cart-logo-incontainer-img"
 
-                  src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
+                  src={cart}
                   alt=""
                   srcset=""
                 />

@@ -1,4 +1,5 @@
 import React from "react";
+import experts from "../../Assets/made by expert.png"
 import "./ExploreWorld.css";
 import ExploreWorldCard from "./../../Components/ExploreWorldCard/ExploreWorldCard";
 const ExploreWorld = () => {
@@ -13,7 +14,7 @@ const ExploreWorld = () => {
     {
       _id: "2",
       name: "Made By Exports",
-      url: "https://cdn-icons.flaticon.com/png/128/4803/premium/4803130.png?token=exp=1658906426~hmac=0b5cd1591c7968bb95e8575db46e4b37",
+      url: experts,
       para_text:
         "Half Day includes up to 6 hours of play,socialization & you enrichment. Campers also enjoy meeting new friends.",
     },

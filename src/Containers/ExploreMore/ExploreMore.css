@@ -55,24 +55,21 @@
 .explore-product-cards-container {
   border-radius: 7px;
 }
-.cards-for-explore-more-and-read-more-about-us {
-  padding: 1rem 1rem 1rem 0rem;
-  display: flex;
-  column-gap: 2rem;
-}
+
 .call-component-from-explore-more-cards {
   display: flex;
   gap: 2rem;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-  /* .main-container-for-explore-more {
-    display: block;
+  .main-container-for-explore-more {
+    width: 100%;
+    overflow-y: scroll;
   }
   .wid-for-explore-more-compo {
+    width: 100%;
   }
-  .cards-for-explore-more-and-read-more-about-us {
-  } */
+
   .heading-text-and-explore-button {
     display: block;
     text-align: center;
@@ -84,5 +81,11 @@
   .explore-more-btn {
     height: 41px;
     width: 115px;
+  }
+  .call-component-from-explore-more-cards {
+    display: flex;
+    gap: 2rem;
+    overflow-y: scroll;
+    justify-content: left;
   }
 }

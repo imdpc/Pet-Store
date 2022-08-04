@@ -1,4 +1,6 @@
 import React from "react";
+import save from "../../Assets/save-instagram.png"
+
 import "./ExploreMoreCard.css";
 
 const ExploreMoreCard = (props) => {
@@ -29,7 +31,7 @@ const ExploreMoreCard = (props) => {
                 height: "13px",
                 width: "13px",
               }}
-              src="https://cdn-icons.flaticon.com/png/128/5662/premium/5662990.png?token=exp=1658923259~hmac=95ef7edb900df8197ad909157f33dc64"
+              src={save}
               alt=""
               srcset=""
             />

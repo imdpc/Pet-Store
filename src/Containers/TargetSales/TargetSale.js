@@ -1,18 +1,19 @@
 import React from 'react'
 import './TargetSale.css'
+import downarrow from "../../Assets/down-arrow.png"
 const TargetSale = () => {
   return (
     <div className="flex-target-sale-container">
       <div className="width-target-comonent">
-        <div className="image-of-pet-after-nav">
-          <img
 
-            className="styling-for-img-after-nav"
-            src="https://img.freepik.com/premium-photo/white-dog-west-highland-white-terrier-drinking-juice-summer-vacation_96727-2320.jpg?size=338&ext=jpg&ga=GA1.2.821292631.1658831461"
-            alt=""
+        <img
 
-          />
-        </div>
+          className="styling-for-img-after-nav"
+          src="https://img.freepik.com/premium-photo/white-dog-west-highland-white-terrier-drinking-juice-summer-vacation_96727-2320.jpg?size=338&ext=jpg&ga=GA1.2.821292631.1658831461"
+          alt=""
+
+        />
+
         <div className="sales-targets">
           <section>
             <h1 className="text-ratings-in-target-sale">200k+</h1>
@@ -29,8 +30,8 @@ const TargetSale = () => {
         </div>
         <div className="down-arrow-image-target-section">
           <img
-            style={{ width: '50px', height: '50px' }}
-            src="https://cdn-icons.flaticon.com/png/128/3416/premium/3416111.png?token=exp=1658835380~hmac=274eb1cd514b9f9320e199a3e9cbb094"
+            style={{ width: '80px', height: '80px', cursor: "pointer" }}
+            src={downarrow}
             alt=""
             srcset=""
           />

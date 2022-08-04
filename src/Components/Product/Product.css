@@ -54,17 +54,19 @@
   width: 215px;
 }
 .container-image-for-add-to-cart {
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   justify-content: end;
 }
 .image-for-add-to-cart {
   border-radius: 50%;
+  border: none;
   float: right;
   cursor: pointer;
+  background: none;
 }
 .price-tag-in-review {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .image-class-for-respo-height {
@@ -72,8 +74,8 @@
   /* width: 146px; */
 }
 .cart-logo-incontainer-img {
-  height: 19px;
-  width: 13px;
+  height: 40px;
+  width: 40px;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -82,7 +84,7 @@
     width: 146px;
   }
   .image-for-add-to-cart {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     float: right;
   }
   .price-tag-in-review {
@@ -103,7 +105,7 @@
   } */
   .product-navbar-heading {
     font-size: 40px;
-    font-family: "Beau Rivage";
+    font-family: 'Beau Rivage';
     /* display: flex; */
     text-align: center;
     justify-content: center;
