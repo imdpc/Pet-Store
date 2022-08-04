@@ -4,11 +4,9 @@
   display: flex;
   justify-content: center;
 }
-/* .cards-for-explore-more-and-read-more-about-us {
-  padding: 1rem 1rem 1rem 0rem;
-  display: flex;
-  column-gap: 2rem;
-} */
+.bottom-section-about-products-details-explore-more {
+  background-color: white;
+}
 .explore-more-btn {
   background-color: #124944;
   color: white;
@@ -19,6 +17,10 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.explore-more-cards-container {
+  border: 12px solid white;
+  display: block;
 }
 .wid-for-explore-more-compo {
   width: 75em;
@@ -45,7 +47,7 @@
 .sweet-inspiration-text-heading {
   font-size: 40px;
   font-weight: 600;
-  font-family: "Beau Rivage";
+  font-family: 'montserrat';
 }
 .cards-for-explore-more-and-read-more-about-us {
   padding: 1rem 1rem 1rem 0rem;

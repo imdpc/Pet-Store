@@ -46,9 +46,12 @@ const ExploreMore = () => {
             </div>
           </div>
           <div className="cards-for-explore-more-and-read-more-about-us">
-            {cards.map((val, index) => (
-              <ExploreMoreCard cardDetail={val} />
-            ))}
+            <div className="call-component-from-explore-more-cards">
+              {cards.map((val, index) => (
+                <ExploreMoreCard cardDetail={val} />
+              ))}
+
+            </div>
           </div>
         </div>
       </div>

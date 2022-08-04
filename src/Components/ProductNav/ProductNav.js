@@ -75,6 +75,7 @@ const ProductNav = () => {
                     style={{
                       fontSize: "40px",
                       fontFamily: "Beau Rivage",
+                      fontWeight: "800"
                     }}
                   >
                     Our Best Selling
