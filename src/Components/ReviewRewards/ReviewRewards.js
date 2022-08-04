@@ -1,19 +1,15 @@
-import React, { useState } from 'react'
-import Review from '../Review/Review'
-import './ReviewRewards.css'
-
+import React, { useState } from "react";
+import Review from "../Review/Review";
+import "./ReviewRewards.css";
 
 const ReviewRewards = () => {
   // usestate for review display
-
-
 
   return (
     <>
       {/* first review section  */}
       <div className="flex-div-for-review">
         <div className="widith-div-review-rewards">
-
           <div className="div-for-flex-the-two-div">
             <div className="review-desc">
               <p className="review-heading">REVIEWS & REWARDS</p>
@@ -42,8 +38,8 @@ const ReviewRewards = () => {
                 </span>
               </p>
             </div>
+            {/* review component  */}
             <Review />
-
           </div>
         </div>
       </div>

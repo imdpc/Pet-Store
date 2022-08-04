@@ -11,14 +11,17 @@ const UkStore = () => {
       >
         <div className="uk-store-sub-div-for-width">
           <div>
+            {/* image in the first section */}
             <img src={ukimage} alt="" className="uk-image" />
           </div>
           <div className="descreption-ukstore">
+            {/* second section starts */}
             <h2 className="heading-title-ukstore">
               Become The UK's Largest <br />
               Producer Of Dry Food
             </h2>
             <br />
+            {/* paragraph after the second section heading  */}
             <p className="para-in-uk-store-after-heading-section">
               Products include foods formulated for adult,working dogs and
               puppies,treats and rewards. The UK's third largest brand by value.
@@ -28,6 +31,7 @@ const UkStore = () => {
             <br />
             <div>
               <ul>
+                {/* bullet points in the second section  */}
                 <li className="uk-store-key-points">
                   <img
                     className="check-mark-svg"
@@ -58,6 +62,7 @@ const UkStore = () => {
               </ul>
             </div>
             <br />
+            {/* button in  second section  */}
             <button type="submit" className="uk-store-btn">
               Shop Now
             </button>
