@@ -1,10 +1,8 @@
 .flex-featured-in-icons {
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   display: flex;
   overflow-y: scroll;
-  width: 50em;
-  padding-left: 130px;
 }
 .featuredin-width-container {
   width: 75em;
@@ -15,6 +13,9 @@
   font-weight: normal;
   /* font-style: italic; */
   font-size: 22px;
+  font-family: 'Acumin Pro';
+  font-size: 50px;
+  font-weight: 800;
 }
 .flex-featured-in-icons img {
   height: 100px;

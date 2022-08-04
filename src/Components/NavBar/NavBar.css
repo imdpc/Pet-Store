@@ -12,6 +12,7 @@
   justify-content: space-between;
   width: 75em;
   z-index: 1;
+  align-items: center;
 }
 .pet-shop-nav-content {
   text-decoration: none;

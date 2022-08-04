@@ -38,7 +38,7 @@ const Product = (props) => {
                 ${props.productDetail.price}
               </span>
               <span className="star-review-for-product">&#11088; </span> 4.9{" "}
-              <span style={{ color: "gray" }}>(8000 reviews)</span>
+              <span style={{ color: "gray", fontSize: "13px" }}>(8000 reviews)</span>
             </p>
             <div className="container-image-for-add-to-cart">
               <button className="image-for-add-to-cart" type="submit">
