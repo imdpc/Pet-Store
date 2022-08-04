@@ -24,86 +24,83 @@
   border-radius: 50%;
   margin: 13px 0 10px 0;
 }
-.review-img-top {
-  height: 60px;
-  width: 60px;
-  /* border: 1px solid black; */
-  border-radius: 50%;
-  margin: -50px 0 0 15px;
-}
+
 .customer-count-review {
   font-size: 40px;
   font-weight: 700;
   padding-bottom: 20px;
   font-family: 'Beau Rivage';
 }
-.star-review {
-  font-size: 13px;
-  color: yellow;
-  border: none;
-}
-.customer-review {
-  border-radius: 5px;
-  height: 220px;
-  width: 480px;
-  padding: 10px;
-  z-index: 100;
-  box-shadow: 0 10px 17px 10px rgb(227 224 224);
-}
-.greater-than-sign-review-card {
-  height: 40px;
-  width: 30px;
-}
-.less-than-sign-review-card-div {
-  height: 45px;
-  width: 45px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  margin: -126px 0px 0px -68px;
-  background-color: #124944f1;
-}
-.greater-than-sign-review-card-div {
-  /* border: 1px solid; */
-  height: 45px;
-  width: 45px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  margin: -60px 0 0 405px;
-  background-color: #124944f1;
-  cursor: pointer;
-}
-.less-than-sign-review-card {
-  height: 40px;
-  width: 30px;
-  cursor: pointer;
-}
-.background-card {
-  height: 40px;
-  display: flex;
-  width: 420px;
-  border-radius: 5px;
-  margin: -15px 0 0 30px;
-  z-index: -100;
-  box-shadow: 1px 22px 17px 4px rgb(230 229 229);
-}
-.review-cards {
-  display: block;
-  justify-content: center;
-}
-.customer-review-text {
-  font-weight: 600;
-  font-family: 'Beau Rivage';
-  font-size: 17px;
-  /* align-items: center; */
-  padding: 18px 0 0 40px;
-  line-height: 25px;
-}
+
 .para-after-review-heading {
   font-size: 14px;
   line-height: 1.5rem;
   color: gray;
+}
+.div-for-flex-the-two-div {
+  display: flex;
+  gap: 250px;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .widith-div-review-rewards {
+    width: 100%;
+    margin: 1rem;
+  }
+  .flex-div-for-review {
+    display: block;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+  }
+  .div-for-flex-the-two-div {
+    display: block;
+  }
+  .customer-review {
+    margin: 51px 0 0 0;
+    width: 100%;
+  }
+  .customer-review-text {
+    width: 90%;
+    font-size: 14px;
+  }
+  .greater-than-sign-review-card-div {
+    /* margin: -31px 0 -49px 322px;
+    height: 27px;
+    
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #124944f1;
+    cursor: pointer;
+    order: 2;
+    position: relative;
+   
+    left: 17px;
+    bottom: 25px; */
+    display: none;
+  }
+  .less-than-sign-review-card-div {
+    /* margin: -51px -24px;
+    height: 27px;
+    
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #124944f1;
+    order: 1; */
+    display: none;
+  }
+  .background-card {
+    width: 80%;
+    margin: -15px 0 0 35px;
+  }
+  .review-desc {
+    text-align: center;
+  }
+  .review-cards {
+    text-align: center;
+    width: 90%;
+  }
 }

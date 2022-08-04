@@ -7,10 +7,10 @@ const NavBar = () => {
       {/* nav bar for pet shop */}
       <div className="pet-shop-nav">
         <div className="pet-shop-nav-width-div">
-          <div>
-            <h2 style={{ fontFamily: "Acumin Pro", fontSize: "38px" }}>wagg</h2>
+          <div className="navbar-heading">
+            <h2 >wagg</h2>
           </div>
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div className="pet-shop-nav-middle-content">
             <ul className="pet-shop-nav-content">
               <li>Dry Foods</li>
               <li>Dog Treats</li>

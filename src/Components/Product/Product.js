@@ -18,10 +18,7 @@ const Product = (props) => {
           </div>
           <div className="image-of-the-product-details">
             <img
-              style={{
-                height: "190px",
-                width: "146px",
-              }}
+              className="image-class-for-respo-height"
               src={props.productDetail.url}
               alt=""
               srcset=""
@@ -41,12 +38,12 @@ const Product = (props) => {
                 ${props.productDetail.price}
               </span>
               <span className="star-review-for-product">&#11088; </span> 4.9{" "}
-              <span style={{ color: "gray" }}>(8000 reviews)</span>
+              <span style={{ color: "gray", fontSize: "13px" }}>(8000 reviews)</span>
             </p>
             <div className="container-image-for-add-to-cart">
               <button className="image-for-add-to-cart" type="submit">
-                <img
-                  style={{ height: "29px", width: "25px" }}
+                <img className="cart-logo-incontainer-img"
+
                   src="https://cdn-icons-png.flaticon.com/128/4329/4329263.png"
                   alt=""
                   srcset=""

@@ -11,10 +11,10 @@ const PetShopFooter = () => {
         <div className="footer-div-for-widith">
           <div className="footer-img">
             {" "}
-            <img
+            <img className="footer-img-respo"
               src={fimage}
               alt=""
-              style={{ width: "1000px", height: "500px" }}
+
             />
           </div>
           <div className="pet-shop-footer">
@@ -25,13 +25,8 @@ const PetShopFooter = () => {
               </h2>
               <br />
               <p>Our exports are avilable 24/7:</p>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "10px",
-                  rowGap: "10px",
-                }}
+              <div className="call-section-div"
+
               >
                 <p>
                   {/* phone icon in the first column  */}
@@ -44,7 +39,7 @@ const PetShopFooter = () => {
 
                 <p>1-800-672-4399</p>
               </div>
-              <div
+              <div className="email-section-div"
                 style={{ display: "flex", alignItems: "center", gap: "10px" }}
               >
                 <p> 

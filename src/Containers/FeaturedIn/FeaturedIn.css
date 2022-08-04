@@ -1,7 +1,8 @@
 .flex-featured-in-icons {
-  justify-content: space-evenly;
+  justify-content: left;
   align-items: center;
   display: flex;
+  overflow-y: scroll;
 }
 .featuredin-width-container {
   width: 75em;
@@ -12,6 +13,9 @@
   font-weight: normal;
   /* font-style: italic; */
   font-size: 22px;
+  font-family: 'Acumin Pro';
+  font-size: 50px;
+  font-weight: 800;
 }
 .flex-featured-in-icons img {
   height: 100px;
@@ -26,4 +30,19 @@
 /* scrolling */
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .flex-featured-in-icons {
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    overflow-y: scroll;
+    width: 100%;
+    padding-left: 0;
+  }
+  .featuredin-width-container {
+    width: 100%;
+  }
+  .featured-in-header-text {
+    text-align: center;
+  }
 }

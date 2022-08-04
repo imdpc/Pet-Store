@@ -1,13 +1,20 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import "./ReviewRewards.css";
 import greaterthan from "../../Assets/greater-than-symbol.png";
 import lessthan from "../../Assets/less-than-symbol.png";
+=======
+import React, { useState } from 'react'
+import Review from '../Review/Review'
+import './ReviewRewards.css'
+
+>>>>>>> fa91fd7b380667cefc36bcce5c0a6a1468be45ba
 
 const ReviewRewards = () => {
   // usestate for review display
 
-  const [activeTab, setActiveTab] = useState(0);
 
+<<<<<<< HEAD
   const cards = [
     {
       title:
@@ -34,16 +41,18 @@ const ReviewRewards = () => {
       name: "Akash, India",
     },
   ];
+=======
+>>>>>>> fa91fd7b380667cefc36bcce5c0a6a1468be45ba
 
   return (
     <>
       {/* first review section  */}
       <div className="flex-div-for-review">
         <div className="widith-div-review-rewards">
-          <p className="review-heading">REVIEWS & REWARDS</p>
 
-          <div style={{ display: "flex", gap: "250px" }}>
+          <div className="div-for-flex-the-two-div">
             <div className="review-desc">
+              <p className="review-heading">REVIEWS & REWARDS</p>
               <p className="customer-count-review">
                 Over <span style={{ color: "#124944" }}>80000</span> customers{" "}
                 <br />
@@ -69,57 +78,8 @@ const ReviewRewards = () => {
                 </span>
               </p>
             </div>
-            <div className="review-cards">
-              <div className="customer-review">
-                {/* dynamic avtar change */}
-                <img
-                  className="review-img-top"
-                  src={cards[activeTab].imgUrl}
-                  alt=""
-                />
+            <Review />
 
-                {/* review text  */}
-                <div className="customer-review-text">
-                  {cards[activeTab].title}
-                  <br />
-                  <br />
-                  <div></div>
-                  <span className="greater-than-sign-review-card-div">
-                    <img
-                      className="greater-than-sign-review-card"
-                      src={greaterthan}
-                      alt=""
-                      onClick={() =>
-                        setActiveTab(
-                          activeTab === cards.length - 1 ? 0 : activeTab + 1
-                        )
-                      }
-                    />
-                  </span>
-                  <br />
-                  <p>
-                    <span className="star-review">
-                      {/* <img src={cards[activeTab].starsimgUrl}></img> */}
-                    </span>{" "}
-                  </p>
-                  {cards[activeTab].name}
-
-                  <span className="less-than-sign-review-card-div">
-                    <img
-                      className="less-than-sign-review-card"
-                      src={lessthan}
-                      alt=""
-                      onClick={() =>
-                        setActiveTab(
-                          activeTab === 0 ? activeTab + 1 : activeTab - 1
-                        )
-                      }
-                    />
-                  </span>
-                </div>
-              </div>
-              <div className="background-card"></div>
-            </div>
           </div>
         </div>
       </div>

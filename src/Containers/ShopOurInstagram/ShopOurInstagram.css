@@ -116,3 +116,44 @@
   justify-content: center;
   padding: 45px 0;
 }
+@media (min-width: 320px) and (max-width: 425px) {
+  .wid-for-cards {
+    width: 100%;
+  }
+  .contain-all-insta-images {
+    display: flex;
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: left;
+    padding: 0 15px;
+  }
+  .heading-section-shop-our-insta-and-waggpetfood {
+    display: block;
+  }
+  .waggpet-food-text-and-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading-section-shop-our-insta-and-waggpetfood {
+    justify-content: center;
+    padding: 34px 15px;
+    align-items: center;
+  }
+  .card-for-insta-image-2 {
+    padding: 0;
+  }
+  .card-for-insta-image-4 {
+    padding: 0;
+  }
+  .follow-us-text-insta-shop p {
+    font-size: 14px;
+    padding: 16px 0px;
+    font-family: 'Beau Rivage';
+    /* font-size: 40px; */
+    font-weight: 400;
+    color: slategrey;
+    justify-content: center;
+    display: flex;
+  }
+}
