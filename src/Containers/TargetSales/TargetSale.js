@@ -5,6 +5,7 @@ const TargetSale = () => {
   return (
     <div className="flex-target-sale-container">
       <div className="width-target-comonent">
+        {/* image after  the nav  */}
 
         <img
 
@@ -15,6 +16,7 @@ const TargetSale = () => {
         />
 
         <div className="sales-targets">
+          {/* section for the target and sale display  */}
           <section>
             <h1 className="text-ratings-in-target-sale">200k+</h1>
             <p style={{ fontFamily: 'Acumin Pro' }}>Nuetritional Complete</p>
@@ -28,6 +30,7 @@ const TargetSale = () => {
             <p style={{ fontFamily: 'Acumin Pro' }}>Client Satisfication</p>
           </section>
         </div>
+        {/* div for the down arrow  image  */}
         <div className="down-arrow-image-target-section">
           <img
             style={{ width: '80px', height: '80px', cursor: "pointer" }}
