@@ -33,7 +33,7 @@ const ExploreMore = () => {
         <div className="wid-for-explore-more-compo">
           <div className="heading-text-and-explore-button">
             <div className="heading-in-explore-more">
-              {/* heading  */}
+              {/* heading for Sweet inspiration section  */}
               <p className="sweet-inspiration-text-heading">
                 Sweet Inspirations
               </p>
@@ -42,13 +42,13 @@ const ExploreMore = () => {
               </p>
             </div>
             <div className="button-for-explore-more-in-heading">
-              {/* button in heading  */}
+              {/* Explore button in heading  */}
               <button type="submit" className="explore-more-btn">
                 Explore More
               </button>
             </div>
           </div>
-          {/* explore more card component  */}
+          {/* Slider explore more card component  */}
           <div className="cards-for-explore-more-and-read-more-about-us">
             <div className="call-component-from-explore-more-cards">
               {cards.map((val, index) => (

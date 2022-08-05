@@ -3,6 +3,7 @@ import experts from "../../Assets/made by expert.png"
 import "./ExploreWorld.css";
 import ExploreWorldCard from "./../../Components/ExploreWorldCard/ExploreWorldCard";
 const ExploreWorld = () => {
+  // Data of slider cards 
   const cards = [
     {
       _id: "1",
