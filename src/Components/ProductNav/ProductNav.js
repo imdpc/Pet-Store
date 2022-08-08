@@ -3,7 +3,7 @@ import Product from "../Product/Product";
 import "./ProductNav.css";
 
 const ProductNav = () => {
-  // products for display 
+  // products for display
   const product = [
     {
       _id: "1",
@@ -81,14 +81,14 @@ const ProductNav = () => {
                     Our Best Selling
                     <br />
                     Products
-                  </p></div>
+                  </p>
+                </div>
                 <div className="product-navbar-all-content">
                   <p className="product-navbar-sub-content">All product</p>
                   <p className="product-navbar-sub-content">Dog Treats</p>
                   <p className="product-navbar-sub-content">Dog Food</p>
                   <p className="product-navbar-sub-content">Special Diets</p>
                   <p className="product-navbar-sub-content">Puppy Food</p>
-
                 </div>
               </div>
             </div>
