@@ -1,0 +1,27 @@
+/* discount cards */
+.containing-two-main-cards-for-discount-info {
+  display: block;
+}
+.for-discount-range-info p {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  padding: 16px 0 0 0px;
+}
+.some-text-after-discount-heading {
+}
+.button-for-claiming-discount button {
+  border: none;
+  background-color: orange;
+  height: 40px;
+  width: 127px;
+  color: antiquewhite;
+  border-radius: 2px;
+}
+.contain-heading-para-text-and-button {
+  display: grid;
+  row-gap: 1em;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+}
