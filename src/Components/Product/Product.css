@@ -4,6 +4,7 @@
   border: 20px solid white;
   width: 329px;
   height: auto;
+  margin-top: 10px;
 }
 
 .image-for-like-the-product {
@@ -24,7 +25,7 @@
 }
 .bottom-section-about-products-details {
   background-color: #fff;
-  width: 280px;
+  width: 100%;
 }
 .sizes-for-all-dogs-selection p {
   padding: 1px 0 0 3px;

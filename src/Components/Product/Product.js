@@ -9,6 +9,7 @@ const Product = (props) => {
       <div className="shopping-product-cards-container">
         <div className="product-info-card-for-selection">
           {/* like image for liking products */}
+
           <div className="image-for-like-the-product">
 
             <img

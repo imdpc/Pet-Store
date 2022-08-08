@@ -10,18 +10,18 @@ const NavBar = () => {
       <div className="pet-shop-nav">
         <div className="pet-shop-nav-width-div">
           <div className="navbar-heading">
-            <h2 >wagg</h2>
+            <h2 >Pet Store</h2>
           </div>
           <div className="pet-shop-nav-middle-content">
             <ul className="pet-shop-nav-content">
-              <li>Dry Foods</li>
-              <li>Dog Treats</li>
+              <li>Home</li>
               <li>Shop</li>
-              <li>Blog</li>
-              <li>About Us</li>
+              <li>About</li>
+              <li>Contact</li>
+
             </ul>
           </div>
-          <ul className="pet-shop-nav-content">
+          <ul className="search-and-cart">
             <li>
               {/* img for the search icon in the navbar  */}
               <img
@@ -37,8 +37,8 @@ const NavBar = () => {
                 className="search-icon-navbar"
               />
             </li>
-            {/* button in the navbar   */}
-            <button type="submit" className="contact-us-btn-in-nav">Contact Us</button>
+            {/* button in the navbar
+            <button type="submit" className="contact-us-btn-in-nav">Contact Us</button> */}
           </ul>
         </div>
       </div>
