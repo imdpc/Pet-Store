@@ -54,20 +54,46 @@ h2 {
 .navbar-heading {
   font-family: 'Acumin Pro';
   font-size: '38px';
+  cursor: pointer;
+}
+.search-and-cart {
+  display: flex;
+  gap: 20px;
 }
 @media (min-width: 320px) and (max-width: 420px) {
   .pet-shop-nav-middle-content {
-    display: none;
+    /* display: none; */
+    /* display: block; */
+    text-align: center;
+    display: block;
   }
+
   .pet-shop-nav {
     gap: 25px;
+    /* display: block; */
   }
   .navbar-heading {
     font-size: 14px;
-    margin: 10px 0 0 12px;
+    display: flex;
+    justify-content: center;
   }
   .contact-us-btn-in-nav {
     height: 55px;
     width: 80px;
+  }
+  .pet-shop-nav-width-div {
+    display: block;
+  }
+  .pet-shop-nav-content {
+    display: block;
+    align-items: center;
+    line-height: 2rem;
+  }
+  .search-icon-navbar {
+    display: block;
+    align-items: center;
+  }
+  .search-and-cart {
+    display: none;
   }
 }

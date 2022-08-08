@@ -1,0 +1,90 @@
+.flex-div-for-products {
+  display: flex;
+}
+.sidenav-for-product {
+  width: 450px;
+  height: 100vw;
+  line-height: 3rem;
+  padding: 0 0 0 10px;
+}
+.all-product-for-sell {
+  display: flex;
+
+  gap: 2em;
+  overflow: hidden;
+  /* width: 75%; */
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #62606024;
+}
+.bg-and-heading {
+  background-image: url('../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: #fff;
+  width: 100%;
+}
+.bgcolor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  background-color: rgba(0, 0, 0, 0.537);
+  width: 100%;
+
+  height: 350px;
+}
+.bgcolor:hover {
+  background-color: rgba(42, 41, 41, 0.59);
+
+  height: 350px;
+
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+}
+
+.sidenav-position {
+  position: sticky;
+  top: 0;
+}
+.side-nav-content li {
+  cursor: pointer;
+}
+.side-nav-content li:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-div-for-products {
+    display: block;
+    margin: 0;
+  }
+  .sidenav-position {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sidenav-for-product {
+    width: 100%;
+  }
+  .bgcolor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+  }
+  .bg-and-heading {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

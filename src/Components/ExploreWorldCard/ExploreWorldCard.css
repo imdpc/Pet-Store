@@ -2,7 +2,7 @@
   text-align: center;
   font-weight: bold;
   font-size: 40px;
-  font-family: "Beau Rivage";
+  font-family: 'Beau Rivage';
   justify-content: center;
   display: flex;
   align-items: center;
@@ -72,16 +72,16 @@
   font-size: 15px;
   font-weight: 200;
   color: grey;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .learn-more-link p {
   text-align: center;
   padding-top: 3rem;
   font-weight: 500;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 .containing-all-cards-in-explorer {
@@ -103,7 +103,7 @@
     text-align: center;
     /* font-weight: bold; */
     font-size: 32px;
-    font-family: "Beau Rivage";
+    font-family: 'Beau Rivage';
     justify-content: center;
     display: flex;
     align-items: center;

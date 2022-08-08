@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopOurInstagram.css";
-import rightar from "../../Assets/right.svg";
+import uparrow from "../../Assets/right-corner.png"
 const ShopOurInstagram = () => {
   return (
     <>
@@ -9,6 +9,7 @@ const ShopOurInstagram = () => {
           <div className="heading-section-shop-our-insta-and-waggpetfood">
             <div className="heading-tag-for-shop-our-instgram">
               <div className="header-text-insta-shop">
+                {/* Heading for instagram shop  */}
                 <p>Shop our Instagram</p>
               </div>
               <div className="follow-us-text-insta-shop">
@@ -17,8 +18,9 @@ const ShopOurInstagram = () => {
             </div>
             <div className="waggpet-food-text-and-image">
               <div className="image-contain-arrow-right">
+                {/* image for right arrow in headding section  */}
                 <img
-                  src="https://cdn-icons.flaticon.com/png/128/5611/premium/5611889.png?token=exp=1659011817~hmac=b5f39d32bc5731370969af0f087f802d"
+                  src={uparrow}
                   alt=""
                   srcset=""
                 />
@@ -28,6 +30,7 @@ const ShopOurInstagram = () => {
               </div>
             </div>
           </div>
+          {/* Images in the card for insta section  */}
           <div className="contain-all-insta-images">
             <div className="card-for-insta-image-1">
               <img

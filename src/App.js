@@ -20,8 +20,8 @@ function App() {
       <FeaturedIn />
       <ExploreWorld />
       <UkStore />
-      <ReviewRewards />
       <ProductNav />
+      {/* <ReviewRewards /> */}
       <ExploreMore />
       <ShopOurInstagram />
       <PetShopFooter />

@@ -6,7 +6,7 @@
   background-color: #fbf3eb;
 }
 .width-target-comonent {
-  /* width: 75em; */
+  width: 75em;
   display: flex;
 }
 .text-ratings-in-target-sale {
@@ -34,7 +34,7 @@
   margin-left: 38px;
 }
 .styling-for-img-after-nav {
-  height: 260px;
+  height: 288px;
   width: 210px;
 }
 
@@ -49,25 +49,21 @@
     justify-content: center;
     align-items: center;
   }
-  .image-of-pet-after-nav {
-    display: flex;
 
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-  }
   .styling-for-img-after-nav {
-    height: 300px;
-    width: 290px;
+    height: 315px;
+    width: 321px;
+    margin: auto;
+    display: flex;
   }
   .sales-targets {
     margin: 43px 0px;
     column-gap: 0;
     padding: 0px;
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 0 70px;
-    width: 320px;
+    width: 100%;
   }
   .down-arrow-image-target-section {
     /* padding: 10px 0px; */

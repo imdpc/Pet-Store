@@ -70,19 +70,20 @@ const ProductNav = () => {
         <div className="wid-product-nav">
           <div>
             <div>
+              {/* heading in navbar  */}
               <div className="product-navbar-heading">
                 <div className="chdbhcbdjhzcbxhbvh">
                   <p
                     style={{
                       fontSize: "40px",
                       fontFamily: "Beau Rivage",
+                      fontWeight: "800"
                     }}
                   >
                     Our Best Selling
                     <br />
                     Products
-                  </p>
-                </div>
+                  </p></div>
                 <div className="product-navbar-all-content">
                   <p className="product-navbar-sub-content">All product</p>
                   <p className="product-navbar-sub-content">Dog Treats</p>
