@@ -1,3 +1,8 @@
+.outer-div-for-width {
+  width: 100%;
+  background-color: #bbdfe7;
+}
+
 .pet-shop-footer {
   display: flex;
   justify-content: space-around;

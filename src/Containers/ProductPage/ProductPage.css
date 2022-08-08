@@ -2,10 +2,10 @@
   display: flex;
 }
 .sidenav-for-product {
-  width: 450px;
-  height: 100vw;
+  width: 550px;
+  height: 115vw;
   line-height: 3rem;
-  padding: 0 0 0 10px;
+  padding: 30px 0 0 10px;
 }
 .all-product-for-sell {
   display: flex;
@@ -58,7 +58,7 @@
 }
 .side-nav-content li:hover {
   text-decoration: underline;
-  color: green;
+  color: #5265c4;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
@@ -69,6 +69,7 @@
   .sidenav-position {
     width: 100%;
     text-align: center;
+    position: inherit;
   }
 
   .sidenav-for-product {

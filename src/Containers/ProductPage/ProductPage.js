@@ -2,11 +2,13 @@ import React from 'react'
 import './ProductPage.css'
 import Product from './../../Components/Product/Product'
 import bg from '../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg'
-import NavBar from './../../Components/NavBar/NavBar'
+
 import bodybelt from '../../Assets/ProductPageimg/Accessories/bodybelt-removebg-preview.png'
 import neckbelt from '../../Assets/ProductPageimg/Accessories/neckbelt-removebg-preview.png'
 import shapoo from '../../Assets/ProductPageimg/Accessories/waterless_dog_shampoo-removebg-preview.png'
 import comb from '../../Assets/ProductPageimg/Accessories/comb_for_dog_cat-removebg-preview.png'
+import Nav from './../../Components/Nav/Nav'
+import PetShopFooter from '../../Components/PetShopFooter/PetShopFooter'
 
 const ProductPage = () => {
   const allproduct = [
@@ -89,7 +91,7 @@ const ProductPage = () => {
   ]
   return (
     <>
-      <NavBar />
+      <Nav />
       <div className="bg-and-heading">
         <div className="bgcolor">
           <h2>All Store</h2>
@@ -115,6 +117,9 @@ const ProductPage = () => {
             <Product productDetail={val} />
           ))}
         </div>
+      </div>
+      <div style={{ marginTop: '25px' }}>
+        <PetShopFooter />
       </div>
     </>
   )
