@@ -12,7 +12,6 @@ import ShopOurInstagram from "./Containers/ShopOurInstagram/ShopOurInstagram";
 import ExploreMore from "./Containers/ExploreMore/ExploreMore";
 import ProductPage from "./Containers/ProductPage/ProductPage";
 import Nav from "./Components/Nav/Nav";
-import FindEverything from "./Components/FindEverything/FindEverything";
 
 
 function App() {
@@ -28,9 +27,8 @@ function App() {
       {/* <ReviewRewards /> */}
       <ExploreMore />
       <ShopOurInstagram />
-      <PetShopFooter />
-      {/* <ProductPage /> */}
-      {/* <FindEverything /> */}
+      <PetShopFooter /> */}
+      <ProductPage />
 
 
     </>

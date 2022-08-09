@@ -8,6 +8,7 @@ import NavBar from "../../Components/NavBar/NavBar";
 // import ourstoreimg3 from "../../Assets/our stores 3";
 import AboutStoresComponent from "../../Components/AboutStoresComponent/AboutStoresComponent";
 import PetShopFooter from "../../Components/PetShopFooter/PetShopFooter";
+import Nav from "../../Components/Nav/Nav";
 const AboutUs = () => {
   const ourstores = [
     {
@@ -34,7 +35,7 @@ const AboutUs = () => {
   ];
   return (
     <>
-      <NavBar />
+      <Nav />
       <div className="for-responsive-width">
         <div className="about-heading-image-and-text">
           <div className="container-for-img-and-headings-and-para">
@@ -44,7 +45,7 @@ const AboutUs = () => {
               srcset=""
               style={{ width: "100%", height: "400px" }}
             />
-            <div class="content-for-about-us">
+            <div className="content-for-about-us">
               <h1>About</h1>
               <p>
                 Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit
@@ -109,11 +110,99 @@ const AboutUs = () => {
                 <AboutStoresComponent storeDetails={val} />
               ))}
             </div>
+            <div className="heading-for-our-stores-and-subheading">
+              <div>
+                <div style={{ fontSize: "xxx-large" }}>
+                  <h1>Testimonials</h1>
+                </div>
+                <div style={{ fontSize: "larger" }}>
+                  <p>
+                    We take pride in our work and our customer testimonials
+                    reflect that.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="dot-navigation-for-testimonials">
+              <div
+                className="width-set-for-testimonials"
+                style={{ width: "50em" }}
+              >
+                <div className="tabset-for-testimonials">
+                  {/* <!-- Tab 1 --> */}
+                  <input
+                    type="radio"
+                    name="tabset"
+                    id="tab1"
+                    aria-controls="marzen"
+                    checked
+                  />
+                  <label for="tab1">New York</label>
+                  {/* <!-- Tab 2 --> */}
+                  <input
+                    type="radio"
+                    name="tabset"
+                    id="tab2"
+                    aria-controls="rauchbier"
+                  />
+                  <label for="tab2">Los Angeles</label>
+                  {/* <!-- Tab 3 --> */}
+                  <input
+                    type="radio"
+                    name="tabset"
+                    id="tab3"
+                    aria-controls="dunkles"
+                  />
+                  <label for="tab3">Las Vegas</label>
+                  <div className="tab-panels">
+                    <section id="marzen" className="tab-panel">
+                      <div
+                        style={{ display: "grid", rowGap: "1em" }}
+                        className="contains-para-and-name-of"
+                      >
+                        <p style={{ fontSize: "x-large" }}>
+                          It took me a long time to find what I liked so I love
+                          the end tables. The delivery men were nice and
+                          efficient.
+                        </p>
+                        <h2 style={{ fontSize: "larger" }}>ADALINE CARTER</h2>
+                      </div>
+                    </section>
+                    <section id="rauchbier" className="tab-panel">
+                      <div
+                        style={{ display: "grid", rowGap: "1em" }}
+                        className="contains-para-and-name-of"
+                      >
+                        <p style={{ fontSize: "x-large" }}>
+                          Furniture came in beautiful condition. Very pleased
+                          with the quality. Customer Service was really
+                          excellent.
+                        </p>
+                        <h2 style={{ fontSize: "larger" }}>DESTINY MORGAN</h2>
+                      </div>
+                    </section>
+                    <section id="dunkles" className="tab-panel">
+                      <div
+                        style={{ display: "grid", rowGap: "1em" }}
+                        className="contains-para-and-name-of"
+                      >
+                        <p style={{ fontSize: "x-large" }}>
+                          Outstanding customer service. We purchased 7 items for
+                          our office, including chairs, filing cabinets, & a
+                          bench.
+                        </p>
+                        <h2 style={{ fontSize: "larger" }}>LUKAS LARSEN</h2>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="dot-navigation-for-testimonials"></div> */}
-      {/* <PetShopFooter /> */}
+
+      <PetShopFooter />
     </>
   );
 };

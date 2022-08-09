@@ -83,7 +83,7 @@
 
 @media (min-width: 320px) and (max-width: 425px) {
   .image-class-for-respo-height {
-    height: 145px;
+    height: 182px;
     width: 146px;
   }
   .image-for-add-to-cart {
@@ -108,4 +108,15 @@
     height: 40px;
     width: 40px;
   }
+  .image-of-the-product-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.product-info-card-for-selection {
+  width: 100%;
+  height: 342px;
+  display: block;
+}
 }
