@@ -13,7 +13,7 @@ const FindEverything = () => {
           <div>
             <div className="heading-in-section">
               <h2 style={{ fontWeight: '800' }}>
-                Find Everything You <br /> Need For Dogs
+                Find Everything You  Need For Dogs
               </h2>
 
               <div>

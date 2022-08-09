@@ -18,16 +18,16 @@ import AboutUs from "./Containers/AboutUs/AboutUs";
 function App() {
   return (
     <>
-      {/* <Nav />
+      <Nav />
       <HomeShopNow />
       <TargetSale />
       <FeaturedIn />
       <ExploreWorld />
       <UkStore />
-      <ProductNav /> */}
+      <ProductNav />
       {/* <ReviewRewards /> */}
-      {/* <ExploreMore />
-      <ShopOurInstagram /> */}
+      <ExploreMore />
+      <ShopOurInstagram />
       {/* <ProductPage /> */}
       {/* <AboutUs /> */}
       <PetShopFooter />
