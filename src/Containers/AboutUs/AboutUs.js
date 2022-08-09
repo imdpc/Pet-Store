@@ -202,7 +202,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* <PetShopFooter /> */}
+      <PetShopFooter />
     </>
   );
 };
