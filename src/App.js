@@ -12,23 +12,25 @@ import ShopOurInstagram from "./Containers/ShopOurInstagram/ShopOurInstagram";
 import ExploreMore from "./Containers/ExploreMore/ExploreMore";
 import ProductPage from "./Containers/ProductPage/ProductPage";
 import Nav from "./Components/Nav/Nav";
+import AboutUs from "./Containers/AboutUs/AboutUs";
 
 
 function App() {
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <HomeShopNow />
       <TargetSale />
       <FeaturedIn />
       <ExploreWorld />
       <UkStore />
-      <ProductNav />
+      <ProductNav /> */}
       {/* <ReviewRewards /> */}
-      <ExploreMore />
-      <ShopOurInstagram />
-      <PetShopFooter /> */}
-      <ProductPage />
+      {/* <ExploreMore />
+      <ShopOurInstagram /> */}
+      {/* <ProductPage /> */}
+      {/* <AboutUs /> */}
+      <PetShopFooter />
 
 
     </>
