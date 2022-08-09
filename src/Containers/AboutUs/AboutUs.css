@@ -130,13 +130,13 @@
   }
   .content-for-about-us {
     position: absolute;
-    bottom: 9em;
+    top: 0em;
     color: #f1f1f1;
     width: 100%;
     display: block;
   }
-  .for-responsive-width {
-  }
+  /* .for-responsive-width {
+  } */
   .about-heading-image-and-text {
     margin: 1em;
   }
