@@ -100,7 +100,126 @@
 }
 
 /* dot navigation css */
+/*
+ CSS for the main interaction
+*/
+.tabset-for-testimonials > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
 
+.tabset-for-testimonials .tab-panel {
+  display: none;
+}
+
+.tabset-for-testimonials
+  > input:first-child:checked
+  ~ .tab-panels
+  > .tab-panel:first-child,
+.tabset-for-testimonials
+  > input:nth-child(3):checked
+  ~ .tab-panels
+  > .tab-panel:nth-child(2),
+.tabset-for-testimonials
+  > input:nth-child(5):checked
+  ~ .tab-panels
+  > .tab-panel:nth-child(3),
+.tabset-for-testimonials
+  > input:nth-child(7):checked
+  ~ .tab-panels
+  > .tab-panel:nth-child(4),
+.tabset-for-testimonials
+  > input:nth-child(9):checked
+  ~ .tab-panels
+  > .tab-panel:nth-child(5),
+.tabset-for-testimonials
+  > input:nth-child(11):checked
+  ~ .tab-panels
+  > .tab-panel:nth-child(6) {
+  display: block;
+}
+
+/*
+ Styling
+*/
+
+.tabset-for-testimonials > label {
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px 25px;
+  border: 1px solid transparent;
+  border-bottom: 0;
+  cursor: pointer;
+  font-weight: 600;
+  width: 182px;
+  color: white;
+}
+
+.tab-panels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+}
+/* .tab-panel {
+  display: grid;
+  row-gap: 1em;
+} */
+.tabset-for-testimonials > label::after {
+  content: "";
+  position: absolute;
+  left: 34px;
+  bottom: 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  width: 118px;
+  height: 3px;
+  background: #8d8d8d;
+}
+
+.tabset-for-testimonials > label:hover,
+.tabset-for-testimonials > input:focus + label {
+  color: rgba(245, 248, 244, 0.486);
+}
+
+.tabset-for-testimonials > label:hover::after,
+.tabset-for-testimonials > input:focus + label::after,
+.tabset-for-testimonials > input:checked + label::after {
+  background: #06c;
+}
+
+.tabset-for-testimonials > input:checked + label {
+  border-color: #ccc;
+  border-bottom: 1px solid #fff;
+  margin-bottom: -1px;
+  width: 182px;
+}
+
+.tab-panel {
+  padding: 30px 0;
+  border-top: 1px solid #ccc;
+}
+
+/*
+ Demo purposes only
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.tabset-for-testimonials {
+  text-align: center;
+}
+
+.dot-navigation-for-testimonials {
+  margin: 5em 0;
+  display: flex;
+  justify-content: center;
+  background-color: #103a3a;
+}
 @media (min-width: 320px) and (max-width: 425px) {
   .container-for-img-and-headings-and-para {
     width: 100%;
