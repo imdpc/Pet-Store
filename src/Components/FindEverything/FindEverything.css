@@ -1,0 +1,61 @@
+.flex-div-for-before-footer-section {
+  display: flex;
+  justify-content: center;
+  /* margin: 80px 0 0 0; */
+}
+.wid-div-for-before-footer-section {
+  width: 65em;
+  display: flex;
+  gap: 150px;
+  justify-content: left;
+
+  align-items: center;
+
+  background-image: url('../../Assets/footprint-cat-dog-paws-snow-care-pets-winter-cold-weather-202896660.jpg');
+  background-position: right;
+  background-color: black;
+}
+.fimage-style {
+  height: 450px;
+  width: 350px;
+  margin-top: -120px;
+  margin-bottom: -4px;
+}
+.heading-in-section {
+  font-size: 40px;
+}
+.shop-btn-for-content {
+  height: 50px;
+  width: 155px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #124944;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .wid-div-for-before-footer-section {
+    width: 100%;
+    justify-content: left;
+    gap: 5px;
+  }
+  .fimage-style {
+    width: 188px;
+    height: 304px;
+
+    margin-top: -80px;
+  }
+  .heading-in-section {
+    font-size: 18px;
+  }
+  .shop-btn-for-content {
+    height: 30px;
+    width: 119px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+  }
+}
