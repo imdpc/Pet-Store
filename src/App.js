@@ -24,7 +24,7 @@ function App() {
       <ExploreWorld />
       <UkStore />
       <ProductNav />
-      <ReviewRewards />
+      {/* <ReviewRewards /> */}
       <ExploreMore />
       <ShopOurInstagram />
       <PetShopFooter />
