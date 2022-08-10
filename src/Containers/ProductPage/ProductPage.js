@@ -60,7 +60,7 @@ const ProductPage = () => {
       food_type: 'ALL Dog Size',
       url:
         'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
-      cat: "asdad",
+      cat: "Vaccination",
 
       price: 60.0,
     },
@@ -80,7 +80,7 @@ const ProductPage = () => {
       food_type: 'ALL Dog Size',
       url:
         'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
-      cat: "asdasd",
+      cat: "Vaccination",
 
       price: 60.0,
     },
@@ -96,12 +96,26 @@ const ProductPage = () => {
     },
   ]
   const [Data, setData] = useState(allproduct);
-  const filterResult = (category) => {
+  const filterResult = (category, length) => {
     const result = allproduct.filter((curData) => {
       return curData.cat === category
     });
-    setData(result)
+    if (length) {
+      return result.length
+    } else {
+      setData(result)
+    }
+
   }
+
+
+  // const noOfProductInCat = (val) => {
+  //   const result = allproduct.filter((curData) => {
+  //     return curData.cat === val
+  //   });
+  //   return result.length
+  // }
+
   return (
     <>
       <Nav />
@@ -117,19 +131,25 @@ const ProductPage = () => {
           <div className="sidenav-position">
             <ul className="side-nav-content">
               <h2>Shop</h2>
-              <li onClick={() => filterResult('Accessories')}>Accessories</li>
-              <li>Food & Nutrition</li>
-              <li>Grooming</li>
-              <li>Vaccination</li>
+              <li onClick={() => setData(allproduct)}>All Products ({allproduct.length})</li>
+
+              <li onClick={() => filterResult('Accessories')}>Accessories  ({filterResult("Accessories", "length")})</li>
+              <li onClick={() => filterResult('Food & Nutrition')}>Food & Nutrition  ({filterResult("Food & Nutrition", "length")})</li>
+              <li onClick={() => filterResult('Grooming')}>Grooming ({filterResult("Grooming", "length")}) </li>
+              <li onClick={() => filterResult('Vaccination')}>Vaccination ({filterResult("Vaccination", "length")}) </li>
             </ul>
           </div>
         </div>
         {/* all products call by component  */}
         <div className="all-product-for-sell">
+          <div>
+            {Data.length} result found
+          </div>
           {Data.map((val, index) => (
             <Product productDetail={val} />
           ))}
         </div>
+
       </div>
       <div style={{ marginTop: '25px' }}>
         <PetShopFooter />
