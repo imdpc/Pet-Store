@@ -1,0 +1,121 @@
+.DAWN-Navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5265c4;
+}
+
+.DAWN-Navbar > .nav-logo-for-dawn-navbar {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+  color: #ffffff;
+}
+
+.DAWN-Navbar > .nav-items-for-dawn-navbar-for-dawn-navbar > a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+}
+
+.DAWN-Navbar > .nav-items-for-dawn-navbar > a:hover {
+  opacity: 1;
+}
+
+.DAWN-Navbar > .nav-items-for-dawn-navbar > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 0.45s;
+}
+
+.DAWN-Navbar > .nav-items-for-dawn-navbar > a:hover::before {
+  width: 100%;
+}
+
+.DAWN-Navbar > .nav-toggle-for-dawn-navbar {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .DAWN-Navbar > .nav-items-for-dawn-navbar {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    background: #c0c6e7;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+  }
+
+  .DAWN-Navbar > .nav-items-for-dawn-navbar > a::before {
+    background: transparent;
+  }
+
+  .DAWN-Navbar > .nav-items-for-dawn-navbar.open {
+    transform: translateX(0);
+  }
+
+  .DAWN-Navbar > .nav-toggle-for-dawn-navbar {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle-for-dawn-navbar > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #ffffff;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle-for-dawn-navbar > .bar::before,
+  .nav-toggle-for-dawn-navbar > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle-for-dawn-navbar > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle-for-dawn-navbar > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .nav-toggle-for-dawn-navbar.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .nav-toggle-for-dawn-navbar.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+
+  .nav-toggle-for-dawn-navbar.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+}
