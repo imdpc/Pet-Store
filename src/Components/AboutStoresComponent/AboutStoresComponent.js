@@ -2,7 +2,10 @@ import React from "react";
 import "./AboutStoresComponent.css";
 const AboutStoresComponent = (props) => {
   return (
+    // we created About Store component for about us page and export for About Stores
+    // contains cards for our store
     <div className="containing-two-main-cards-for-discount-info">
+      {/* div for image */}
       <div className="image-for-discount-section">
         <img
           style={{ width: "100%" }}

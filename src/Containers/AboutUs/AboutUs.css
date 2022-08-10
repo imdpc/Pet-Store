@@ -223,7 +223,7 @@
 @media (min-width: 320px) and (max-width: 425px) {
   .container-for-img-and-headings-and-para {
     width: 100%;
-    height: 329px;
+    height: 115px;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -232,7 +232,9 @@
   .para-after-heading-text-and-image {
     display: block;
     width: 100%;
+    font-size: 20px;
     text-align: center;
+    margin-top: 6em;
   }
   .image-and-our-mission-detais {
     display: block;
@@ -264,5 +266,31 @@
   }
   .img-for-our-mission-about-us {
     width: 100%;
+  }
+  .container-for-img-and-headings-and-para img {
+    width: 100%;
+    height: 212px;
+  }
+  .content-for-about-us h1 {
+    font-size: 34px;
+  }
+  .content-for-about-us {
+    font-size: 11px;
+  }
+  .width-set-for-testimonials {
+    width: 100%;
+  }
+  .img-for-about-us-only {
+    width: 100%;
+    height: 200px;
+  }
+  .our-mission-sub-heading h2 {
+    font-size: 36px;
+  }
+  .contains-para-and-name-of {
+    font-size: 10px;
+  }
+  .contains-para-and-name-of p {
+    font-size: 10px;
   }
 }
