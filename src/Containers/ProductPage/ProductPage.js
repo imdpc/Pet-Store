@@ -104,10 +104,10 @@ const ProductPage = () => {
           <div className="sidenav-position">
             <ul className="side-nav-content">
               <h2>Shop</h2>
-              <li>Pet Accessories</li>
-              <li>Pet Food & Nutrition</li>
-              <li>Pet Grooming</li>
-              <li>Pet Vaccination</li>
+              <li>Accessories</li>
+              <li>Food & Nutrition</li>
+              <li>Grooming</li>
+              <li>Vaccination</li>
             </ul>
           </div>
         </div>

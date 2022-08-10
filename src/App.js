@@ -14,6 +14,7 @@ import ProductPage from "./Containers/ProductPage/ProductPage";
 import Nav from "./Components/Nav/Nav";
 import AboutUs from "./Containers/AboutUs/AboutUs";
 
+
 function App() {
   return (
     <>
@@ -27,9 +28,11 @@ function App() {
       {/* <ReviewRewards /> */}
       <ExploreMore />
       <ShopOurInstagram />
+      {/* <ProductPage /> */}
+      {/* <AboutUs /> */}
       <PetShopFooter />
-      <ProductPage />
-      <AboutUs />
+
+
     </>
   );
 }
