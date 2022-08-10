@@ -17,7 +17,7 @@
   background-color: #62606024;
 }
 .bg-and-heading {
-  background-image: url('../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg');
+  background-image: url("../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
@@ -59,7 +59,13 @@
   text-decoration: underline;
   color: #5265c4;
 }
-
+.for-search-in-navbar-of-products input {
+  height: 37px;
+  border-radius: 5px;
+  width: 243px;
+  padding-left: 1em;
+  border: 1px solid #ff00004f;
+}
 @media (min-width: 320px) and (max-width: 425px) {
   .flex-div-for-products {
     display: block;
