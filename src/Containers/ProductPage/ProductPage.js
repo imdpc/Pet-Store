@@ -25,7 +25,7 @@ const ProductPage = () => {
       name: 'Neck Belt',
       food_type: 'Dog Treats',
       url: neckbelt,
-      cat: "A",
+      cat: "Accessories",
       price: 17.0,
     },
     {
@@ -33,7 +33,7 @@ const ProductPage = () => {
       name: 'Waterless shampoo',
       food_type: 'ALL Dog ',
       url: shapoo,
-      cat: "Acc",
+      cat: "Accessories",
       price: 60.0,
     },
     {
@@ -41,7 +41,7 @@ const ProductPage = () => {
       name: 'Comb for dog & cat',
       food_type: 'ALL Dog Size',
       url: comb,
-      cat: "asdad",
+      cat: "Grooming",
       price: 60.0,
     },
     {
@@ -50,7 +50,7 @@ const ProductPage = () => {
       food_type: 'ALL Dog Size',
       url:
         'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
-      cat: "asdad",
+      cat: "Food & Nutrition",
 
       price: 60.0,
     },
@@ -70,7 +70,7 @@ const ProductPage = () => {
       food_type: 'ALL Dog Size',
       url:
         'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
-      cat: "asdad",
+      cat: "Food & Nutrition",
 
       price: 60.0,
     },
@@ -90,7 +90,7 @@ const ProductPage = () => {
       food_type: 'ALL Dog Size',
       url:
         'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
-      cat: "assdf",
+      cat: "Food & Nutrition",
 
       price: 60.0,
     },
@@ -142,9 +142,9 @@ const ProductPage = () => {
         </div>
         {/* all products call by component  */}
         <div className="all-product-for-sell">
-          <div>
+          {/* <div>
             {Data.length} result found
-          </div>
+          </div> */}
           {Data.map((val, index) => (
             <Product productDetail={val} />
           ))}
