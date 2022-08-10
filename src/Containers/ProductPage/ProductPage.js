@@ -17,7 +17,7 @@ const ProductPage = () => {
       name: 'Body belt',
       food_type: 'ALL Dog Size',
       url: bodybelt,
-
+      cat: "asdad",
       price: 60.0,
     },
     {
@@ -25,6 +25,7 @@ const ProductPage = () => {
       name: 'Neck Belt',
       food_type: 'Dog Treats',
       url: neckbelt,
+      cat: "asdad",
       price: 17.0,
     },
     {
@@ -32,7 +33,7 @@ const ProductPage = () => {
       name: 'Waterless shampoo',
       food_type: 'ALL Dog ',
       url: shapoo,
-
+      cat: "asdad",
       price: 60.0,
     },
     {
@@ -40,7 +41,7 @@ const ProductPage = () => {
       name: 'Comb for dog & cat',
       food_type: 'ALL Dog Size',
       url: comb,
-
+      cat: "asdad",
       price: 60.0,
     },
     {
