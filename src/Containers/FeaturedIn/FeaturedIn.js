@@ -1,5 +1,10 @@
 import React from "react";
 import "./FeaturedIn.css";
+import logo1 from "../../Assets/logo1.png"
+import logo2 from "../../Assets/logo2-removebg-preview.png"
+import logo3 from "../../Assets/logo3-removebg-preview.png"
+import logo4 from "../../Assets/logo4-removebg-preview.png"
+import logo5 from "../../Assets/logo5.png"
 const FeaturedIn = () => {
   return (
     <>
@@ -22,7 +27,7 @@ const FeaturedIn = () => {
             <div>
               <img
                 //   style={{ height: "120px", width: "230px" }}
-                src="https://www.cargill.com/image/1432079742021/cargill-logo-black.jpg"
+                src={logo1}
                 alt=""
                 srcset=""
               />
@@ -30,7 +35,7 @@ const FeaturedIn = () => {
             <div>
               <img
                 //   style={{ height: "120px", width: "230px" }}
-                src="https://www.cargill.com/image/1432079742021/cargill-logo-black.jpg"
+                src={logo2}
                 alt=""
                 srcset=""
               />
@@ -38,7 +43,7 @@ const FeaturedIn = () => {
             <div>
               <img
                 //   style={{ height: "120px", width: "230px" }}
-                src="https://www.cargill.com/image/1432079742021/cargill-logo-black.jpg"
+                src={logo3}
                 alt=""
                 srcset=""
               />
@@ -46,7 +51,7 @@ const FeaturedIn = () => {
             <div>
               <img
                 //   style={{ height: "120px", width: "230px" }}
-                src="https://www.cargill.com/image/1432079742021/cargill-logo-black.jpg"
+                src={logo4}
                 alt=""
                 srcset=""
               />
@@ -54,7 +59,7 @@ const FeaturedIn = () => {
             <div>
               <img
                 //   style={{ height: "120px", width: "230px" }}
-                src="https://www.cargill.com/image/1432079742021/cargill-logo-black.jpg"
+                src={logo5}
                 alt=""
                 srcset=""
               />
