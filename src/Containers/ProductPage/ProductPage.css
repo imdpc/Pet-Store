@@ -13,8 +13,9 @@
   /* overflow: hidden; */
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   background-color: #62606024;
+  padding-left: 6em;
 }
 .bg-and-heading {
   background-image: url("../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg");

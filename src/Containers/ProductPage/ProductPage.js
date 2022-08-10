@@ -26,7 +26,7 @@ const ProductPage = () => {
       name: "Neck Belt",
       food_type: "Dog Treats",
       url: neckbelt,
-      cat: "A",
+      cat: "Accessories",
       price: 17.0,
     },
     {
@@ -34,7 +34,7 @@ const ProductPage = () => {
       name: "Waterless shampoo",
       food_type: "ALL Dog ",
       url: shapoo,
-      cat: "Acc",
+      cat: "Accessories",
       price: 60.0,
     },
     {
@@ -42,62 +42,67 @@ const ProductPage = () => {
       name: "Comb for dog & cat",
       food_type: "ALL Dog Size",
       url: comb,
-      cat: "asdad",
+      cat: "Grooming",
       price: 60.0,
     },
     {
-      _id: "5",
-      name: "Wagg Lamb Chops",
-      food_type: "ALL Dog Size",
-      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
-      cat: "asdad",
-
-      price: 60.0,
-    },
-    {
-      _id: "6",
-      name: "Wagg Lamb Chops",
-      food_type: "ALL Dog Size",
-      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
+      _id: '5',
+      name: 'Wagg Lamb Chops',
+      food_type: 'ALL Dog Size',
+      url:
+        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
       cat: "asdad",
 
       price: 60.0,
     },
     {
-      _id: "6",
-      name: "Wagg Lamb Chops",
-      food_type: "ALL Dog Size",
-      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
+      _id: '6',
+      name: 'Wagg Lamb Chops',
+      food_type: 'ALL Dog Size',
+      url:
+        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
       cat: "asdad",
 
       price: 60.0,
     },
     {
-      _id: "6",
-      name: "Wagg Lamb Chops",
-      food_type: "ALL Dog Size",
-      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
+      _id: '6',
+      name: 'Wagg Lamb Chops',
+      food_type: 'ALL Dog Size',
+      url:
+        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      cat: "asdad",
+
+      price: 60.0,
+    },
+    {
+      _id: '6',
+      name: 'Wagg Lamb Chops',
+      food_type: 'ALL Dog Size',
+      url:
+        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
       cat: "asdasd",
 
       price: 60.0,
     },
     {
-      _id: "6",
-      name: "Wagg Lamb Chops",
-      food_type: "ALL Dog Size",
-      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
+      _id: '6',
+      name: 'Wagg Lamb Chops',
+      food_type: 'ALL Dog Size',
+      url:
+        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
       cat: "assdf",
 
       price: 60.0,
     },
   ];
   const [Data, setData] = useState(allproduct);
-  const filterResult = (category) => {
+  const filterResult = (category, length) => {
     const result = allproduct.filter((curData) => {
       return curData.cat === category;
     });
-    setData(result);
-  };
+    setData(result)
+  }
   return (
     <>
       <Nav />
@@ -113,17 +118,7 @@ const ProductPage = () => {
           <div className="sidenav-position">
             <ul className="side-nav-content">
               <h2>Shop</h2>
-              {/* for searching products */}
-              <div className="for-search-in-navbar-of-products">
-                <input
-                  type="text"
-                  placeholder="search..."
-                  onChange={(event) => {
-                    setSearchTerm(event.target.value);
-                  }}
-                />
-              </div>
-              <li onClick={() => filterResult("Accessories")}>Accessories</li>
+              <li onClick={() => filterResult('Accessories')}>Accessories</li>
               <li>Food & Nutrition</li>
               <li>Grooming</li>
               <li>Vaccination</li>
@@ -132,18 +127,11 @@ const ProductPage = () => {
         </div>
         {/* all products call by component  */}
         <div className="all-product-for-sell">
-          {Data.filter((val) => {
-            if (searchTerm == "") {
-              return val;
-            } else if (
-              val.name.toLowerCase().includes(searchTerm.toLowerCase())
-            ) {
-              return val;
-            }
-          }).map((val, index) => (
+          {Data.map((val, index) => (
             <Product productDetail={val} />
           ))}
         </div>
+
       </div>
       <div style={{ marginTop: "25px" }}>
         <PetShopFooter />
