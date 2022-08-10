@@ -11,6 +11,7 @@ const StudioNav = () => {
       <div
         className={`nav-toggle-for-studio ${isOpen && 'open'}`}
         onClick={() => setIsOpen(!isOpen)}
+        style={{ display: 'none' }}
       >
         <div className="bar"></div>
       </div>
@@ -20,16 +21,6 @@ const StudioNav = () => {
       <div className={`nav-items-for-studio ${isOpen && 'open'}`}>
         <p href="/home">Studio</p>
       </div>
-      <br />
-      {/* <div className="studio-nav-content">
-        <p>Prints</p>
-        <p>Orignals</p>
-        <p>Art Objects</p>
-        <p>Shop by Artist</p>
-        <p>Gift Cards</p>
-        <p>About</p>
-      </div> */}
-
       <div className="cart-profile-icon">
         <div>
           <img src={profile} alt="" className="icon-style" />
@@ -38,6 +29,15 @@ const StudioNav = () => {
           <img src={cart} alt="" className="icon-style" />
         </div>
       </div>
+
+      {/* <div className="studio-nav-content">
+        <p>Prints</p>
+        <p>Orignals</p>
+        <p>Art Objects</p>
+        <p>Shop by Artist</p>
+        <p>Gift Cards</p>
+        <p>About</p>
+      </div> */}
     </div>
   )
 }
