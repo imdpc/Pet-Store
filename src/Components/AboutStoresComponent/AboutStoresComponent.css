@@ -24,4 +24,8 @@
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  .containing-two-main-cards-for-discount-info {
+    display: block;
+    margin-bottom: 2em;
+  }
 }
