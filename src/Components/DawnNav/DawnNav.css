@@ -1,20 +1,45 @@
 .DAWN-Navbar {
   height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background: #5265c4;
+  background: #e3e3e3;
 }
-
-.DAWN-Navbar > .nav-logo-for-dawn-navbar {
+.nav-logo-for-dawn-navbar p {
+  font-size: 28px;
+  font-weight: 500;
+  /* letter-spacing: 5px; */
+}
+.nav-items-for-dawn-navbar {
+  gap: 1em;
+  display: flex;
+}
+.nav-items-for-dawn-navbar p {
+  white-space: nowrap;
+  max-width: 6em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nav-toggle {
+  display: none;
+}
+.nav-logo-for-dawn-navbar {
   font-weight: 700;
   font-size: 21px;
   margin: 15px;
-  color: #ffffff;
+  color: #000000;
 }
+.header-text-and-nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.contains-toggle-and-icons-for-nav {
+}
+.nav-items-for-dawn-navbar > p {
+  color: #000000;
 
-.DAWN-Navbar > .nav-items-for-dawn-navbar-for-dawn-navbar > a {
-  color: #ffffff;
   font-size: 16px;
   text-decoration: none;
   margin: 15px;
@@ -22,36 +47,45 @@
   opacity: 0.9;
 }
 
-.DAWN-Navbar > .nav-items-for-dawn-navbar > a:hover {
+.nav-items-for-dawn-navbar > p:hover {
   opacity: 1;
 }
 
-.DAWN-Navbar > .nav-items-for-dawn-navbar > a::before {
+.nav-items-for-dawn-navbar > p::before {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: #020101;
   transition: all 0.45s;
 }
 
-.DAWN-Navbar > .nav-items-for-dawn-navbar > a:hover::before {
+.nav-items-for-dawn-navbar > p:hover::before {
   width: 100%;
 }
 
-.DAWN-Navbar > .nav-toggle-for-dawn-navbar {
+.nav-toggle-for-dawn-navbar {
   display: none;
 }
-
+.contains-icons-for-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  cursor: pointer;
+}
 @media (max-width: 700px) {
-  .DAWN-Navbar > .nav-items-for-dawn-navbar {
+  /* .contains-icons-for-nav {
+  } */
+  .nav-items-for-dawn-navbar {
     position: absolute;
     top: 60px;
     display: flex;
     flex-direction: column;
-    background: #c0c6e7;
+    background: #727070;
+
     left: 0;
     width: 100%;
     height: 100%;
@@ -59,15 +93,15 @@
     transition: all 0.45s;
   }
 
-  .DAWN-Navbar > .nav-items-for-dawn-navbar > a::before {
+  .nav-items-for-dawn-navbar > p::before {
     background: transparent;
   }
 
-  .DAWN-Navbar > .nav-items-for-dawn-navbar.open {
+  .nav-items-for-dawn-navbar.open {
     transform: translateX(0);
   }
 
-  .DAWN-Navbar > .nav-toggle-for-dawn-navbar {
+  .nav-toggle-for-dawn-navbar {
     display: flex;
     width: 50px;
     height: 50px;
@@ -76,46 +110,57 @@
     cursor: pointer;
   }
 
-  .nav-toggle-for-dawn-navbar > .bar {
+  .nav-toggle > .bar {
     position: relative;
     width: 32px;
     height: 2px;
-    background: #ffffff;
+    background: #000000;
     transition: all 0.45s ease-in-out;
   }
 
-  .nav-toggle-for-dawn-navbar > .bar::before,
-  .nav-toggle-for-dawn-navbar > .bar::after {
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
     content: "";
     position: absolute;
     height: 2px;
-    background: #ffffff;
+    background: #000000;
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
   }
 
-  .nav-toggle-for-dawn-navbar > .bar::before {
+  .nav-toggle > .bar::before {
     width: 25px;
     transform: translateY(-8px);
     right: 0;
   }
 
-  .nav-toggle-for-dawn-navbar > .bar::after {
+  .nav-toggle > .bar::after {
     width: 32px;
     transform: translateY(8px);
   }
 
-  .nav-toggle-for-dawn-navbar.open > .bar {
+  .nav-toggle.open > .bar {
     transform: translateX(-40px);
     background: transparent;
   }
 
-  .nav-toggle-for-dawn-navbar.open > .bar::before {
+  .nav-toggle.open > .bar::before {
     width: 32px;
     transform: rotate(45deg) translate(26px, -26px);
   }
 
-  .nav-toggle-for-dawn-navbar.open > .bar::after {
+  .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
+  }
+  .nav-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  .contains-toggle-and-icons-for-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
   }
 }
