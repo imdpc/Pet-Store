@@ -1,0 +1,113 @@
+.cartItemContainer {
+  margin: 10px 5px;
+}
+.cartProImgContainer {
+  width: 112px;
+  height: 112px;
+  overflow: hidden;
+  text-align: center;
+}
+.cartProImgContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.cartProImgContainer {
+  width: 112px;
+  height: 112px;
+  overflow: hidden;
+  text-align: center;
+}
+.cartProImgContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+.cartItemDetails {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.tatil-bcwekla-cew {
+  color: #625858;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .cartActionBtn{
+      margin: 0 10px;
+      font-family: 'Roboto';
+      font-weight: 600;
+      text-transform: uppercase;
+      background: transparent;
+      border: none;
+      color: #212121;
+      cursor: pointer;
+      font-size: 15px;
+  } */
+.quantityControl {
+  display: flex;
+  align-items: center;
+}
+.quantityControl button {
+  width: 22px;
+  height: 22px;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid #c2c2c2;
+  background-color: transparent;
+}
+.quantityControl input {
+  width: 40px;
+  height: 20px;
+  border: 1px solid #c2c2c2;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.cart-design-products-main-page {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-design-product-inner-container {
+  width: 100%;
+  display: flex;
+  margin: 10px 0px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.cart-design-product-one {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cart-design-image {
+  width: 5em;
+  height: 5em;
+  border-radius: 0.3em;
+}
+
+.cart-design-product-inc-dec {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 8px;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.cart-design-product-description {
+  padding-left: 1rem;
+}

@@ -1,0 +1,45 @@
+.statusnavbar-center-view-only {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgb(28 28 28 / 8%) 0px 1.42623px 2.85246px;
+  position: fixed;
+  z-index: 101;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+.statusnavbar-width-only {
+  width: 80em;
+  /* background-color: #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Inactive-number-circle {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 16px;
+  color: #cdd0d5;
+}
+.line-grey-active {
+  height: 2px;
+  width: 100px;
+  background: #007f61;
+  margin-top: 15px;
+}
+.Inactive-yuhjkl {
+  width: 54px;
+  text-align: center;
+  font-size: 12px;
+  color: #cdd0d5;
+}

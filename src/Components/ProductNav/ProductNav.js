@@ -92,7 +92,7 @@ const ProductNav = () => {
                   <p className="product-navbar-sub-content">Puppy Food</p>
                 </div>
               </div>
-            </div>
+            </div>      
             <div className="all-cards">
               {product.map((val, index) => (
                 <Product productDetail={val} />
