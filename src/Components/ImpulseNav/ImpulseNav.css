@@ -1,0 +1,143 @@
+.ImpulseNavbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* background: #5265c4; */
+  padding: 0 5em;
+  border-bottom: 1px solid;
+}
+
+.ImpulseNavbar > .nav-search-icon {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+  color: #ffffff;
+}
+
+.icon-style {
+  height: 1.4em;
+  width: 1.4em;
+}
+.search-icon-style {
+  height: 1.1em;
+  width: 1.1em;
+}
+.cart-profile-icon {
+  gap: 15px;
+  display: flex;
+}
+
+.ImpulseNavbar > .nav-items-for-impulse > p {
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+  cursor: pointer;
+  color: black;
+}
+
+.ImpulseNavbar > .nav-items-for-impulse > p:hover {
+  opacity: 1;
+}
+
+.ImpulseNavbar > .nav-items-for-impulse > p::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 0.45s;
+}
+
+.ImpulseNavbar > .nav-items-for-impulse > p:hover::before {
+  width: 100%;
+}
+
+.ImpulseNavbar > .nav-toggle-for-impulse {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .ImpulseNavbar {
+    padding: 0;
+  }
+  .ImpulseNavbar > .nav-items-for-impulse {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    /* background: #3b4da7; */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    transition: all 0.45s;
+  }
+
+  .ImpulseNavbar > .nav-items-for-impulse > p::before {
+    background: transparent;
+  }
+
+  .ImpulseNavbar > .nav-items-for-impulse.open {
+    transform: translateX(0);
+  }
+
+  .ImpulseNavbar > .nav-toggle-for-impulse {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle-for-impulse > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #000;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle-for-impulse > .bar::before,
+  .nav-toggle-for-impulse > .bar::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    background: #000;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+    right: 0;
+  }
+
+  .nav-toggle-for-impulse > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle-for-impulse > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .nav-toggle-for-impulse.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .nav-toggle-for-impulse.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -30px);
+  }
+
+  .nav-toggle-for-impulse.open > .bar::after {
+    transform: rotate(-45deg) translate(30px, 26px);
+  }
+}
