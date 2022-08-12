@@ -1,4 +1,4 @@
-.DAWN-Navbar {
+.Prestige-Navbar {
   height: 60px;
   display: flex;
   justify-content: space-around;
@@ -34,6 +34,9 @@
   justify-content: space-around;
   align-items: center;
   gap: 2em;
+}
+.contains-icons-in-resposive {
+  display: none;
 }
 .contains-toggle-and-icons-for-nav {
 }
@@ -162,5 +165,12 @@
     display: flex;
     justify-content: space-between;
     gap: 2em;
+    display: none;
+  }
+  .contains-icons-in-resposive {
+    display: flex;
+    justify-content: center;
+    height: 1em;
+    width: 1em;
   }
 }
