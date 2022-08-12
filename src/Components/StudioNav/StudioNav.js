@@ -1,43 +1,58 @@
 import React, { useState } from 'react'
 import './StudioNav.css'
-import searchicon from '../../Assets/Navbar img/search-interface-symbol.png'
-import cart from '../../Assets/Navbar img/bag.png'
+import search from '../../Assets/Navbar img/search-interface-symbol.png'
 import profile from '../../Assets/Navbar img/user.png'
-
+import bag from '../../Assets/Navbar img/bag.png'
 const StudioNav = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="StudioNavbar">
+    // main div flex for studio navbar
+    <div className="studio-Navbar">
       <div
-        className={`nav-toggle-for-studio ${isOpen && 'open'}`}
+        className={`nav-toggle ${isOpen && 'open'}`}
         onClick={() => setIsOpen(!isOpen)}
-        style={{ display: 'none' }}
       >
         <div className="bar"></div>
       </div>
-      <span className="nav-search-icon">
-        <img src={searchicon} alt="" className="search-icon-style" />
-      </span>
-      <div className={`nav-items-for-studio ${isOpen && 'open'}`}>
-        <p href="/home">Studio</p>
-      </div>
-      <div className="cart-profile-icon">
-        <div>
-          <img src={profile} alt="" className="icon-style" />
-        </div>
-        <div>
-          <img src={cart} alt="" className="icon-style" />
-        </div>
-      </div>
 
-      {/* <div className="studio-nav-content">
-        <p>Prints</p>
-        <p>Orignals</p>
-        <p>Art Objects</p>
-        <p>Shop by Artist</p>
-        <p>Gift Cards</p>
-        <p>About</p>
-      </div> */}
+      <div className="header-text-and-nav-items-for-studio-nav">
+        <img
+          style={{ height: '1.1em', width: '1.1em' }}
+          src={search}
+          alt=""
+          srcset=""
+        />
+        <div className="middle-content-studio-navbar">
+          <div className="nav-logo-for-studio-navbar">
+            <p>Studio</p>
+          </div>
+          {/* middle content for studio navbar */}
+          <div className={`nav-items-for-studio-navbar ${isOpen && 'open'}`}>
+            <p href="/home">Prints</p>
+            <p href="/about">Orignal</p>
+            <p href="/service">Art Object</p>
+            <p href="/contact">Shop by Artist</p>
+            <p href="/service">Gift Cards</p>
+            <p href="/contact">About</p>
+          </div>
+        </div>
+        <div className="contains-toggle-and-icons-for-nav">
+          <div className="contains-icons-for-nav">
+            <img
+              style={{ height: '1.1em', width: '1.1em' }}
+              src={bag}
+              alt=""
+              srcset=""
+            />
+            <img
+              style={{ height: '1.1em', width: '1.1em' }}
+              src={profile}
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
