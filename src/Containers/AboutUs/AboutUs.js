@@ -10,6 +10,7 @@ import AboutStoresComponent from "../../Components/AboutStoresComponent/AboutSto
 import PetShopFooter from "../../Components/PetShopFooter/PetShopFooter";
 import Nav from "../../Components/Nav/Nav";
 const AboutUs = () => {
+  // create object for our stores for multiple countries
   const ourstores = [
     {
       _id: "1",
@@ -35,15 +36,18 @@ const AboutUs = () => {
   ];
   return (
     <>
+      {/* call main navbar here */}
       <Nav />
+      {/* main contaner flex for about us */}
       <div className="for-responsive-width">
         <div className="about-heading-image-and-text">
           <div className="container-for-img-and-headings-and-para">
             <img
+              className="img-for-about-us-only"
               src={aboutusimg}
               alt=""
               srcset=""
-              style={{ width: "100%", height: "400px" }}
+              style={{ width: "100%" }}
             />
             <div className="content-for-about-us">
               <h1>About</h1>
@@ -55,13 +59,17 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex-container-width-for-para">
+          {/* given specific width the whole page */}
+
           <div className="width-set-for-about-us">
+            {/* first section after navbar with background image and text on it */}
             <div className="para-after-heading-text-and-image">
               <p>
                 Slowly she drifted to the southeast, rising higher and higher as
                 the flames ateaway her wooden parts and diminished.
               </p>
             </div>
+            {/* our mission section with img and some information */}
             <div className="image-and-our-mission-detais">
               <div className="img-for-our-mission-about-us">
                 <img
@@ -95,6 +103,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            {/* Heading and subheading of Our Store */}
             <div className="heading-for-our-stores-and-subheading">
               <div>
                 <div style={{ fontSize: "xxx-large" }}>
@@ -105,11 +114,14 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            {/* our store section for multiple countries with address */}
             <div className="our-stores-from-different-countries-deatils">
               {ourstores.map((val, index) => (
                 <AboutStoresComponent storeDetails={val} />
               ))}
             </div>
+            {/* Heading and subheading of Testimonials */}
+
             <div className="heading-for-our-stores-and-subheading">
               <div>
                 <div style={{ fontSize: "xxx-large" }}>
@@ -123,10 +135,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
+            {/* tab navigation for testimoials */}
             <div className="dot-navigation-for-testimonials">
               <div
                 className="width-set-for-testimonials"
-                style={{ width: "50em" }}
+                // style={{ width: "50em" }}
               >
                 <div className="tabset-for-testimonials">
                   {/* <!-- Tab 1 --> */}
@@ -201,7 +214,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
+      {/* here we call the footer component */}
       <PetShopFooter />
     </>
   );

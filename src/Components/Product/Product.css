@@ -3,9 +3,9 @@
   display: block;
   border: 20px solid white;
   width: 329px;
-  height: auto;
-  /* margin-top: 10px; */
-  margin: auto;
+  height: 500px;
+  margin-top: 30px;
+  /* margin: auto; */
 }
 
 .image-for-like-the-product {
@@ -113,10 +113,10 @@
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-}
-.product-info-card-for-selection {
-  width: 100%;
-  height: 342px;
-  display: block;
-}
+  }
+  .product-info-card-for-selection {
+    width: 100%;
+    height: 342px;
+    display: block;
+  }
 }
