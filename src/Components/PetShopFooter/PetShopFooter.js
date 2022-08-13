@@ -20,7 +20,7 @@ const PetShopFooter = () => {
           <div className="pet-shop-footer">
             {/* pet shop footer first column */}
             <div className="footer-first-column">
-              <h2 style={{ fontFamily: "Beau Rivage", fontSize: "30px" }}>
+              <h2 style={{ fontFamily: "Beau Rivage", fontSize: "30px", fontWeight: "600" }}>
                 Wagg
               </h2>
               <br />
@@ -78,7 +78,7 @@ const PetShopFooter = () => {
             </div>
             <div>
               {/* secound column in footer  */}
-              <h2>Our Products</h2>
+              <h2 style={{ fontWeight: "600" }}>Our Products</h2>
               <br />
               <ul className="footer-second-col">
                 <li>Dog Treats</li>
@@ -91,7 +91,7 @@ const PetShopFooter = () => {
             <div>
               {" "}
               {/* third column  */}
-              <h2>Wagg World</h2>
+              <h2 style={{ fontWeight: "600" }}>Wagg World</h2>
               <br />
               <ul className="footer-third-col">
                 <li>About Wagg</li>
@@ -104,7 +104,7 @@ const PetShopFooter = () => {
             <div>
               {" "}
               {/* fourth column  */}
-              <h2>Resource</h2>
+              <h2 style={{ fontWeight: "600" }}>Resource</h2>
               <br />
               <ul className="footer-fourth-col">
                 <li>Download</li>
@@ -117,7 +117,7 @@ const PetShopFooter = () => {
             <div>
               {" "}
               {/* fifth column  */}
-              <h2>News Letter</h2>
+              <h2 style={{ fontWeight: "600" }}>News Letter</h2>
               <div>
                 <div>
                   <input
