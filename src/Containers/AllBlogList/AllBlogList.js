@@ -1,5 +1,5 @@
 import React from 'react'
-import Blog from '../Blog/Blog'
+import Blog from '../../Components/Blog/Blog'
 import './AllBlogList.css'
 import search from '../../Assets/Blog img/search.png'
 
