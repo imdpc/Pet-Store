@@ -1,0 +1,13 @@
+.flex-container-for-single-preview-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.heading-of-the-single-blog h1 {
+  display: flex;
+  font-size: 6em;
+  /* line-height: 0.9; */
+  max-width: 80%;
+  letter-spacing: 0;
+  font-weight: 600;
+}
