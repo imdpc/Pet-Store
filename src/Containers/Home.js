@@ -26,9 +26,9 @@ const Home = () => {
       <UkStore />
       <ProductNav />
       <ExploreMore />
-      <ProductPage />
+      {/* <ProductPage /> */}
       <ShopOurInstagram />
-      <AboutUs />
+      {/* <AboutUs /> */}
       <PetShopFooter />
     </>
   );
