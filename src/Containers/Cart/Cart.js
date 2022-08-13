@@ -4,9 +4,8 @@ import "./Cart.css";
 
 import CartItem from "../../Components/CartItem/CartItem";
 
-import { ImagesPath } from "./../../Assets/ImportedImages/index";
-import PriceDetails from "./../../Components/PriceDetails/PriceDetails";
 import { OrderFlowNavbar } from "./../../Components/OrderFlowNavbar/OrderFlowNavbar";
+import PriceDetails from "./../../Components/PriceDetails/PriceDetails";
 
 export const StoreViewCart = () => {
   //   if (Object.keys(cartItems).length === 0) {

@@ -36,8 +36,6 @@ const AboutUs = () => {
   ];
   return (
     <>
-      {/* call main navbar here */}
-      <Nav />
       {/* main contaner flex for about us */}
       <div className="for-responsive-width">
         <div className="about-heading-image-and-text">
@@ -214,8 +212,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      {/* here we call the footer component */}
-      <PetShopFooter />
     </>
   );
 };

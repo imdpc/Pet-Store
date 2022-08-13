@@ -46,51 +46,46 @@ const ProductPage = () => {
       price: 60.0,
     },
     {
-      _id: '5',
-      name: 'Wagg Lamb Chops',
-      food_type: 'ALL Dog Size',
-      url:
-        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      _id: "5",
+      name: "Wagg Lamb Chops",
+      food_type: "ALL Dog Size",
+      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
       cat: "asdad",
 
       price: 60.0,
     },
     {
-      _id: '6',
-      name: 'Wagg Lamb Chops',
-      food_type: 'ALL Dog Size',
-      url:
-        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      _id: "6",
+      name: "Wagg Lamb Chops",
+      food_type: "ALL Dog Size",
+      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
       cat: "asdad",
 
       price: 60.0,
     },
     {
-      _id: '6',
-      name: 'Wagg Lamb Chops',
-      food_type: 'ALL Dog Size',
-      url:
-        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      _id: "6",
+      name: "Wagg Lamb Chops",
+      food_type: "ALL Dog Size",
+      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
       cat: "asdad",
 
       price: 60.0,
     },
     {
-      _id: '6',
-      name: 'Wagg Lamb Chops',
-      food_type: 'ALL Dog Size',
-      url:
-        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      _id: "6",
+      name: "Wagg Lamb Chops",
+      food_type: "ALL Dog Size",
+      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
       cat: "asdasd",
 
       price: 60.0,
     },
     {
-      _id: '6',
-      name: 'Wagg Lamb Chops',
-      food_type: 'ALL Dog Size',
-      url:
-        'https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp',
+      _id: "6",
+      name: "Wagg Lamb Chops",
+      food_type: "ALL Dog Size",
+      url: "https://waggfoods.com/assets/images/products/_productImage1xWebp/137/wagg_tasty_bones_150g.webp",
       cat: "assdf",
 
       price: 60.0,
@@ -101,11 +96,10 @@ const ProductPage = () => {
     const result = allproduct.filter((curData) => {
       return curData.cat === category;
     });
-    setData(result)
-  }
+    setData(result);
+  };
   return (
     <>
-      <Nav />
       <div className="bg-and-heading">
         <div className="bgcolor">
           <h2>All Store</h2>
@@ -118,7 +112,7 @@ const ProductPage = () => {
           <div className="sidenav-position">
             <ul className="side-nav-content">
               <h2>Shop</h2>
-              <li onClick={() => filterResult('Accessories')}>Accessories</li>
+              <li onClick={() => filterResult("Accessories")}>Accessories</li>
               <li>Food & Nutrition</li>
               <li>Grooming</li>
               <li>Vaccination</li>
@@ -131,11 +125,10 @@ const ProductPage = () => {
             <Product productDetail={val} />
           ))}
         </div>
-
       </div>
-      <div style={{ marginTop: "25px" }}>
+      {/* <div style={{ marginTop: "25px" }}>
         <PetShopFooter />
-      </div>
+      </div> */}
     </>
   );
 };
