@@ -1,24 +1,24 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "./OrderSuccess.css";
 
 const OrderSuccess = () => {
-  const history = useHistory();
+  // const history = useHistory();
 
-  const onClick = (val) => {
-    if (val === "profile") {
-      return history.push({
-        pathname: "/userProfile",
-        state: {
-          showOrder: true,
-        },
-      });
-    } else {
-      return history.push({
-        pathname: "/",
-      });
-    }
-  };
+  // const onClick = (val) => {
+  //   if (val === "profile") {
+  //     return history.push({
+  //       pathname: "/userProfile",
+  //       state: {
+  //         showOrder: true,
+  //       },
+  //     });
+  //   } else {
+  //     return history.push({
+  //       pathname: "/",
+  //     });
+  //   }
+  // };
 
   return (
     <>
@@ -62,14 +62,14 @@ l-1250 -1251 -490 488 c-566 564 -530 537 -705 537 -98 0 -110 -2 -175 -33
             <div style={{ display: "grid", justifyContent: "center" }}>
               <button
                 className="view-order-button-in-box"
-                onClick={() => onClick("profile")}
+                // onClick={() => onClick("profile")}
               >
                 View order
               </button>
 
               <button
                 className="continue-shop-button-in-box"
-                onClick={() => onClick("home")}
+                // onClick={() => onClick("home")}
               >
                 Continue shopping
               </button>

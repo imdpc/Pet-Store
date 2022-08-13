@@ -1,0 +1,20 @@
+.flex-div-for-blog {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  height: 400px;
+}
+.img-for-blog-preview {
+  height: 250px;
+  width: 450px;
+}
+.middle-content-for-blog {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.last-col-for-div-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

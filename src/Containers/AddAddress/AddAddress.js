@@ -1,95 +1,94 @@
-import React, { useState, useEffect } from "react";
-import Input from "../Inputs";
+import React from "react";
 import "./AddAddress.css";
-import { useSelector, useDispatch } from "react-redux";
-import { StateLists } from "../../Data";
-import { userAddressAction } from "../../redux/action/auth.action";
-import MessagePopup from "../ErrorPopup";
+// import { useSelector, useDispatch } from "react-redux";
+// import { StateLists } from "../../Data";
+// import { userAddressAction } from "../../redux/action/auth.action";
+import Input from "./../../Components/Inputs/index";
 
-const AddAddress = (props) => {
-  const auth = useSelector((state) => state.auth);
-  const [addressHouseName, setAddressHouseName] = useState(
-    auth.user && auth.user.addressHouseName ? auth.user.addressHouseName : ""
-  );
-  const [addressAreaName, setAddressAreaName] = useState(
-    auth.user && auth.user.addressAreaName ? auth.user.addressAreaName : ""
-  );
-  const [addressState, setAddressState] = useState(
-    auth.user && auth.user.addressState ? auth.user.addressState : ""
-  );
-  const [addressCity, setAddressCity] = useState(
-    auth.user && auth.user.addressCity ? auth.user.addressCity : ""
-  );
-  const [addressPinCode, setAddressPinCode] = useState(
-    auth.user && auth.user.addressPinCode ? auth.user.addressPinCode : ""
-  );
-  const [addressNearbyLocation, setAddressNearbyLocation] = useState(
-    auth.user && auth.user.addressNearbyLocation
-      ? auth.user.addressNearbyLocation
-      : ""
-  );
-  const [addressName, setAddressName] = useState(
-    auth.user && auth.user.addressName ? auth.user.addressName : ""
-  );
+const AddAddress = () => {
+  // const auth = useSelector((state) => state.auth);
+  // const [addressHouseName, setAddressHouseName] = useState(
+  //   auth.user && auth.user.addressHouseName ? auth.user.addressHouseName : ""
+  // );
+  // const [addressAreaName, setAddressAreaName] = useState(
+  //   auth.user && auth.user.addressAreaName ? auth.user.addressAreaName : ""
+  // );
+  // const [addressState, setAddressState] = useState(
+  //   auth.user && auth.user.addressState ? auth.user.addressState : ""
+  // );
+  // const [addressCity, setAddressCity] = useState(
+  //   auth.user && auth.user.addressCity ? auth.user.addressCity : ""
+  // );
+  // const [addressPinCode, setAddressPinCode] = useState(
+  //   auth.user && auth.user.addressPinCode ? auth.user.addressPinCode : ""
+  // );
+  // const [addressNearbyLocation, setAddressNearbyLocation] = useState(
+  //   auth.user && auth.user.addressNearbyLocation
+  //     ? auth.user.addressNearbyLocation
+  //     : ""
+  // );
+  // const [addressName, setAddressName] = useState(
+  //   auth.user && auth.user.addressName ? auth.user.addressName : ""
+  // );
 
-  const [addressMobileNumber, setAddressMobileNumber] = useState(
-    auth.user && auth.user.addressMobileNumber
-      ? auth.user.addressMobileNumber
-      : auth.user.loginId
-      ? auth.user.loginId
-      : ""
-  );
-  const [showErrorMsg, setShowErrorMsg] = useState(false);
-  const [submit, setSubmit] = useState(false);
+  // const [addressMobileNumber, setAddressMobileNumber] = useState(
+  //   auth.user && auth.user.addressMobileNumber
+  //     ? auth.user.addressMobileNumber
+  //     : auth.user.loginId
+  //     ? auth.user.loginId
+  //     : ""
+  // );
+  // const [showErrorMsg, setShowErrorMsg] = useState(false);
+  // const [submit, setSubmit] = useState(false);
 
-  const [showErrorModal, setShowErrorModal] = useState(false);
-  const dispatch = useDispatch();
+  // const [showErrorModal, setShowErrorModal] = useState(false);
+  // const dispatch = useDispatch();
 
-  useEffect(() => {
-    if (submit && !auth.loading && auth.error === "") {
-      setSubmit(false);
-      return props.saveAddress;
-    }
-    if (submit && !auth.loading && auth.error === "") {
-      setSubmit(false);
-      return setShowErrorModal(true);
-    }
-  }, [auth, submit]);
+  // useEffect(() => {
+  //   if (submit && !auth.loading && auth.error === "") {
+  //     setSubmit(false);
+  //     return props.saveAddress;
+  //   }
+  //   if (submit && !auth.loading && auth.error === "") {
+  //     setSubmit(false);
+  //     return setShowErrorModal(true);
+  //   }
+  // }, [auth, submit]);
 
-  const saveAddress = (e) => {
-    e.preventDefault();
+  // const saveAddress = (e) => {
+  //   e.preventDefault();
 
-    if (
-      addressHouseName.length < 3 ||
-      addressAreaName.length < 3 ||
-      addressState === "" ||
-      addressCity === "" ||
-      addressPinCode === "" ||
-      addressName === "" ||
-      addressMobileNumber.toString().length !== 10
-    ) {
-      return setShowErrorMsg(true);
-    }
-    const from = {
-      addressAddress: addressHouseName + "-" + addressAreaName,
-      addressAreaName,
-      addressHouseName,
-      addressCity,
-      addressState,
-      addressPinCode,
-      addressNearbyLocation,
-      addressMobileNumber,
-      addressName,
-    };
+  //   if (
+  //     addressHouseName.length < 3 ||
+  //     addressAreaName.length < 3 ||
+  //     addressState === "" ||
+  //     addressCity === "" ||
+  //     addressPinCode === "" ||
+  //     addressName === "" ||
+  //     addressMobileNumber.toString().length !== 10
+  //   ) {
+  //     return setShowErrorMsg(true);
+  //   }
+  //   const from = {
+  //     addressAddress: addressHouseName + "-" + addressAreaName,
+  //     addressAreaName,
+  //     addressHouseName,
+  //     addressCity,
+  //     addressState,
+  //     addressPinCode,
+  //     addressNearbyLocation,
+  //     addressMobileNumber,
+  //     addressName,
+  //   };
 
-    setSubmit(true);
-    setShowErrorMsg(false);
-    dispatch(userAddressAction(from));
-  };
+  //   setSubmit(true);
+  //   setShowErrorMsg(false);
+  //   dispatch(userAddressAction(from));
+  // };
 
-  const renderErrorMsg = (msg) => {
-    return <div className="error-msg-in-red">{msg}</div>;
-  };
+  // const renderErrorMsg = (msg) => {
+  //   return <div className="error-msg-in-red">{msg}</div>;
+  // };
 
   return (
     <>
@@ -106,26 +105,28 @@ const AddAddress = (props) => {
             <Input
               label={"Name"}
               placeholder={"Your Full Name"}
-              value={addressName}
-              onChange={(e) => setAddressName(e.target.value)}
+              // value={addressName}
+
+              // onChange={(e) => setAddressName(e.target.value)
+              // }
             />
-            {showErrorMsg && addressName === ""
+            {/* {showErrorMsg && addressName === ""
               ? renderErrorMsg("Enter valid name")
-              : null}
+              : null} */}
           </div>
           <div className="padding-for-input-add-address">
             <Input
               label={"Phone Number"}
               placeholder={"Your Phone Number"}
-              value={addressMobileNumber.toString()}
-              onChange={(e) =>
-                setAddressMobileNumber(e.target.value.replace(/\D/g, ""))
-              }
-              maxLength={10}
+              // value={addressMobileNumber.toString()}
+              // onChange={(e) =>
+              //   setAddressMobileNumber(e.target.value.replace(/\D/g, ""))
+              // }
+              // maxLength={10}
             />
-            {showErrorMsg && addressMobileNumber.toString().length !== 10
+            {/* {showErrorMsg && addressMobileNumber.toString().length !== 10
               ? renderErrorMsg("Enter valid phone number")
-              : null}
+              : null} */}
           </div>
         </div>
         <h2 className="header-sanmll-categ">Address</h2>
@@ -134,23 +135,23 @@ const AddAddress = (props) => {
             <Input
               label={"House no./ Building Name"}
               placeholder={"House no. / Building Name"}
-              value={addressHouseName}
-              onChange={(e) => setAddressHouseName(e.target.value)}
+              // value={addressHouseName}
+              // onChange={(e) => setAddressHouseName(e.target.value)}
             />
-            {showErrorMsg && addressHouseName.length < 3
+            {/* {showErrorMsg && addressHouseName.length < 3
               ? renderErrorMsg("Enter valid house name")
-              : null}
+              : null} */}
           </div>
           <div className="padding-for-input-add-address">
             <Input
               label={"Road Name / Area / Colony"}
               placeholder={"Road Name / Area / Colony"}
-              value={addressAreaName}
-              onChange={(e) => setAddressAreaName(e.target.value)}
+              // value={addressAreaName}
+              // onChange={(e) => setAddressAreaName(e.target.value)}
             />
-            {showErrorMsg && addressAreaName.length < 3
+            {/* {showErrorMsg && addressAreaName.length < 3
               ? renderErrorMsg("Enter valid area name")
-              : null}
+              : null} */}
           </div>
 
           <div className="flexbo-ibusnodl">
@@ -158,70 +159,64 @@ const AddAddress = (props) => {
               <Input
                 label={"City"}
                 placeholder={"Your City"}
-                value={addressCity}
-                onChange={(e) => setAddressCity(e.target.value)}
+                // value={addressCity}
+                // onChange={(e) => setAddressCity(e.target.value)}
               />
-              {showErrorMsg && addressCity === ""
+              {/* {showErrorMsg && addressCity === ""
                 ? renderErrorMsg("Enter valid city name")
-                : null}
+                : null} */}
             </div>
             <div className="state-city-plkm">
               <Input
                 label={"State"}
                 placeholder={"Your State"}
-                value={addressState}
-                onChange={(e) => setAddressState(e.target.value)}
+                // value={addressState}
+                // onChange={(e) => setAddressState(e.target.value)}
                 type="select"
-                options={StateLists}
-                cat={true}
-                state={true}
+                // options={StateLists}
+                // cat={true}
+                // state={true}
               />
-              {showErrorMsg && addressState === ""
+              {/* {showErrorMsg && addressState === ""
                 ? renderErrorMsg("Enter valid state name")
-                : null}
+                : null} */}
             </div>
           </div>
           <div className="padding-for-input-add-address">
             <Input
               label={"Pincode"}
               placeholder={"Your Pincode"}
-              value={addressPinCode}
-              onChange={(e) => setAddressPinCode(e.target.value)}
+              // value={addressPinCode}
+              // onChange={(e) => setAddressPinCode(e.target.value)}
             />
 
-            {showErrorMsg && addressPinCode === ""
+            {/* {showErrorMsg && addressPinCode === ""
               ? renderErrorMsg("Enter valid  pincode")
-              : null}
+              : null} */}
           </div>
 
           <div className="padding-for-input-add-address">
             <Input
               label={"Nearby Location (optional)"}
               placeholder={"Your Nearby Location (optional)"}
-              value={addressNearbyLocation}
-              onChange={(e) => setAddressNearbyLocation(e.target.value)}
+              // value={addressNearbyLocation}
+              // onChange={(e) => setAddressNearbyLocation(e.target.value)}
             />
           </div>
           <div style={{ marginTop: "2em" }}>
-            {submit ? (
-              <button className="savandcontinueaddress">Please wait...</button>
-            ) : (
-              <button className="savandcontinueaddress" onClick={saveAddress}>
-                Save Address
-              </button>
-            )}
+            {/* {submit ? ( */}
+            <button className="savandcontinueaddress">Please wait...</button>
+            {/* // ) : ( */}
+            <button
+              className="savandcontinueaddress"
+              //  onClick={saveAddress}
+            >
+              Save Address
+            </button>
+            {/* )} */}
           </div>
         </div>
       </div>
-
-      <MessagePopup
-        visible={showErrorModal}
-        onClose={() => {
-          setShowErrorModal(false);
-        }}
-        title={"Oooppss!"}
-        message={"Something went worng, try again later"}
-      />
     </>
   );
 };

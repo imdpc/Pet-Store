@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomeShopNow.css";
+import img1 from "../../Assets/imghomepage-removebg-preview.png"
 
 const HomeShopNow = () => {
   return (
@@ -33,7 +34,7 @@ const HomeShopNow = () => {
             <div className="contains-images-for-advertise">
               <img
                 className="pet-food-image"
-                src="https://www.pngkey.com/png/detail/112-1121805_food-bag-dr-garys-best-breed-dog-food.png"
+                src={img1}
                 alt=""
               />
 

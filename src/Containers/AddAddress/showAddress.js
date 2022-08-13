@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./addaddress.css";
+import "./AddAddress.css";
 
 const ShowAddress = (props) => {
   return (
@@ -13,27 +13,30 @@ const ShowAddress = (props) => {
               {/* {props.user.addressName ? props.user.addressName : "Guest user"} */}
             </h2>
             <p className="full-address-view-acrion">
-              {props.user.addressAddress
+              {/* {props.user.addressAddress
                 ? props.user.addressAddress
-                : "Guest user address"}
+                : "Guest user address"} */}
               <br />
-              {props.user.addressCity
+              {/* {props.user.addressCity
                 ? props.user.addressCity
-                : "Guest user address"}
+                : "Guest user address"} */}
               <br />{" "}
-              {props.user.addressState
+              {/* {props.user.addressState
                 ? props.user.addressState
-                : "Guest user address"}
+                : "Guest user address"} */}
               <br />{" "}
-              {props.user.addressPinCode
+              {/* {props.user.addressPinCode
                 ? props.user.addressPinCode
-                : "Guest user address"}
+                : "Guest user address"} */}
               <br /> +91{" "}
-              {props.user.addressMobileNumber
+              {/* {props.user.addressMobileNumber
                 ? props.user.addressMobileNumber
-                : "Guest user address"}
+                : "Guest user address"} */}
             </p>{" "}
-            <button className="Edit-btn-intext" onClick={props.editAddress}>
+            <button
+              className="Edit-btn-intext"
+              //  onClick={props.editAddress}
+            >
               Edit
             </button>
             <div style={{ marginTop: "0.5em" }}>

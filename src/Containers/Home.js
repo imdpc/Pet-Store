@@ -14,22 +14,24 @@ import TargetSale from "./TargetSales/TargetSale";
 import ExploreWorld from "./ExploreWorld/ExploreWorld";
 import ExploreMore from "./ExploreMore/ExploreMore";
 import ResponsiveNav from "../Components/ResponsiveNav/ResponsiveNav";
+import OrderSuccess from "./OrderSuccess/OrderSuccess";
 
 const Home = () => {
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <HomeShopNow />
       <TargetSale />
       <FeaturedIn />
       <ExploreWorld />
       <UkStore />
       <ProductNav />
-      <ExploreMore />
-      <ProductPage />
-      <ShopOurInstagram />
-      <AboutUs />
-      <PetShopFooter />
+      <ExploreMore /> */}
+      {/* <ProductPage /> */}
+      {/* <ShopOurInstagram /> */}
+      {/* <AboutUs /> */}
+      {/* <PetShopFooter /> */}
+      <OrderSuccess />
     </>
   );
 };
