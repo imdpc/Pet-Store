@@ -1,5 +1,6 @@
 import "./App.css";
 import ResponsiveNav from "./Components/ResponsiveNav/ResponsiveNav";
+import StoreViewCart from "./Containers/Cart/Cart";
 // import FeaturedIn from "./Containers/FeaturedIn/FeaturedIn";
 // import TargetSale from "./Containers/TargetSales/TargetSale";
 // import HomeShopNow from "./Components/HomeShopNow/HomeShopNow";
@@ -21,7 +22,8 @@ import PreviewTheme from "./Containers/PreviewTheme/PreviewTheme";
 function App() {
   return (
     <>
-      <PreviewTheme />
+      <StoreViewCart />
+      {/* <PreviewTheme /> */}
     </>
   );
 }

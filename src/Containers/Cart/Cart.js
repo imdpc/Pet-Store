@@ -42,7 +42,7 @@ export const StoreViewCart = () => {
 
   return (
     <>
-      <OrderFlowNavbar />
+      {/* <OrderFlowNavbar /> */}
       <div className="disde-dl-ed-jkew-corinks">
         <div className="card-jekdnml-cwoerrwwk">
           <div className="your-bag-dropdown">
@@ -62,25 +62,9 @@ export const StoreViewCart = () => {
               height: "calc(100vh - 10rem)",
             }}
           >
-            {/* {Object.keys(cartItems).map((key, index) => ( */}
-            <CartItem
-            // key={index}
-            // cartItem={cartItems[key]}
-            // onQuantityInc={onQuantityIncrement}
-            // onQuantityDec={onQuantityDecrement}
-            // onRemoveCartItem={onRemoveCartItem}
-            // onQuantityInc={onQuantityIncrement}
-            // onQuantityDec={onQuantityDecrement}
-            // onQuantityDecWithSize={onQuantityDecWithSize}
-            // onQuantityIncrementWithSize={onQuantityIncrementWithSize}
-            // onRemoveCartItem={onRemoveCartItem}
-            />
-            {/* ))} */}
-            {/* <AddAddress /> */}
+            {/* <CartItem /> */}
           </div>
         </div>
-        {/* <div className="ne-line-between-lnce-kjne"></div> */}
-
         <PriceDetails />
       </div>
     </>
