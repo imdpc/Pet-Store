@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
-import Input from "../Inputs";
+import React from "react";
 import "./AddAddress.css";
 // import { useSelector, useDispatch } from "react-redux";
 // import { StateLists } from "../../Data";
 // import { userAddressAction } from "../../redux/action/auth.action";
-import MessagePopup from "../ErrorPopup";
+import Input from "./../../Components/Inputs/index";
 
-const AddAddress = (props) => {
+const AddAddress = () => {
   // const auth = useSelector((state) => state.auth);
   // const [addressHouseName, setAddressHouseName] = useState(
   //   auth.user && auth.user.addressHouseName ? auth.user.addressHouseName : ""
