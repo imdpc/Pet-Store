@@ -5,10 +5,12 @@
 
 .pet-shop-footer {
   display: flex;
-  justify-content: space-around;
-  padding: 160px 50px 0 10px;
+  justify-content: center;
+  padding: 160px 50px 0 33px;
   height: 620px;
   background-color: #b9dee6d7;
+  /* width: 75em; */
+  gap: 78px;
 }
 .main-div-for-flex-center {
   display: flex;
@@ -17,7 +19,7 @@
   /* background-color: #b9dee6d7; */
 }
 .footer-div-for-widith {
-  width: 75em;
+  width: 100%;
 }
 .call-img-in-footer {
   height: 15px;

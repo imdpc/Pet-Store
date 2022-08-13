@@ -18,7 +18,7 @@
   padding-left: 6em;
 }
 .bg-and-heading {
-  background-image: url("../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg");
+  background-image: url('../../Assets/ProductPageimg/paul-hanaoka-rYchmOEzWlo-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 350px;
@@ -111,5 +111,8 @@
   }
   .side-nav-content h2 {
     display: none;
+  }
+  .all-product-for-sell {
+    padding: 1em;
   }
 }
