@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ImagesPath } from "../../Assets/ImportedImages";
+
 // import { PriceWithComma } from "../../Functions";
 // import "./style.css";
 import "./CartItem.css";
+import { ImagesPath } from "./../../Assets/ImportedImages/index";
 /**
  *
  **/
@@ -40,7 +41,7 @@ const CartItem = () => {
                 <img
                   className="cart-design-image"
                   // src={img}
-                  src={ImagesPath.EmptyCart}
+                  src={ImagesPath.Empty_bag}
                   alt=""
                 />
               </div>

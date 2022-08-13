@@ -1,0 +1,44 @@
+.contains-navbar-content-back-and-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.width-for-responsive-nav {
+  width: 85em;
+}
+.flex-navbar-for-responsive-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.img-for-back-and-text {
+  display: flex;
+  gap: 0.5em;
+}
+
+.text-for-backside {
+  color: grey;
+  font-size: 19px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-for-try-theme button {
+  width: 9em;
+  height: 3em;
+  border: none;
+  background-color: #008060dc;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-navbar-for-responsive-navbar {
+    margin: 1em;
+    padding: 0;
+  }
+}
