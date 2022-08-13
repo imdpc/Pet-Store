@@ -7,7 +7,7 @@ const PriceDetails = () => {
       <div className="piceandgrandtatol">
         <div className="subtotal-and-price-of-products">
           <p>Total items:</p>
-          {/* <h4>{props.totalItem} items</h4> */}
+          {/* <h4>{props.totalItem} items</h4> */} 4 items
         </div>
         <div className="subtotal-and-price-of-products">
           <p>Subtotal:</p>
