@@ -2,12 +2,100 @@
   display: flex;
   justify-content: center;
 }
-
+.all-the-details-texts-about-blog {
+  display: grid;
+  row-gap: 2em;
+}
 .heading-of-the-single-blog h1 {
   display: flex;
   font-size: 6em;
   /* line-height: 0.9; */
   max-width: 80%;
   letter-spacing: 0;
-  font-weight: 600;
+  font-weight: 500;
+}
+.sub-heading-of-the-single-blog h1 {
+  display: flex;
+  font-size: 3em;
+  line-height: 75.2px;
+  max-width: 63%;
+}
+.first-contains-para-in-blogs p {
+  margin-bottom: 1.3em;
+  font-size: 21px;
+
+  color: #0d0e0e;
+  font-weight: 300;
+}
+
+.second-contains-para-in-blogs p {
+  margin-bottom: 1.3em;
+  font-size: 21px;
+
+  color: #0d0e0e;
+  font-weight: 300;
+}
+.question-and-answer-in-blogs {
+  display: grid;
+  row-gap: 3em;
+}
+
+.question-and-answer-in-blogs-first p {
+  margin-bottom: 1em;
+  font-size: 21px;
+  color: #0d0e0e;
+  font-weight: 300;
+}
+.question-and-answer-in-blogs-second p {
+  margin-bottom: 1em;
+  font-size: 21px;
+  color: #0d0e0e;
+  font-weight: 300;
+}
+.second-subheading-in-blog-section h1 {
+  display: flex;
+  font-size: 3em;
+  line-height: 75.2px;
+  max-width: 63%;
+}
+.details-about-blog-writer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 30em;
+  align-items: center;
+  padding: 2em 0 2em 0;
+}
+
+.read-more-of-blogger {
+  display: flex;
+  gap: 2em;
+}
+
+.name-of-blogger-and-read-more-button {
+  display: grid;
+  row-gap: 2em;
+  align-items: center;
+}
+.name-of-blogger p {
+  font-size: 21px;
+  color: #0d0e0e;
+  font-weight: 300;
+}
+.read-more-of-blogger p {
+  font-size: 21px;
+  color: #0d0e0e;
+  font-weight: 300;
+}
+
+/* media query for responsive */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .heading-of-the-single-blog h1 {
+    font-size: 4em;
+  }
+  .all-the-content-of-the-blog {
+  }
+  .youtube-video-section-middle-of-the-blog {
+    display: none;
+  }
 }
