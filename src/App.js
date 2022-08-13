@@ -1,6 +1,7 @@
 import "./App.css";
 import ResponsiveNav from "./Components/ResponsiveNav/ResponsiveNav";
 import AddAddress from "./Containers/AddAddress/AddAddress";
+import ShowAddress from "./Containers/AddAddress/showAddress";
 import StoreViewCart from "./Containers/Cart/Cart";
 // import FeaturedIn from "./Containers/FeaturedIn/FeaturedIn";
 // import TargetSale from "./Containers/TargetSales/TargetSale";
@@ -18,6 +19,7 @@ import StoreViewCart from "./Containers/Cart/Cart";
 // import AboutUs from "./Containers/AboutUs/AboutUs";
 // import ResponsiveNav from "./Components/ResponsiveNav/ResponsiveNav";
 import Home from "./Containers/Home";
+import { Payment } from "./Containers/Payment/payment";
 import PreviewTheme from "./Containers/PreviewTheme/PreviewTheme";
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
     <>
       {/* <StoreViewCart /> */}
       {/* <PreviewTheme /> */}
-      <AddAddress />
+      {/* <AddAddress /> */}
+      {/* <ShowAddress /> */}
+      <Payment />
     </>
   );
 }

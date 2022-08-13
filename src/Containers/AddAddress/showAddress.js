@@ -11,27 +11,33 @@ const ShowAddress = (props) => {
           <div className="color-box-at-address-box">
             <h2 style={{ fontSize: "18px" }}>
               {/* {props.user.addressName ? props.user.addressName : "Guest user"} */}
+              Guest user address
             </h2>
             <p className="full-address-view-acrion">
               {/* {props.user.addressAddress
                 ? props.user.addressAddress
                 : "Guest user address"} */}
+              Guest user address
               <br />
               {/* {props.user.addressCity
                 ? props.user.addressCity
                 : "Guest user address"} */}
+              Guest user address
               <br />{" "}
               {/* {props.user.addressState
                 ? props.user.addressState
                 : "Guest user address"} */}
+              Guest user address
               <br />{" "}
               {/* {props.user.addressPinCode
                 ? props.user.addressPinCode
                 : "Guest user address"} */}
+              Guest user address
               <br /> +91{" "}
               {/* {props.user.addressMobileNumber
                 ? props.user.addressMobileNumber
                 : "Guest user address"} */}
+              9999999999
             </p>{" "}
             <button
               className="Edit-btn-intext"
@@ -40,9 +46,9 @@ const ShowAddress = (props) => {
               Edit
             </button>
             <div style={{ marginTop: "0.5em" }}>
-              <Link to="/payment">
+              <a to="/payment">
                 <button className="savandcontinueaddress">Deliver here</button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
