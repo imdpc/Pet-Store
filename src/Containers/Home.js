@@ -16,6 +16,7 @@ import ExploreMore from "./ExploreMore/ExploreMore";
 import ResponsiveNav from "../Components/ResponsiveNav/ResponsiveNav";
 import OrderSuccess from "./OrderSuccess/OrderSuccess";
 
+
 const Home = () => {
   return (
     <>
@@ -31,7 +32,8 @@ const Home = () => {
       {/* <ShopOurInstagram /> */}
       {/* <AboutUs /> */}
       {/* <PetShopFooter /> */}
-      <OrderSuccess />
+      {/* <OrderSuccess /> */}
+
     </>
   );
 };

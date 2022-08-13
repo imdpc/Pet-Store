@@ -8,13 +8,13 @@ export const OrderFlowNavbar = () => {
     <>
       <div className="statusnavbar-center-view-only">
         <div className="statusnavbar-width-only">
-          <Link>
+          <a>
             <img
               style={{ height: "2em" }}
               src={ImagesPath.Shopisthanlog}
               alt="Shopisthan"
             />
-          </Link>
+          </a>
 
           <div style={{ display: "flex" }}>
             <div>
