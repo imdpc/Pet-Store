@@ -18,6 +18,8 @@
   height: auto;
   width: 450px;
   cursor: pointer;
+
+  box-shadow: -3px 5px 8px 2px #d3d3d3a1;
 }
 .middle-content-for-blog {
   display: flex;
