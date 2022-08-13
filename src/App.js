@@ -1,5 +1,6 @@
 import "./App.css";
 import ResponsiveNav from "./Components/ResponsiveNav/ResponsiveNav";
+import AddAddress from "./Containers/AddAddress/AddAddress";
 import StoreViewCart from "./Containers/Cart/Cart";
 // import FeaturedIn from "./Containers/FeaturedIn/FeaturedIn";
 // import TargetSale from "./Containers/TargetSales/TargetSale";
@@ -22,8 +23,9 @@ import PreviewTheme from "./Containers/PreviewTheme/PreviewTheme";
 function App() {
   return (
     <>
-      <StoreViewCart />
+      {/* <StoreViewCart /> */}
       {/* <PreviewTheme /> */}
+      <AddAddress />
     </>
   );
 }

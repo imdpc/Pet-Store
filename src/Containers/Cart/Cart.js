@@ -42,7 +42,7 @@ export const StoreViewCart = () => {
 
   return (
     <>
-      {/* <OrderFlowNavbar /> */}
+      <OrderFlowNavbar />
       <div className="disde-dl-ed-jkew-corinks">
         <div className="card-jekdnml-cwoerrwwk">
           <div className="your-bag-dropdown">
@@ -62,7 +62,7 @@ export const StoreViewCart = () => {
               height: "calc(100vh - 10rem)",
             }}
           >
-            {/* <CartItem /> */}
+            <CartItem />
           </div>
         </div>
         <PriceDetails />
