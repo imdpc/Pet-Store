@@ -101,34 +101,39 @@ const SingleBlogPreview = () => {
                       call:
                     </p>
                     <p>
-                      Q: I’m a little curious, why are you calling about web
-                      comps?
+                      <b>
+                        Q: I’m a little curious, why are you calling about web
+                        comps?
+                      </b>
                     </p>
                     <p>
-                      A: I’ve seen the work you’ve done in the past and thought
-                      you could help with our brand
+                      <b> A:</b> I’ve seen the work you’ve done in the past and
+                      thought you could help with our brand
                     </p>
                     <p>
-                      Takeaway: The customer is familiar with your work and
-                      prepared to trust you
+                      <b>Takeaway: </b>The customer is familiar with your work
+                      and prepared to trust you
                     </p>
                   </div>
                   <div className="question-and-answer-in-blogs-second">
                     <p>
-                      Q: Right, but why do you, specifically, believe you need
-                      web comps?
+                      <b>
+                        Q: Right, but why do you, specifically, believe you need
+                        web comps?
+                      </b>
                     </p>
                     <p>
-                      A: We want to increase engagement. We’ve had some success
-                      in the past… but have seen our sales going down, and we’re
-                      not sure why. We want repeat customers, but it’s very
-                      competitive in our industry.
+                      <b>A:</b> We want to increase engagement. We’ve had some
+                      success in the past… but have seen our sales going down,
+                      and we’re not sure why. We want repeat customers, but it’s
+                      very competitive in our industry.
                     </p>
                     <p>
-                      Takeaway: Whoa! This client gave so much information in
-                      answering this one question. We now have a pain point, a
-                      proposed reason for it, the desired result of fixing it,
-                      and a roadblock that they feel is getting in the way.
+                      <b>Takeaway:</b> Whoa! This client gave so much
+                      information in answering this one question. We now have a
+                      pain point, a proposed reason for it, the desired result
+                      of fixing it, and a roadblock that they feel is getting in
+                      the way.
                     </p>
                     <p>
                       Make sure you jot down those pain points, the proposed
@@ -157,10 +162,14 @@ const SingleBlogPreview = () => {
                       And just to prove that it pays to be curious, we’re back
                       for one more round of questions!
                     </p>
-                    <p>Q: Is this an accurate estimate?</p>{" "}
                     <p>
-                      Q: What do you think a fair price would be against this
-                      number?{" "}
+                      <b>Q: Is this an accurate estimate?</b>
+                    </p>{" "}
+                    <p>
+                      <b>
+                        Q: What do you think a fair price would be against this
+                        number?{" "}
+                      </b>
                     </p>
                     <p>
                       The next bit is all up to how they’ve responded. For a
