@@ -15,7 +15,7 @@
 .img-for-back-and-text {
   display: flex;
   gap: 0.5em;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .text-for-backside {
