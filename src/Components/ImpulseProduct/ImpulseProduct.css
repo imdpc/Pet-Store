@@ -1,0 +1,68 @@
+.title-of-product {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 300px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+.hover-btn-div {
+  /* margin-top: -50px;
+  margin-bottom: 50px;
+  margin-left: 50px; */
+  margin: -50px 10px 50px 10px;
+  opacity: 0;
+}
+.hover-btn {
+  width: 280px;
+  /* width: 100%; */
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+  cursor: pointer;
+}
+.div-for-img-and-btn:hover .hover-btn-div {
+  opacity: 1;
+}
+
+.price-of-product {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.img-for-product {
+  width: 300px;
+  height: 350px;
+  cursor: pointer;
+}
+.div-for-img-and-desc {
+  display: block;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .img-for-product {
+    width: 100%;
+  }
+  .title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .price-of-product {
+    display: flex;
+    justify-content: center;
+  }
+  .div-for-img-and-desc {
+    padding: 1em;
+  }
+  .desc-for-product {
+    margin: 10px 0 0 0;
+  }
+  .hover-btn {
+    width: 100%;
+  }
+}
