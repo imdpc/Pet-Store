@@ -1,0 +1,16 @@
+.flex-div-for-all-popular-products {
+  display: flex;
+  justify-content: center;
+}
+.div-for-all-popular-products {
+  display: flex;
+  gap: 20px;
+  width: 80em;
+  flex-wrap: wrap;
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-div-for-all-popular-products {
+    width: 100%;
+    padding: 1em;
+  }
+}

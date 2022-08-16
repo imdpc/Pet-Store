@@ -5,6 +5,7 @@ import profilepng from "../../Assets/Navbar img/user.png";
 import bagspng from "../../Assets/Navbar img/bag.png";
 const DawnNav = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     // main div flex for DAWN navbar
     <div className="DAWN-Navbar">
