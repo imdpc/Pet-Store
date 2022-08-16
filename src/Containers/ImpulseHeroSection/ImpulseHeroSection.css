@@ -1,0 +1,39 @@
+.div-for-bg-image-and-text {
+  background-image: url('../../Assets/Impulse/allef-vinicius-LufvquqCfE0-unsplash.jpg');
+  height: 650px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-position: fixed;
+}
+.btn-for-the-hero-section {
+  height: 45px;
+  width: 160px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.3rem;
+}
+
+.shop-btn {
+  margin: 530px 0 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .div-for-bg-image-and-text {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 430px;
+    /* height: 100%; */
+  }
+  .shop-btn {
+    margin: 350px 0 0 0;
+  }
+}
