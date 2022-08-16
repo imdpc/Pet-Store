@@ -20,6 +20,9 @@ const DawnScreen = () => {
               <DawnProduct />
               <DawnProduct />
               <DawnProduct />
+              <DawnProduct />
+              <DawnProduct />
+              <DawnProduct />
             </div>
           </div>
         </div>

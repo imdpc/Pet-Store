@@ -20,7 +20,7 @@ const DawnProduct = () => {
           <div className="details-of-the-product">
             {/* name of the product */}
             <div className="name-of-the-product">
-              <p>Helix</p>
+              <p>Helixkdvlnsvnkfnlnfnvnfkvnfk</p>
             </div>
             {/* price details of the product */}
             <div className="price-of-the-product">

@@ -4,11 +4,15 @@
   justify-content: center;
 }
 .width-set-for-the-product {
-  width: 21em;
+  width: 18em;
 }
 .name-of-the-product p {
   font-size: 18px;
   font-weight: 500;
+  white-space: nowrap;
+  width: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .price-of-the-product {
@@ -18,6 +22,7 @@
 
 .img-of-product img {
   border-radius: 2px;
+  width: 18em;
 }
 
 .details-of-the-product {
