@@ -1,0 +1,21 @@
+.dawn-products {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  justify-content: center;
+  overflow-y: scroll;
+}
+.width-set-for-screen-of-products {
+  width: 75em;
+}
+
+.div-for-all-products-after-dawn-nav {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .width-set-for-screen-of-products {
+    width: 100%;
+  }
+}

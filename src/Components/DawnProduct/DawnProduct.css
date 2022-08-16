@@ -1,0 +1,39 @@
+.flex-container-for-dawn-product {
+  display: grid;
+  row-gap: 0.5em;
+  justify-content: center;
+}
+.width-set-for-the-product {
+  width: 21em;
+}
+.name-of-the-product p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price-of-the-product {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.img-of-product img {
+  border-radius: 2px;
+}
+
+.details-of-the-product {
+  display: grid;
+  row-gap: 0.5em;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .width-set-for-the-product {
+    display: block;
+    margin: 1em;
+  }
+  .img-of-the-product-in-dawn img {
+    width: 100%;
+  }
+  .details-of-the-product {
+    width: 100%;
+  }
+}
