@@ -3,6 +3,7 @@ import ResponsiveNav from "./Components/ResponsiveNav/ResponsiveNav";
 import AddAddress from "./Containers/AddAddress/AddAddress";
 import ShowAddress from "./Containers/AddAddress/showAddress";
 import StoreViewCart from "./Containers/Cart/Cart";
+import DawnScreen from "./Containers/DawnScreen/DawnScreen";
 // import FeaturedIn from "./Containers/FeaturedIn/FeaturedIn";
 // import TargetSale from "./Containers/TargetSales/TargetSale";
 // import HomeShopNow from "./Components/HomeShopNow/HomeShopNow";
@@ -29,7 +30,8 @@ function App() {
       {/* <PreviewTheme /> */}
       {/* <AddAddress /> */}
       {/* <ShowAddress /> */}
-      <Payment />
+      {/* <Payment /> */}
+      <DawnScreen />
     </>
   );
 }
