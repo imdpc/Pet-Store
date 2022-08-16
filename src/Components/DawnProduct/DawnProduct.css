@@ -9,6 +9,10 @@
 .name-of-the-product p {
   font-size: 18px;
   font-weight: 500;
+  white-space: nowrap;
+  width: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .price-of-the-product {

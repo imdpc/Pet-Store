@@ -24,12 +24,6 @@ const DawnScreen = () => {
               <DawnProduct />
               <DawnProduct />
             </div>
-            {/* <div className="dawn-products">
-              <DawnProduct />
-              <DawnProduct />
-              <DawnProduct />
-              <DawnProduct />
-            </div> */}
           </div>
         </div>
       </div>

@@ -5,15 +5,16 @@
   justify-content: center;
   margin-top: 1em;
   margin-bottom: 1em;
+  flex-wrap: wrap;
   /* overflow-y: scroll; */
 }
 .width-set-for-screen-of-products {
   width: 75em;
 }
-.dawn-nav{
-    display: flex;
-    justify-content: center;
-    background-color: #e2e2e2;
+.dawn-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #e2e2e2;
 }
 .div-for-all-products-after-dawn-nav {
   display: flex;
