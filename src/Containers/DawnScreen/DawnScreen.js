@@ -19,6 +19,11 @@ const DawnScreen = () => {
               <DawnProduct />
               <DawnProduct />
               <DawnProduct />
+            </div>
+            <div className="dawn-products">
+              <DawnProduct />
+              <DawnProduct />
+              <DawnProduct />
               <DawnProduct />
             </div>
           </div>
