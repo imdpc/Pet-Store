@@ -1,0 +1,205 @@
+/* css for Franchise */
+.flex-container-for-franchise {
+  display: flex;
+  justify-content: center;
+}
+.info-and-youtube-video-for-franchise {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  margin: 5em 0;
+}
+.text-on-bg-image {
+  background: #000000a8;
+  width: 100%;
+  height: 24em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-img-for-franchise {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 24em;
+  background-position: fixed;
+  background-image: url("../../Assets/img/Tea-Time-franchise-001.jpg");
+}
+.banner-img-for-franchise h1 {
+  color: white;
+  font-size: 53px;
+  text-align: center;
+}
+.flex-container-for-first-outlet-card-for-franchise {
+  display: flex;
+  justify-content: center;
+}
+.width-set-for-franchise-screen {
+  width: 75em;
+}
+
+.info-and-youtube-video-for-franchise {
+  display: flex;
+  justify-content: center;
+}
+.heading-for-franchise-info p {
+  font-size: 31px;
+  font-weight: 500;
+}
+
+.paragraph-for-franchise-info p {
+  font-size: 19px;
+  /* font-weight: 500; */
+  line-height: 31px;
+}
+.info-for-franchise {
+  display: grid;
+}
+
+/* cdd for franchise cards */
+
+.first-card-for-outlets {
+  width: 100%;
+  padding: 2em;
+  background-color: white;
+}
+.first-card-for-outlets p {
+  margin: 2em 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+.first-card-for-outlets h1 {
+  font-size: 27px;
+  color: #e31e28;
+}
+.second-card-for-investments {
+  width: 100%;
+  padding: 2em;
+  background-color: #e31e28;
+  color: white;
+}
+.second-card-for-investments p {
+  margin: 2em 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+.second-card-for-investments h1 {
+  font-size: 27px;
+}
+
+.third-card-for-margin {
+  width: 100%;
+  padding: 2em;
+  background-color: white;
+}
+.third-card-for-margin p {
+  margin: 2em 0;
+  font-size: 22px;
+  font-weight: 400;
+}
+.third-card-for-margin h1 {
+  font-size: 27px;
+  color: #e31e28;
+}
+.three-flex-cards-for-franchise-info {
+  display: flex;
+  justify-content: center;
+  /* text-align: left; */
+  width: 75em;
+  height: 31.3em;
+}
+.flex-continer-full-width {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 39em;
+  background-color: #f1f8f3;
+  align-items: center;
+}
+
+/* CSS For hover cards Requirement*/
+
+.container-for-first-outlet-card {
+  position: relative;
+  width: 50%;
+}
+
+.image-for-outlet-card-in-req img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-for-outlet-card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #e31e28;
+}
+
+.container-for-first-outlet-card:hover .overlay-for-outlet-card {
+  opacity: 1;
+}
+
+.text-for-outlet-card {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  display: grid;
+  padding: 1em;
+  row-gap: 2em;
+}
+
+.franchise-requirements-and-cards-contaning-text {
+  display: flex;
+  justify-content: center;
+}
+.flex-container-for-franchisee-requirements {
+  display: flex;
+  justify-content: center;
+}
+.div-contains-all-the-cards-for-req {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+.width-set-for-section {
+  width: 75em;
+}
+
+.heading-for-unit-franchinsee-req h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 2em 0;
+}
+.flex-contact-us {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 50em;
+  margin: 5em 0;
+  background-position: fixed;
+  background-image: url("../../Assets/img/Tea-Time-franchise-001.jpg");
+}
+.width-contact-us {
+  width: 75em;
+}
