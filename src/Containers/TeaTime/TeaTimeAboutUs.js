@@ -25,57 +25,66 @@ const TeaTimeAboutUs = () => {
   return (
     <>
       {/* container for about us page */}
-      {/* flex main div for single page content */}
+
       {/* banner img for about us page */}
 
       <div className="img-for-about-us-page">
         <img src={bannerimg} alt="" srcset="" />
       </div>
+      {/* flex main div for single page content */}
       <div className="main-flex-container-for-about-us">
         {/* width set for page */}
         <div className="width-set-for-page">
           {/* About us section */}
           <div className="about-us-section">
-            {/* our vision */}
-            <div className="about-us-info-left">
-              <div className="info-right-section">
-                <p>
-                  We believe, the careful the selection, the tastier the tea
-                </p>
-                <p>
-                  we source our tea leaves from north India’s tier-1 gardens
-                </p>{" "}
-                <p>
-                  Zero artificial flavors to enhance the real taste of desi tea
-                </p>
-                <p>Brewed to perfection so you can enjoy & unwind</p>
-              </div>
+            {/* heading for about us */}
+            <div className="heading-about-us-section">
+              <p>About Us</p>
             </div>
-            {/* image section in btween our-vision & our mission section */}
-            <div className="img-in-btwn-our-left-right-info">
-              <div className="img-for-about-us">
-                <img src={aboutusimg} alt="" srcset="" />
+            {/* section after heading section */}
+            <div className="contains-information-and-img-after-about-us">
+              {/* our vision */}
+              <div className="about-us-info-left">
+                <div className="info-left-section">
+                  <p>
+                    We believe, the careful the selection, the tastier the tea
+                  </p>
+                  <p>
+                    we source our tea leaves from north India’s tier-1 gardens
+                  </p>{" "}
+                  <p>
+                    Zero artificial flavors to enhance the real taste of desi
+                    tea
+                  </p>
+                  <p>Brewed to perfection so you can enjoy & unwind</p>
+                </div>
               </div>
-            </div>
-            {/* our mission section */}
-            <div className="about-us-info-right">
-              <div className="info-right-section">
-                <p>
-                  Hand pounded ginger from local produce to give you the ” Maa
-                  ke haath ki Ghar waali Kadak chai”
-                </p>
-                <p>
-                  Prepared by our expert chefs in the most hygienic conditions
-                  since safety is our priority
-                </p>{" "}
-                <p>
-                  We use Fresh milk and RO purified water.Quality is the heart
-                  of our family.
-                </p>
-                <p>
-                  100% Sulphur free sugar is used in every cup because we value
-                  your health.
-                </p>
+              {/* image section in btween our left and right section */}
+              <div className="img-in-btwn-our-left-right-info">
+                <div className="img-for-about-us">
+                  <img src={aboutusimg} alt="" srcset="" />
+                </div>
+              </div>
+              {/* about us info right section */}
+              <div className="about-us-info-right">
+                <div className="info-right-section">
+                  <p>
+                    Hand pounded ginger from local produce to give you the ” Maa
+                    ke haath ki Ghar waali Kadak chai”
+                  </p>
+                  <p>
+                    Prepared by our expert chefs in the most hygienic conditions
+                    since safety is our priority
+                  </p>{" "}
+                  <p>
+                    We use Fresh milk and RO purified water.Quality is the heart
+                    of our family.
+                  </p>
+                  <p>
+                    100% Sulphur free sugar is used in every cup because we
+                    value your health.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
