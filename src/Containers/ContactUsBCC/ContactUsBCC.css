@@ -1,0 +1,44 @@
+.flex-for-contact-us-bcc {
+  display: flex;
+  justify-content: center;
+  margin: 5em 0;
+}
+.width-for-contact-us-bcc {
+  width: 75em;
+}
+
+.heading-wanna-talk-us-for-contact h1 {
+  color: #e31e28;
+  font-size: 43px;
+}
+.heading-wanna-talk-us-for-contact {
+  font-weight: 500;
+}
+.heading-wanna-talk-us-for-contact {
+  text-align: center;
+  display: grid;
+  margin: 2em 0;
+  row-gap: 1em;
+  padding: 3em 0;
+}
+.flex-for-heading-contact-bcc {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f8f3;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .heading-wanna-talk-us-for-contact {
+    margin: 1em;
+  }
+  .heading-wanna-talk-us-for-contact h1 {
+    color: #e31e28;
+    font-size: 36px;
+  }
+  .heading-wanna-talk-us-for-contact {
+    font-size: 14px;
+  }
+  .flex-for-contact-us-bcc {
+    margin-top: auto;
+  }
+}
