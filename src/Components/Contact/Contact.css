@@ -6,7 +6,9 @@
   margin-bottom: 50px;
   background-color: #fff;
 }
-
+.for-width-contact-us-component {
+  width: 75em;
+}
 /* .ebeauty-contact-container h4{
     margin-bottom: 50px;
 } */
@@ -106,6 +108,10 @@
 .send-us-form-message {
   display: block;
 }
+.send-us-form-message textarea {
+  width: 100%;
+  height: 8em;
+}
 .send-us-form-button {
   display: flex;
   column-gap: 50px;
@@ -142,6 +148,7 @@
   max-width: 50%;
   height: 41em;
   text-align: center;
+  display: grid;
   color: white;
 }
 
@@ -169,7 +176,15 @@
 .head-office-css p {
   font-size: 20px;
 }
-
+.social-icons-for-tea-time-group img {
+  width: 50px;
+  height: 50px;
+}
+.social-icons-for-tea-time-group {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
 .contact-number-css {
   display: flex;
   align-items: baseline;
@@ -201,18 +216,25 @@
 .email-section-css p {
   font-size: 20px;
 }
-
+.flex-contactus-component {
+  display: flex;
+  justify-content: center;
+}
 @media (min-width: 320px) and (max-width: 425px) {
   .ebeauty-contact-container {
     display: block;
   }
   .ebeauty-send-us-msg-container {
-    margin: 10px;
+    margin: 2em;
+    padding: 0;
   }
   .send-us-form-one {
     display: block;
   }
-
+  .flex-contactus-component {
+    display: block;
+    margin: 1em;
+  }
   .send-us-form-two {
     display: block;
   }
@@ -228,10 +250,81 @@
   }
 
   .ebeauty-contact-us-container {
-    margin: 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
-
+  .send-us-form-three {
+    display: block;
+  }
   .send-us-form-button {
     justify-content: center;
+    margin-top: auto;
+  }
+  .for-width-contact-us-component {
+    width: 100%;
+  }
+  .ebeauty-contact-us-container p {
+    font-size: 16px;
+    padding: 0 0px;
+  }
+  .ebeauty-contact-us-container h1 {
+    font-size: 25px;
+  }
+  .ebeauty-contact-container h4 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 3em;
+  }
+  .social-icons-for-tea-time-group img {
+    width: 40px;
+    height: 40px;
+  }
+  .social-icons-for-tea-time-group {
+    margin: 47px 0px;
+  }
+  .send-us-form-three input {
+    text-align: left;
+    font-size: 14px;
+    width: 100%;
+    margin-top: auto;
+  }
+  .send-us-form-button-submit button {
+    background-color: black;
+    color: white;
+    padding: 9px;
+    width: 36%;
+    border: none;
+    height: 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 25px 0px;
+  }
+  .send-us-form-two input {
+    text-align: left;
+    font-size: 15px;
+    margin-top: auto;
+    width: 100%;
+  }
+  .send-us-form-one input {
+    text-align: left;
+    font-size: 15px;
+    margin-top: auto;
+    width: 100%;
+  }
+  .send-us-form-two p {
+    font-size: 14px;
+    padding-top: 25px;
+    text-align: left;
+  }
+  .send-us-form-one p {
+    font-size: 14px;
+    padding-top: 16px;
+    text-align: left;
+  }
+  .send-us-form-three p {
+    font-size: 14px;
+    padding-top: 25px;
+    text-align: left;
   }
 }

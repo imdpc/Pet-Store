@@ -203,3 +203,117 @@
 .width-contact-us {
   width: 75em;
 }
+
+/* Media Query */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .info-for-franchise {
+    width: 100%;
+    display: grid;
+    row-gap: 2em;
+  }
+  .banner-img-for-franchise {
+    width: auto;
+  }
+  .info-and-youtube-video-for-franchise {
+    display: grid;
+    width: 100%;
+  }
+  .heading-for-franchise-info {
+    width: 100%;
+  }
+  .youtube-video-for-franchise iframe {
+    width: 100%;
+  }
+  .flex-continer-full-width {
+    width: auto;
+    /* margin: 1em; */
+    height: auto;
+  }
+  .three-flex-cards-for-franchise-info {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 1em;
+  }
+  .flex-container-for-franchisee-requirements {
+    margin: 1em;
+    display: block;
+  }
+  .flex-container-for-franchise {
+    margin: 1em;
+  }
+  .width-set-for-section {
+    display: grid;
+    width: 100%;
+  }
+  .paragraph-for-franchise-info p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .text-on-bg-image {
+    width: 100%;
+    height: auto;
+  }
+  .first-card-for-outlets p {
+    margin: 2em 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .second-card-for-investments h1 {
+    font-size: 23px;
+  }
+  .heading-for-franchise-info p {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .heading-for-unit-franchinsee-req {
+    /* margin-top: 24em; */
+  }
+  .second-card-for-investments p {
+    margin: 2em 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .third-card-for-margin h1 {
+    font-size: 23px;
+    color: #e31e28;
+  }
+  .third-card-for-margin p {
+    margin: 2em 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .heading-for-unit-franchinsee-req h2 {
+    display: block;
+    margin: 2em 0;
+    width: 100%;
+  }
+  .franchise-requirements-and-cards-contaning-text {
+    display: block;
+  }
+  .div-contains-all-the-cards-for-req {
+    display: grid;
+  }
+  .container-for-first-outlet-card {
+    width: 100%;
+  }
+  .flex-contact-us {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    /* margin-top: 5em; */
+    margin: auto;
+    padding-top: 2em;
+  }
+  .banner-img-for-franchise h1 {
+    text-align: center;
+    width: 100%;
+    margin: 1em;
+    font-size: 38px;
+  }
+}
