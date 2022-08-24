@@ -1,0 +1,51 @@
+.flex-div-container-for-case-study {
+  display: flex;
+  justify-content: center;
+}
+.width-set-case-study-component {
+  width: 75em;
+}
+.contains-img-and-information-for-component {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.information-for-component {
+  width: 50%;
+  display: grid;
+  margin: 5em;
+  color: white;
+  row-gap: 1.3em;
+  color: white;
+}
+.information-for-component button {
+  border: none;
+  width: 12em;
+  height: 3em;
+  border-radius: 2px;
+}
+.information-for-component p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.information-for-component h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+.information-for-component h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.header-for-screen-our-work {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+}
