@@ -1,0 +1,84 @@
+.vybuhnimkdfghj {
+  width: 100%;
+  /* height: 35em; */
+  overflow: hidden;
+}
+
+.padding-ale-in-header-part {
+  padding: 10px;
+}
+
+.header-of-content-box-in {
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-family: system-ui;
+  color: #344854;
+}
+
+.flex-btn-in-next-and-preview-btn {
+  display: flex;
+}
+
+.btn-for-andheader-for-in-deasx {
+  align-items: end;
+  padding: 0px 150px 50px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-demain-cedojd-eal {
+  width: 30em;
+  font-size: 33px;
+  font-family: system-ui;
+}
+
+.svg-of-go-in-letd-idbaidjk {
+  margin-right: 4px;
+  width: 10px;
+  height: 10px;
+  fill: #707070;
+}
+
+.svg-of-go-rightin-wadsfg {
+  margin-left: 2px;
+  width: 10px;
+  height: 10px;
+  fill: #707070;
+}
+
+.oiwk-adesf-adcm {
+  padding-top: 2px;
+  padding-left: 7px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #707070;
+  background: #fff;
+  box-shadow: 0 2px 3px rgb(25 25 25 / 25%);
+  cursor: pointer;
+}
+
+.awdefrgt-ewfrgtr-edsfczx {
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+  height: 25em;
+}
+
+/* .vybuhnimkdfghj :hover.awdefrgt-ewfrgtr-edsfczx {
+  transform: scale(1.6);
+} */
+
+.first-header-of-slider-in-in-ladn {
+  font-family: system-ui;
+  font-size: 62px;
+  letter-spacing: -0.75px;
+  line-height: 68px;
+  /* font-family: inherit; */
+  padding-bottom: 50px;
+}
+
+.box-shadow-for-images-j {
+  filter: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.25)) !important;
+  padding: 12px;
+}
