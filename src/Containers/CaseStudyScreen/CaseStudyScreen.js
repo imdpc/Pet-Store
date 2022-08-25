@@ -1,6 +1,8 @@
 import React from "react";
 import "./CaseStudyScreen.css";
 import CaseStudyComponent from "./../../Components/CaseStudyComponent/CaseStudyComponent";
+import bgimg from "../../Assets/CaseStudyComponent/CaseStudyImg-1.jpg";
+
 const CaseStudyScreen = () => {
   const cssdata = [
     {
@@ -8,12 +10,28 @@ const CaseStudyScreen = () => {
       title: "BEST CHICKEN & MEATS",
       heading: "Always the Best.",
       info: "Brand Positioning, Design and Store Styling for a new chain of meat stores in India from Indonesian multinational JAPFA.",
+      url: bgimg,
     },
     {
       _id: "1",
       title: "BEST CHICKEN & MEATS",
       heading: "Always the Best.",
       info: "Brand Positioning, Design and Store Styling for a new chain of meat stores in India from Indonesian multinational JAPFA.",
+      url: bgimg,
+    },
+    {
+      _id: "1",
+      title: "BEST CHICKEN & MEATS",
+      heading: "Always the Best.",
+      info: "Brand Positioning, Design and Store Styling for a new chain of meat stores in India from Indonesian multinational JAPFA.",
+      url: bgimg,
+    },
+    {
+      _id: "1",
+      title: "BEST CHICKEN & MEATS",
+      heading: "Always the Best.",
+      info: "Brand Positioning, Design and Store Styling for a new chain of meat stores in India from Indonesian multinational JAPFA.",
+      url: bgimg,
     },
   ];
   return (
@@ -29,13 +47,13 @@ const CaseStudyScreen = () => {
           </div>
           {/* div for Case Study component */}
 
-          {cssdata.map((val, index) => (
-            <div className="div-contains-all-components-case-study">
-              <div className="content-for-the-img">
+          <div className="div-contains-all-components-case-study">
+            <div className="content-for-the-img">
+              {cssdata.map((val, index) => (
                 <CaseStudyComponent CSSDetail={val} />
-              </div>
+              ))}
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </>

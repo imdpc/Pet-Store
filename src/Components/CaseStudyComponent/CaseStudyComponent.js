@@ -8,7 +8,20 @@ const CaseStudyComponent = (props) => {
       {/* flex div for all content */}
       <div className="flex-div-container-for-case-study">
         {/* width set for component */}
-        <div className="width-set-case-study-component">
+        <div
+          className="image-set-case-study-components"
+          style={{
+            backgroundImage: `url(${props.CSSDetail.url})`,
+            backgroundrepeat: "no-repeat",
+            backgroundsize: "cover",
+            display: "flex",
+            alignitems: "center",
+            opacity: "5",
+            justifycontent: "center",
+            height: "24em",
+            backgroundposition: "fixed",
+          }}
+        >
           <div className="information-for-component">
             <h3>{props.CSSDetail.title}</h3>
             <h1>{props.CSSDetail.heading}</h1>
