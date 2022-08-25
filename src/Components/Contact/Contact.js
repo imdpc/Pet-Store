@@ -38,24 +38,20 @@ const Contact = () => {
                 <div className="send-us-form-name">
                   <p>NAME</p>
                   <input type="text" placeholder="Enter name" />
-                  <hr />
                 </div>
                 <div className="send-us-form-email">
                   <p>EMAIL</p>
                   <input type="text" placeholder="Enter email" />
-                  <hr />
                 </div>
               </div>
               <div className="send-us-form-two">
                 <div className="send-us-form-phone">
                   <p>PHONE</p>
                   <input type="text" placeholder="Enter phone number " />
-                  <hr />
                 </div>
                 <div className="send-us-form-subject">
                   <p>SUBJECT</p>
                   <input type="text" placeholder="Enter subject" />
-                  <hr />
                 </div>
               </div>
               <div className="send-us-form-three">
@@ -63,7 +59,6 @@ const Contact = () => {
                   <p>MESSAGE</p>
                   <textarea name="" id="" cols="30" rows="10"></textarea>
                   {/* <input type="textarea" placeholder="Enter your message" /> */}
-                  <hr />
                 </div>
               </div>
               <div className="send-us-form-button">

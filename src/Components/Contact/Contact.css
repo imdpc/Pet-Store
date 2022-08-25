@@ -21,7 +21,9 @@
   font-size: 32px;
   text-align: center;
 }
-
+.containing-text-and-header-for-tea-time {
+  text-align: left;
+}
 .ebeauty-send-us-msg-container {
   max-width: 100%;
   padding: 0 3em;
@@ -30,32 +32,32 @@
 .send-us-form-one {
   display: flex;
   column-gap: 20px;
+  justify-content: center;
 }
 
 .send-us-form-two {
   display: flex;
   column-gap: 20px;
+  justify-content: center;
 }
 .send-us-form-three {
-  display: flex;
+  /* display: flex; */
 }
 .send-us-form-one input {
-  border: none;
-  /* border-bottom: 1px solid gray; */
-  outline: none;
-  /* width: 350px; */
-  margin-top: 20px;
-  font-size: 20px;
-  /* border-width: 100%; */
+  width: 16em;
+  /* margin-top: 20px; */
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: #00000070;
 }
 .send-us-form-two input {
-  border: none;
-  /* border-bottom: 1px solid gray; */
-  outline: none;
-  /* width: 350px; */
-  font-size: 20px;
-  margin-top: 20px;
-  /* border-width: 100%; */
+  width: 16em;
+  /* margin-top: 20px; */
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 3px;
+  border-color: #00000070;
 }
 .send-us-form-three input {
   border: none;
@@ -80,16 +82,19 @@
 }
 
 .send-us-form-one p {
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 25px;
+  font-weight: 500;
 }
 .send-us-form-two p {
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 25px;
+  font-weight: 500;
 }
 .send-us-form-three p {
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 25px;
+  font-weight: 500;
 }
 
 .send-us-form-name {
@@ -155,9 +160,11 @@
 .ebeauty-contact-us-container p {
   font-size: 23px;
   padding: 0 57px;
+  line-height: 34px;
 }
 .ebeauty-contact-us-container h1 {
   font-size: 32px;
+  padding: 0 57px;
 }
 
 .head-office-css {
@@ -225,7 +232,7 @@
     display: block;
   }
   .ebeauty-send-us-msg-container {
-    margin: 2em;
+    margin: 3em;
     padding: 0;
   }
   .send-us-form-one {
