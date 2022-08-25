@@ -3,7 +3,10 @@
   justify-content: center;
 }
 .width-set-case-study-component {
-  width: 75em;
+  /* width: 75em; */
+}
+.image-set-case-study-components {
+  width: 100%;
 }
 .contains-img-and-information-for-component {
   position: relative;
@@ -23,7 +26,7 @@
   margin: 5em;
   color: white;
   row-gap: 1.3em;
-  color: white;
+  /* color: white; */
 }
 .information-for-component button {
   border: none;

@@ -11,7 +11,11 @@ const ContactBCC = () => {
           <div className="ebeauty-contact-container">
             {" "}
             <div className="ebeauty-send-us-msg-container">
-              <h4>Send us message</h4>
+              <h4>We Would Like To Hear From You!</h4>
+              <p>
+                Delight us with your tea stories..! Send us your cherished
+                garam-garam experience..!
+              </p>
               <div className="send-us-form-one">
                 {/* CONTACT Input Fields */}
                 <div className="send-us-form-name">
