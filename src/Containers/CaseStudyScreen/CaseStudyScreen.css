@@ -1,4 +1,8 @@
-.div-contains-all-components-case-study {
+.section-for-all-content {
+  display: grid;
+  row-gap: 5em;
+}
+.div-contains-all-components-case-study-1 {
   background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +11,126 @@
   width: 100%;
   opacity: 5;
   justify-content: center;
-  height: 24em;
+  height: 27em;
+  background-position: fixed;
+}
+.content-for-the-img-1 {
+  width: 100%;
+  margin: 4em;
+}
+.content-for-the-img-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4em;
+}
+.content-for-the-img-3 {
+  width: 100%;
+  margin: 4em;
+}
+.content-for-the-img-4 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4em;
+}
+.content-for-the-img-5 {
+  width: 100%;
+  margin: 4em;
+}
+.content-for-the-img-5 .information-for-component {
+  color: black;
+}
+.content-for-the-img-5 .information-for-component button {
+  background-color: black;
+  color: whitesmoke;
+}
+.content-for-the-img-6 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4em;
+}
+.content-for-the-img-7 {
+  width: 100%;
+  margin: 4em;
+}
+.div-contains-all-components-case-study-2 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
+  background-position: fixed;
+}
+.content-for-the-img-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-contains-all-components-case-study-3 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
+  background-position: fixed;
+}
+.div-contains-all-components-case-study-4 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
+  background-position: fixed;
+}
+.div-contains-all-components-case-study-5 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
+  background-position: fixed;
+}
+.div-contains-all-components-case-study-6 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
+  background-position: fixed;
+}
+.div-contains-all-components-case-study-7 {
+  background-image: url("../../Assets/CaseStudyComponent/CaseStudyImg-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 5;
+  justify-content: center;
+  height: 27em;
   background-position: fixed;
 }
 .flex-container-for-case-study-components {
@@ -16,4 +139,16 @@
 }
 .width-set-for-case-study-screen {
   width: 75em;
+}
+.width-set-for-case-study-screen-2 {
+  width: 75em;
+  display: flex;
+  justify-content: end;
+}
+.information-for-component-2 {
+  width: 50%;
+  display: grid;
+  /* margin: 5em; */
+  color: white;
+  row-gap: 1.3em;
 }

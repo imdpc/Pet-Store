@@ -1,7 +1,7 @@
 .flex-div-container-for-case-study {
   display: flex;
   justify-content: center;
-  margin: 4em 0;
+  /* margin: 4em 0; */
 }
 .width-set-case-study-component {
   width: 75em;
@@ -24,7 +24,7 @@
 .information-for-component {
   width: 50%;
   display: grid;
-  margin: 5em;
+  /* margin: 5em; */
   color: white;
   row-gap: 1.3em;
   /* color: white; */
