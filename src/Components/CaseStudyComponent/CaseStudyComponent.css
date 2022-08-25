@@ -1,13 +1,14 @@
 .flex-div-container-for-case-study {
   display: flex;
   justify-content: center;
+  margin: 4em 0;
 }
 .width-set-case-study-component {
-  /* width: 75em; */
+  width: 75em;
 }
-.image-set-case-study-components {
+/* .image-set-case-study-components {
   width: 100%;
-}
+} */
 .contains-img-and-information-for-component {
   position: relative;
   text-align: center;
