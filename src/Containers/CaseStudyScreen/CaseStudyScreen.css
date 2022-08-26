@@ -1,3 +1,8 @@
+.header-for-screen-our-work {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 500;
+}
 .section-for-all-content {
   display: grid;
   row-gap: 5em;
@@ -66,11 +71,6 @@
   justify-content: center;
   height: 27em;
   background-position: fixed;
-}
-.content-for-the-img-2 {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .div-contains-all-components-case-study-3 {
@@ -151,4 +151,51 @@
   /* margin: 5em; */
   color: white;
   row-gap: 1.3em;
+}
+
+/* Media Screen */
+@media (min-width: 320px) and (max-width: 425px) {
+  .div-contains-all-components-case-study-1 {
+  }
+  .content-for-the-img-1 {
+    margin: auto;
+    text-align: center;
+  }
+  .content-for-the-img-2 {
+    padding: 0;
+  }
+  .div-contains-all-components-case-study-2 {
+    text-align: center;
+  }
+  .content-for-the-img-3 {
+    margin: auto;
+    text-align: center;
+  }
+  .content-for-the-img-4 {
+    padding: 0;
+  }
+  .div-contains-all-components-case-study-4 {
+    text-align: center;
+  }
+  .content-for-the-img-5 {
+    margin: auto;
+    text-align: center;
+  }
+  .content-for-the-img-6 {
+    padding: 0;
+  }
+  .div-contains-all-components-case-study-6 {
+    text-align: center;
+  }
+  .content-for-the-img-7 {
+    margin: auto;
+    text-align: center;
+  }
+  .section-for-all-content {
+    margin: 1em;
+  }
+  .header-for-screen-our-work h1 {
+    font-size: 37px;
+    padding: 1em 0;
+  }
 }

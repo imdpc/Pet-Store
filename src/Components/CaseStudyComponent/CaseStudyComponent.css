@@ -48,8 +48,28 @@
   font-size: 50px;
 }
 
-.header-for-screen-our-work {
-  font-size: 50px;
-  text-align: center;
-  font-weight: 500;
+/* Media Screen */
+@media (min-width: 320px) and (max-width: 425px) {
+  .information-for-component {
+    margin: auto;
+    width: auto;
+  }
+  .information-for-component button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 10em;
+  }
+  .information-for-component h1 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .information-for-component h3 {
+    font-size: 14px;
+  }
+  .information-for-component p {
+    font-size: 16px;
+    font-weight: 300;
+  }
 }
