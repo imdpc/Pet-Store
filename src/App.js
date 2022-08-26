@@ -7,6 +7,7 @@ import DawnScreen from "./Containers/DawnScreen/DawnScreen";
 import Home from "./Containers/Home";
 import { Payment } from "./Containers/Payment/payment";
 import PreviewTheme from "./Containers/PreviewTheme/PreviewTheme";
+import LandingPageMobile from "./Containers/LandingPageMobile/LandingPageMobile ";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <AddAddress /> */}
       {/* <ShowAddress /> */}
       {/* <Payment /> */}
-      <DawnScreen />
+      {/* <DawnScreen /> */}
+      <LandingPageMobile />
     </>
   );
 }
