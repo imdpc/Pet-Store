@@ -1,7 +1,9 @@
 import React from "react";
 import "./LandingPageMobile .css";
+// import all images here
 import hadingimg from "../../Assets/Mobile Page/heading-img.jpg";
 import qrimg from "../../Assets/Mobile Page/qr-img.png";
+
 const LandingPageMobile = () => {
   return (
     <>
