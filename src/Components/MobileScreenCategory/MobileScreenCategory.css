@@ -1,0 +1,13 @@
+.icon-for-categories-in-mobile-screen img {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 0.5em;
+}
+/* .compoent-mobile-screen-category {
+  display: flex;
+  justify-content: center;
+} */
+.contains-card-for-MobileScreenCategory {
+  text-align: center;
+  width: 11%;
+}
