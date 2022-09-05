@@ -8,6 +8,9 @@ import Home from "./Containers/Home";
 import { Payment } from "./Containers/Payment/payment";
 import PreviewTheme from "./Containers/PreviewTheme/PreviewTheme";
 import LandingPageMobile from "./Containers/LandingPageMobile/LandingPageMobile ";
+import Blog from './Components/Blog/Blog';
+import AllBlogList from './Containers/AllBlogList/AllBlogList';
+import SingleBlogPreview from "./Containers/SingleBlogPreview/SingleBlogPreview";
 
 function App() {
   return (
@@ -18,7 +21,11 @@ function App() {
       {/* <ShowAddress /> */}
       {/* <Payment /> */}
       {/* <DawnScreen /> */}
-      <LandingPageMobile />
+      {/* <LandingPageMobile /> */}
+      {/* <Blog /> */}
+      {/* <AllBlogList /> */}
+      {/* <SingleBlogPreview /> */}
+      <Home/>
     </>
   );
 }
