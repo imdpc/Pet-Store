@@ -3,7 +3,7 @@
 }
 .sidenav-for-product {
   width: 400px;
-  height: 115vw;
+  /* height: 115vw; */
   line-height: 3rem;
   padding: 22px 0 0 10px;
 }

@@ -13,6 +13,7 @@ import ShopOurInstagram from "./ShopOurInstagram/ShopOurInstagram";
 import TargetSale from "./TargetSales/TargetSale";
 import ExploreWorld from "./ExploreWorld/ExploreWorld";
 import ExploreMore from "./ExploreMore/ExploreMore";
+import ProductPage from "./ProductPage/ProductPage";
 // import ResponsiveNav from "../Components/ResponsiveNav/ResponsiveNav";
 // import OrderSuccess from "./OrderSuccess/OrderSuccess";
 
@@ -20,18 +21,18 @@ import ExploreMore from "./ExploreMore/ExploreMore";
 const Home = () => {
   return (
     <>
-      <Nav />
+      {/* <Nav />
       <HomeShopNow />
       <TargetSale />
       <FeaturedIn />
       <ExploreWorld />
       <UkStore />
       <ProductNav />
-      <ExploreMore />
-      {/* <ProductPage /> */}
-      <ShopOurInstagram />
+      <ExploreMore /> */}
+      <ProductPage />
+      {/* <ShopOurInstagram /> */}
       {/* <AboutUs /> */}
-      <PetShopFooter />
+      {/* <PetShopFooter /> */}
       {/* <OrderSuccess /> */}
 
     </>
