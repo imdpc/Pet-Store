@@ -14,6 +14,7 @@ import TargetSale from "./TargetSales/TargetSale";
 import ExploreWorld from "./ExploreWorld/ExploreWorld";
 import ExploreMore from "./ExploreMore/ExploreMore";
 import ProductPage from "./ProductPage/ProductPage";
+import CoffeeProduct from "../Components/CoffeeProduct/CoffeeProduct";
 // import ResponsiveNav from "../Components/ResponsiveNav/ResponsiveNav";
 // import OrderSuccess from "./OrderSuccess/OrderSuccess";
 
@@ -29,11 +30,12 @@ const Home = () => {
       <UkStore />
       <ProductNav />
       <ExploreMore /> */}
-      <ProductPage />
+      {/* <ProductPage /> */}
       {/* <ShopOurInstagram /> */}
       {/* <AboutUs /> */}
       {/* <PetShopFooter /> */}
       {/* <OrderSuccess /> */}
+      <CoffeeProduct />
 
     </>
   );
